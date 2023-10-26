@@ -14,7 +14,7 @@ function makeorder_babyloc_dyna_short(participant)
 % BLANKS: 1 blank block for each cycle through 5 stimulus conditions.
 %
 %% no task for the infant floc
-%% VERSION: 1.0 9/29/2023 by AS & VN & XY & CT
+%% VERSION: 1.0 10/26/2023 by CT and VN
 % Department of Psychology, Stanford University
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
