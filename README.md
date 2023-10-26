@@ -1,2 +1,2 @@
 # bbfloc
-Scripts and overview of the baby fLoc 
+This repo houses the scripts developed for the baby fLoc.
