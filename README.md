@@ -1,5 +1,5 @@
 # bbfloc
-This repo houses the scripts developed for the baby fLoc. File paths in the scripts are defaulted to the VPNL laptop, modify if necessary. 
+This repo houses the scripts developed for the baby fLoc. File paths in the scripts are defaulted to the VPNL laptop, modify if not running on VPNL. 
 
 The make_order_babyloc scripts are matlab scripts that generate unique CSVs for either the dynamic condition or the static condition. You will see different versions of these scripts. They vary in how many repeats and runs they have, since different versions of the experiments require different parameters.
 
