@@ -1,12 +1,28 @@
 # bbfloc
-This repo houses the scripts developed for the baby fLoc. File paths in the scripts are defaulted to the VPNL laptop, modify if not running on VPNL. 
+This repo houses the scripts developed for the baby fLoc. File paths in all the scripts are defaulted to the VPNL laptop, modify if not running on VPNL. 
 
-The make_order_babyloc scripts are matlab scripts that generate unique CSVs for either the dynamic condition or the static condition. You will see different versions of these scripts. They vary in how many repeats and runs they have, since different versions of the experiments require different parameters.
+The make_order_babyloc scripts are matlab scripts that generate unique CSVs for each run in an experiment. You will see different versions of these scripts because we have 3 different experiments: short, medium, and long.
 
 The experiment itself is run in PsychoPy, and requires the CSVs generated on Matlab.
 
-TO RUN SHORT VERSION OF EXPERIMENT: 
-- Make_order_babyloc_dyna_short generates 8 dynamic runs in the participant's folder, with no repeats in actors within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy. 
-- Make_order_babyloc_static_short generates 8 static runs in the participant's folder, with no repeats in images within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
-- runalternatingStim_withCountdown_SHORT is the PsychoPy script to run. 
+# SHORT VERSION OF EXPERIMENT: 8 runs with 4 repeats per category
+- Single run: 96 second duration, 20 blocks, 2 blank padding blocks
+- Make_order_babyloc_dyna_short generates 8 dynamic runs in the participant's folder, with 4 repeats per category, and no repeats in actors within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
+    - Each block contains a unique 4s video.
+- Make_order_babyloc_static_short generates 8 static runs in the participant's folder, with 4 repeats per category, and no repeats in images within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
+    - Each block contains 8 images presented at .5 sec each.
+- runalternatingStim_withCountdown_SHORT is the PsychoPy script to run. Generates par, log, csv, and psydat files for each run.
 
+# MID VERSION OF EXPERIMENT: 4 runs with 8 repeats per category
+- Single run: 2 min and 54s duration, 40 blocks, 2 blank padding blocks 
+- Make_order_babyloc_dyna_mid generates 4 dynamic runs in the participant's folder, with 8 repeats per category, and no repeats in actors within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
+    - Each block contains a unique 4s video.
+- Make_order_babyloc_static_mid generates 4 static runs in the participant's folder, with 8 repeats per category, and no repeats in images within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
+    - Each block contains a 8 unique images.
+- runalternatingStim_withCountdown_MID is the PsychoPy script to run. Generates par, log, csv, and psydat files for each run.
+
+# LONG VERSION OF EXPERIMENT: 4 runs with 12 repeats per category
+- Single run: 4 min and 14 second duration, 60 blocks, 2 blank padding blocks 
+- Make_order_babyloc_dyna_mid generates 4 dynamic runs in the participant's folder, with 12 repeats per category, and no (ideally) repeats in actors within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy. 
+- Make_order_babyloc_static_mid generates 4 static runs in the participant's folder, with 12 repeats per category, and no repeats in images within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
+- runalternatingStim_withCountdown_MID is the PsychoPy script to run. Generates par, log, csv, and psydat files for each run.
