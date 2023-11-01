@@ -132,13 +132,21 @@ for r = 1:nruns
 };
 
     %Shuffle the order of actors for the cars category
-    caract{r} = shuffle({'blackexcavator', 'blueexcavator', 'dumptruck', 'car', 'yellowexcavator', 'rccar', 'racecar'});
+    caract{r} = shuffle({'blackexcavator', 'blueexcavator', 'dumptruck', 'car1', 'car2', 'car3', 'car4', 'car5', 'car6', 'car7', 'car8', 'car9', 'yellowexcavator', 'rccar', 'racecar'});
     %Define the video ranges for different types of cars 
     carVideoRanges = {
     'blackexcavator', 9;
     'blueexcavator', 12;
     'dumptruck', 9;
-    'car', 10; 
+    'car1', 2; 
+    'car2', 1;
+    'car3', 1; 
+    'car4', 1; 
+    'car5', 1; 
+    'car6', 1;
+    'car7', 1; 
+    'car8', 1; 
+    'car9', 1; 
     'yellowexcavator', 1;
     'rccar', 2; 
     'racecar', 1;
