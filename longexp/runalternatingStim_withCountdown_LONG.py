@@ -36,7 +36,7 @@ os.chdir(_thisDir)
 # ======================== get gui inputs ============================ 
 # Store info about the experiment session
 psychopyVersion = '2023.2.2'
-expName = 'AlternatingStimuli'  # from the Builder filename that created this script
+expName = 'longbabyloc'  # from the Builder filename that created this script
 expInfo = {
     'participant': f"practice1",
     'run': '1',
@@ -1033,7 +1033,7 @@ for run_num in range(1, 9):
         par_file_df = pd.concat(dfs, ignore_index=True)
     
         # export conditions par file
-        par_file_df.to_csv(_thisDir + os.sep + u'data/' + str(participant) + '/' + long + '/' + experiment_info_header + 'dynamic_par_file.par', sep='\t', index=False, header=False, lineterminator='\n')
+        par_file_df.to_csv(_thisDir + os.sep + u'data/' + str(participant) + '/' + 'long' + '/' + experiment_info_header + 'dynamic_par_file.par', sep='\t', index=False, header=False, lineterminator='\n')
         print("Par file exported successfully!")
 
 # --- close everything ---
