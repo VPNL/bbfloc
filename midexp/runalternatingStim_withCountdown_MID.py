@@ -36,7 +36,7 @@ os.chdir(_thisDir)
 # ======================== get gui inputs ============================ 
 # Store info about the experiment session
 psychopyVersion = '2023.2.2'
-expName = 'AlternatingStimuliMid'  # from the Builder filename that created this script
+expName = 'midbabyloc'  # from the Builder filename that created this script
 expInfo = {
     'participant': f"practice1",
     'run': '1',
