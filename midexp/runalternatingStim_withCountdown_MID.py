@@ -36,7 +36,7 @@ os.chdir(_thisDir)
 # ======================== get gui inputs ============================ 
 # Store info about the experiment session
 psychopyVersion = '2023.2.2'
-expName = 'AlternatingStimuli'  # from the Builder filename that created this script
+expName = 'AlternatingStimuliMid'  # from the Builder filename that created this script
 expInfo = {
     'participant': f"practice1",
     'run': '1',
@@ -52,8 +52,6 @@ expInfo['psychopyVersion'] = psychopyVersion
 #save gui inputs 
 participant = expInfo['participant']
 usr = expInfo['user']
-run_num = expInfo['run']
-
  # ======================== screen/keyboard set-up ============================ 
 # --- Setup the Window ---
 win = visual.Window(
