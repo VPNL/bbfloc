@@ -8,7 +8,7 @@ The make_order_babyloc scripts are matlab scripts that generate a unique CSV for
 The experiment itself is run in PsychoPy, and requires the CSVs generated on Matlab and saved in the participant's data folder. 
 
 # SHORT VERSION OF EXPERIMENT: 8 runs with 4 repeats per category
-Single run: 96 second duration, 20 blocks, 2 blank padding blocks
+Single run: 94 second duration, 20 blocks, 2 blank padding blocks
 - Make_order_babyloc_dyna_short generates **8 dynamic runs/CSVs** in the participant's 'short' subfolder, with **4 repeats per category**, and no repeats in actors within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
     - Each block contains a unique 4s video.
 - Make_order_babyloc_static_short generates **8 static runs/CSVs** in the participant's 'short' subfolder, with **4 repeats per category**, and no repeats in images within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
