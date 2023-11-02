@@ -1,3 +1,5 @@
+%% this exp doesn't have a random pattern img for the last trial 
+
 function makeorder_babyloc_dyna_short(participant)
 %% Generates 8 runs/CSV scripts for dynamic condition for the infant scans containing 2 stimuli per block with presentation rates of
 %% 2Hz.
