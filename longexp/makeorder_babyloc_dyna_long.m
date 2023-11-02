@@ -249,22 +249,22 @@ video_directory = fullfile('/Users', 'vpnl', 'Desktop', 'alternating_bb',  'alte
 for r = 1:nruns
     if r <= 2
         %Makes it so third and 4th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_mid_run', num2str(r+2), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(r+2), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
     elseif 3 <= r && r <= 4
         %Makes it so 7th and 8th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_mid_run', num2str(r+4), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(r+4), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
     elseif 5 <= r && r <= 6
         %Makes it so 11th and 12th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_mid_run', num2str(r+6), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(r+6), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
     elseif 6 <= r
         %Makes it so 13th and 14th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_mid_run', num2str(r+8), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(r+8), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
     end
