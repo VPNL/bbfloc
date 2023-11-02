@@ -1,6 +1,5 @@
 function makeorder_babyloc_dyna_short(participant)
-%% Generates 8 runs/CSV scripts for dynamic condition for the infant scans containing 2 stimuli per block with presentation rates of
-%% 2Hz.
+%% Generates 8 runs/CSV scripts for dynamic condition for the infant scans containing 2 stimuli per block
 %
 % INPUT: Should be the baby's number 
 % OUTPUTS: Separate script file for each run of PsychoPy experiment.
@@ -250,22 +249,22 @@ video_directory = fullfile('/Users', 'vpnl', 'Desktop', 'alternating_bb',  'alte
 for r = 1:nruns
     if r <= 2
         %Makes it so third and 4th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_2Hz_run', num2str(r+2), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_short_run', num2str(r+2), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
     elseif 3 <= r && r <= 4
         %Makes it so 7th and 8th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_2Hz_run', num2str(r+4), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_short_run', num2str(r+4), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
     elseif 5 <= r && r <= 6
         %Makes it so 11th and 12th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_2Hz_run', num2str(r+6), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_short_run', num2str(r+6), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
     elseif 6 <= r
         %Makes it so 13th and 14th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_2Hz_run', num2str(r+8), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_short_run', num2str(r+8), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
     end
