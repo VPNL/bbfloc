@@ -1,3 +1,5 @@
+%% this exp doesn't have a random pattern img for the last trial 
+
 function makeorder_babyloc_static_mid(participant)
 %% Generates 4 runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
