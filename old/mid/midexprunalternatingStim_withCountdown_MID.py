@@ -1,3 +1,5 @@
+#this exp has timing issues and doesn't have countdown images of the right size
+
 #!/usr/bin/env python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
