@@ -1,5 +1,5 @@
 # bbfloc
-This repo houses the scripts developed for the baby fLoc. File paths in all the scripts are defaulted to the VPNL laptop, modify if not running on VPNL. 
+This repo houses the scripts and experiment versions developed for the baby fLoc. File paths in all the scripts are defaulted to the VPNL laptop, modify if not running on VPNL. 
 
 We currently have three working experiment versions: short, mid, and long.
 
