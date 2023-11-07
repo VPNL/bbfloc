@@ -1,4 +1,4 @@
-%% this version doesn't have a random pattern img for the last trial 
+%% this version has incorrect indexing; doesn't have a random pattern img for the last trial 
 
 function makeorder_babyloc_static_mid(participant)
 %% Generates 4 runs/CSV scripts for functional
