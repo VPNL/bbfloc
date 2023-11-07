@@ -1,3 +1,5 @@
+% patterened last image is added to last blank trial instead of being independent
+
 function makeorder_babyloc_static_mid(participant)
 %% Generates 4 runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
