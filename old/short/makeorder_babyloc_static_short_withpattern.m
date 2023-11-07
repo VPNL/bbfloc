@@ -1,3 +1,5 @@
+%incorrect indexing; last image is added to blank trial instead of being not part of a trial 
+
 function makeorder_babyloc_static_short(participant)
 %% Generates 8 runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
