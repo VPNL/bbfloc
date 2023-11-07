@@ -1,3 +1,4 @@
+%this version doesn't have random image at end of run; incorrect indexing
 function makeorder_babyloc_static_short(participant)
 %% Generates 8 runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
