@@ -12,8 +12,8 @@ All experiment stuff will be kept in a folder called alternating_bb on your DESK
         - also contains a subfolder called 'data' where the participant exp data is kept 
             - within this subfolder is a folder for each participant 
     - **alternating_stimuli**: contains 2 subfolders
-          - 'dynamic_stimuli': contains the dynamic stimuli
-          - 'static_sitmuli': contains the static stimuli
+        - 'dynamic_stimuli': contains the dynamic stimuli
+        - 'static_sitmuli': contains the static stimuli
 
 
 # SHORT VERSION OF EXPERIMENT: 8 runs with 4 repeats per category
