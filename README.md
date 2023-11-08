@@ -5,11 +5,12 @@ The experiment itself is run in PsychoPy
 
 # How to store the files
 All experiment stuff will be kept in a folder called alternating_bb on your DESKTOP. 
-    Three subfolders to be kept within alternating_bb: 
-        - alternating_matlab: where the matlab scripts will be kept
-        - alternating_psychopy: contains the psychopy scripts
-            - also contains a subfolder called 'data' where the participant exp data is kept 
-                - within this subfolder is a folder for each participant 
+
+- Three subfolders to be kept within alternating_bb: 
+    - alternating_matlab: where the matlab scripts will be kept
+    - alternating_psychopy: contains the psychopy scripts
+        - also contains a subfolder called 'data' where the participant exp data is kept 
+            - within this subfolder is a folder for each participant 
         - alternating_stimuli: contains 2 subfolders
             - one called: dynamic_stimuli
             - another called: static_sitmuli 
