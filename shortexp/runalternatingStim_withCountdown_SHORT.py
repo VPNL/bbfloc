@@ -55,10 +55,10 @@ win = visual.Window(
     size=(1920, 1080), checkTiming=False, fullscr=1, screen=1, #change screen stuff here; size=(960, 540), screen=0 is default--- trying to get the stimuli to play only on the scanner screen
     winType='pyglet', allowStencil=False, 
     monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb',
-    backgroundImage = f'/Users/{usr}/Desktop/dynamic_bb/dynamic_stimuli/background_color.png', backgroundFit='contain', 
+    backgroundImage = f'/Users/{usr}/Desktop/alternating_bb/alternating_stimuli/background_color.png', backgroundFit='contain', 
     blendMode='avg', useFBO=True, 
     units='pix')
-win.mouseVisible = True
+win.mouseVisible = False
 
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
@@ -118,7 +118,7 @@ for run_num in range(run_num, 17):
         # An ExperimentHandler isn't essential but helps with data saving
         thisExp = data.ExperimentHandler(name=expName, version='',
             extraInfo=expInfo, runtimeInfo=None,
-            originPath='/Users/{usr}/Desktop/alternating_bb',
+            originPath = f'/Users/{usr}/Desktop/alternating_bb',
             savePickle=True, saveWideText=True,
             dataFileName=filename)
             
@@ -155,8 +155,8 @@ for run_num in range(run_num, 17):
         images = [visual.ImageStim(win, path, flipVert=False, size=(768, 768)) for path in image_paths] #changed from movie_stim
         
         from pathlib import Path
-        #create path for countdown images
-        countdown_path = Path("/Users/{usr}/Desktop/static_bb/static_PsychoPy/countdown_imgs")
+        #Define the countdown path, use an f-string to include the value of the usr variable in the path
+        countdown_path = Path(f"/Users/{usr}/Desktop/alternating_bb/alternating_psychopy/countdown_imgs")
         
         # Create a list of countdown images
         countdown_images = [visual.ImageStim(win, str(path), size=(768, 768), flipVert=False) for path in countdown_path.glob('*.png')]
@@ -590,11 +590,11 @@ for run_num in range(run_num, 17):
     
         # create a list of loaded MovieStim3 objects
         videos = [visual.MovieStim(win, path, flipVert=False, size=(1920, 1080)) for path in video_paths] #changed from MoveStim3
-    
+        
+        #Define the countdown path, use an f-string to include the value of the usr variable in the path
         from pathlib import Path
-        #create path for countdown images
-        countdown_path = Path("/Users/{usr}/Desktop/static_bb/static_PsychoPy/countdown_imgs")
-    
+        countdown_path = Path(f"/Users/{usr}/Desktop/alternating_bb/alternating_psychopy/countdown_imgs")
+        
         # Create a list of countdown images
         countdown_images = [visual.ImageStim(win, str(path), flipVert=False, size=(768,768)) for path in countdown_path.glob('*.png')]
     
