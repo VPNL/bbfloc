@@ -12,6 +12,35 @@ imageFiles = dir(fullfile(imageFolderPath, '*.jpg'));  % Assumes JPEG images
 fixationPointFolder = 'your/folder/path';
 fixationPointFiles = dir(fullfile(fixationPointFolder, '*.png'));  % Assumes PNG fixation point images
 
+% Resize the fixation point image to 64x64 pixels
+fixationPointImageColorResized = imresize(fixationPointImageColor, [64, 64]);
+
+% Calculate the position to insert the resized fixation point in the center
+[fixationHeight, fixationWidth, ~] = size(fixationPointImageColorResized);
+xPosition = (grayscaleWidth - fixationWidth) / 2;
+yPosition = (grayscaleHeight - fixationHeight) / 2;
+
+% Overlay the resized colorized fixation point onto the RGB individual image
+yEnd = yPosition + fixationHeight - 1;
+xEnd = xPosition + fixationWidth - 1;
+
+% Extract the alpha channel from the resized fixation point image
+alphaChannel = fixationPointImageColorResized(:, :, 4);
+
+% Create a mask to determine where to blend
+mask = alphaChannel > 0;
+
+% Cast the mask to the same data type as the image
+mask = uint8(mask);
+
+% Blend the images using the mask
+for channel = 1:3
+    individualImageRGB(yPosition:yEnd, xPosition:xEnd, channel) = ...
+        individualImageRGB(yPosition:yEnd, xPosition:xEnd, channel) .* (1 - mask) + ...
+        fixationPointImageColorResized(:, :, channel) .* mask;
+end
+
+
 % Calculate the center position for the fixation point
 centerX = 32;  % Half of 64
 centerY = 32;  % Half of 64
