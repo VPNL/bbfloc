@@ -1,11 +1,9 @@
 # bbfloc
-This repo houses the scripts and experiment versions developed for the baby fLoc. File paths in all the scripts are defaulted to the VPNL laptop, modify if not running on VPNL. 
-
 We currently have three working experiment versions: short, mid, and long.
 
 The make_order_babyloc scripts are matlab scripts that generate a unique CSV for every run in an experiment version. 
 
-The experiment itself is run in PsychoPy, and requires the CSVs generated on Matlab and saved in the participant's data folder ('alternating_bb/alternating_PsychoPy/bb#/data')
+The experiment itself is run in PsychoPy, and requires the CSVs generated on Matlab and saved in the participant's data folder to run
 
 # SHORT VERSION OF EXPERIMENT: 8 runs with 4 repeats per category
 Single run: 94 second duration, 20 blocks, 2 blank padding blocks
