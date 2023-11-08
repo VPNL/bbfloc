@@ -118,7 +118,7 @@ for run_num in range(run_num, 17):
         # An ExperimentHandler isn't essential but helps with data saving
         thisExp = data.ExperimentHandler(name=expName, version='',
             extraInfo=expInfo, runtimeInfo=None,
-            originPath='/Users/vpnl/Desktop/alternating_bb',
+            originPath='/Users/{usr}/Desktop/alternating_bb',
             savePickle=True, saveWideText=True,
             dataFileName=filename)
             
@@ -156,7 +156,7 @@ for run_num in range(run_num, 17):
         
         from pathlib import Path
         #create path for countdown images
-        countdown_path = Path("/Users/vpnl/Desktop/static_bb/static_PsychoPy/countdown_imgs")
+        countdown_path = Path("/Users/{usr}/Desktop/static_bb/static_PsychoPy/countdown_imgs")
         
         # Create a list of countdown images
         countdown_images = [visual.ImageStim(win, str(path), size=(768, 768), flipVert=False) for path in countdown_path.glob('*.png')]
@@ -554,7 +554,7 @@ for run_num in range(run_num, 17):
         # An ExperimentHandler isn't essential but helps with data saving
         thisExp = data.ExperimentHandler(name=expName, version='',
             extraInfo=expInfo, runtimeInfo=None,
-            originPath=f'/Users/vpnl/Desktop/alternating_bb',
+            originPath=f'/Users/{usr}/Desktop/alternating_bb',
             savePickle=True, saveWideText=True,
             dataFileName=filename)
             
@@ -593,7 +593,7 @@ for run_num in range(run_num, 17):
     
         from pathlib import Path
         #create path for countdown images
-        countdown_path = Path("/Users/vpnl/Desktop/static_bb/static_PsychoPy/countdown_imgs")
+        countdown_path = Path("/Users/{usr}/Desktop/static_bb/static_PsychoPy/countdown_imgs")
     
         # Create a list of countdown images
         countdown_images = [visual.ImageStim(win, str(path), flipVert=False, size=(768,768)) for path in countdown_path.glob('*.png')]
