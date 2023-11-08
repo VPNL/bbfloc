@@ -1,6 +1,6 @@
 %OVERLAYS RANDOM FIXATION POINT ONTO EACH IMAGE IN THE STIMULUS FOLDER
 % Assumes fixation point images are 64x64 pix, if this isnt the case then you should resisze the fixation point images before running
-% Also assumes that stimuli images are in grayscale, if they're not, convert them to grayscale using the _to_gray script
+% Also assumes that stimuli images are in grayscale, if they're not, convert them to grayscale using the static_imgs_to_grayscale script
 
 % Load the stimulus images
 imageFolderPath = 'your/folder/path';  % Replace with the folder path containing your static stimulus images
