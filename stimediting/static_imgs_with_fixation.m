@@ -7,12 +7,12 @@
 imageFolderPath = 'your/folder/path';  % Replace with the folder path containing your images
 imageFiles = dir(fullfile(imageFolderPath, '*.jpg'));  % Assumes JPEG images
 
-% load randomized fixation point images (64x64 pixels) in PNG format
+% load randomized fixation point images in PNG format
 % Replace 'fixation_points_folder_path' with the folder path containing your fixation point images in PNG format
 fixationPointFolder = 'your/folder/path';
 fixationPointFiles = dir(fullfile(fixationPointFolder, '*.png'));  % Assumes PNG fixation point images
 
-% Resize the fixation point image to 64x64 pixels
+% Resize the fixation point images to 64x64 pixels
 fixationPointImageColorResized = imresize(fixationPointImageColor, [64, 64]);
 
 % Calculate the position to insert the resized fixation point in the center
