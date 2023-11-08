@@ -1,9 +1,19 @@
 # bbfloc
 We currently have three working experiment versions: short, mid, and long.
 
-The make_order_babyloc scripts are matlab scripts that generate a unique CSV for every run in an experiment version. 
+The experiment itself is run in PsychoPy
 
-The experiment itself is run in PsychoPy, and requires the CSVs generated on Matlab and saved in the participant's data folder to run
+# How to store the files
+All experiment stuff will be kept in a folder called alternating_bb on your DESKTOP. 
+    Three subfolders to be kept within alternating_bb: 
+        - alternating_matlab: where the matlab scripts will be kept
+        - alternating_psychopy: contains the psychopy scripts
+            - also contains a subfolder called 'data' where the participant exp data is kept 
+                - within this subfolder is a folder for each participant 
+        - alternating_stimuli: contains 2 subfolders
+            - one called: dynamic_stimuli
+            - another called: static_sitmuli 
+
 
 # SHORT VERSION OF EXPERIMENT: 8 runs with 4 repeats per category
 Single run: 94 second duration, 20 blocks, 2 blank padding blocks
