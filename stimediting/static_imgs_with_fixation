@@ -1,5 +1,8 @@
 %% THIS SCRIPT TAKES STATIC IMAGES WITH NO FIXATION AND OVERLAYS A RANDOM FIXATION POINT ONTO THE IMAGES
 
+% If you get an error running this code; open the image in preview and see if it’s in grayscale 
+    %% If not in grayscale, convert to gray scale with the 2gray Matlab script
+
 % Load the individual images
 imageFolderPath = 'your/folder/path';  % Replace with the folder path containing your images
 imageFiles = dir(fullfile(imageFolderPath, '*.jpg'));  % Assumes JPEG images
