@@ -6,3 +6,5 @@ Single run: 4 min and 14 second duration, 60 blocks, 2 blank padding blocks
     - Each block contains 8 unique images presented at .5 seconds each.
 - runalternatingStim_withCountdown_LONG is the PsychoPy script to run. Generates par, log, csv, and psydat files for each run.
 
+       ** Experiment Breakdown: run1: static, run2: static, run3: dynamic, run 4: dynamic **
+
