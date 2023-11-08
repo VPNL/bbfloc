@@ -1,5 +1,5 @@
 function makeorder_babyloc_dyna_short(participant)
-%% Generates 8 runs/CSV scripts for dynamic condition for the infant scans containing 2 stimuli per block
+%% Generates 8 runs/CSV scripts for dynamic condition for the infant fMRI containing 1 stimuli per block
 %
 % INPUT: Should be the baby's number 
 % OUTPUTS: Separate script file for each run of PsychoPy experiment.
