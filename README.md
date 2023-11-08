@@ -1,7 +1,7 @@
 # bbfloc
 We currently have three working experiment versions: short, mid, and long.
 
-The experiment itself is run in PsychoPy
+The runs for each experiment version are generated on Matlab. The experiment versions run on PsychoPy.
 
 # How to store the files
 All experiment stuff will be kept in a folder called **'alternating_bb'** on your DESKTOP. 
