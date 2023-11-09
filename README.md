@@ -6,9 +6,10 @@ The runs for each experiment version are generated on Matlab. The experiment ver
 # How to store the files
 All experiment stuff will be kept in a folder called **'alternating_bb'** on your DESKTOP. 
 
-- Three subfolders to be kept within **'alternating_bb'**: 
+- Three subfolders to be kept within **['alternating_bb'](https://www.dropbox.com/scl/fo/3hakolem37bef9sax1pkx/h?rlkey=obpg68j8q4nxnyey07c7pxlpb&dl=0)**: 
     - **'alternating_matlab'**: where the six matlab scripts will be kept
     - **'alternating_psychopy'**: where the three PsychoPy scripts will be kept
+      - contains a folder called 'countdown_imgs' where the countdown_imgs are kept
         - also contains a subfolder called 'data' where the participant exp data is kept 
             - within this subfolder is a folder for each participant (i.e. 'bb01', 'bb02')
                   - each participant folder contains another three subfolders: 'short', 'mid', 'long'
