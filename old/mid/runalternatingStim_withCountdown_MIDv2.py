@@ -1,3 +1,4 @@
+# does not have patterned image presented at the end of each run
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
