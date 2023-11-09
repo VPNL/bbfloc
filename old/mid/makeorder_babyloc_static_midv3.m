@@ -1,3 +1,4 @@
+% doesn't have proper shuffling so as to prevent consecutive repetitions of categories
 function makeorder_babyloc_static_mid(participant, usr)
 %% Generates 4 runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
