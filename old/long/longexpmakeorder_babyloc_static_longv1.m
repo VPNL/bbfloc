@@ -1,4 +1,5 @@
 %% this exp doesn't have a random pattern img for the last trial 
+% incorrect indexing of category; categories can have consecutive repeats
 
 function makeorder_babyloc_static_long(participant)
 %% Generates 4 runs/CSV scripts for functional
