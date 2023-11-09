@@ -1,4 +1,5 @@
 % this version has a patterned "last" image included in the last blank trial, which is not what we want
+% incorrect indexing of category; categories can have consecutive repeats
 
 function makeorder_babyloc_static_long(participant)
 %% Generates 4 runs/CSV scripts for functional
