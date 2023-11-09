@@ -1,4 +1,5 @@
-%incorrect indexing
+%incorrect indexing of category
+% categories can have consecutive repeats
 
 function makeorder_babyloc_dyna_long(participant)
 %% Generates 8 runs/CSV scripts for dynamic condition for the infant scans containing 2 stimuli per block
