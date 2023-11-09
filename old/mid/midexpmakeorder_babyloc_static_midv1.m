@@ -1,4 +1,5 @@
-%% this version has incorrect indexing; doesn't have a random pattern img for the last trial 
+%% this version has incorrect indexing of categories; doesn't have a random pattern img for the last trial
+% categories can have consecutive repeats
 
 function makeorder_babyloc_static_mid(participant)
 %% Generates 4 runs/CSV scripts for functional
