@@ -1,9 +1,9 @@
-function makeorder_babyloc_static_mid(participant)
+function makeorder_babyloc_static_mid(participant, user)
 %% Generates 4 runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
 %% 2Hz. Last image in a run is a random pattern, to account for lag in measuring frame rate.
 %
-% INPUT: Should be the baby's number 
+% INPUT: Should be the baby's number and the user of your laptop
 % OUTPUTS: Separate script files for each run of PTB experiment.
 %
 % STIMULI: 5 stimulus conditions (aka cateogries)
@@ -43,7 +43,7 @@ rundur = nblocks*blockdur; % run duration (sec)
 
 
 % Get user input and concatenate it into the file path
-participant_folder = fullfile('/Users', 'vpnl', 'Desktop', 'alternating_bb', 'alternating_PsychoPy', 'data', participant, 'mid');
+participant_folder = fullfile('/Users', user, 'Desktop', 'alternating_bb', 'alternating_PsychoPy', 'data', participant, 'mid');
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -120,7 +120,7 @@ end
 %%%%%%%%%%%%%%%%%%%
 
 % Path to the directory containing image files
-image_directory = fullfile('/Users', 'vpnl', 'Desktop', 'alternating_bb', 'alternating_stimuli',  'static_stimuli')
+image_directory = fullfile('/Users', user, 'Desktop', 'alternating_bb', 'alternating_stimuli',  'static_stimuli')
 
 % Write CSV file for each run of the experiment in the participant folder
 for r = 1:nruns
