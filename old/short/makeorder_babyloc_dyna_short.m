@@ -1,3 +1,4 @@
+%% this version doesn't effectively prevent consecutive repeats of category
 function makeorder_babyloc_dyna_short(participant, usr)
 %% Generates 8 runs/CSV scripts for dynamic condition for the infant fMRI containing 1 stimuli per block
 %
