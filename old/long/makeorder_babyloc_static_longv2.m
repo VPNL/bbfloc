@@ -1,4 +1,4 @@
-% this version has the patterned image included in the last blank trial, which is not what we want
+% this version has a patterned "last" image included in the last blank trial, which is not what we want
 
 function makeorder_babyloc_static_long(participant)
 %% Generates 4 runs/CSV scripts for functional
