@@ -1,3 +1,4 @@
+% incorrect indexing of category; categories can have consecutive repeats
 function makeorder_babyloc_static_long(participant, usr)
 %% Generates 4 runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
