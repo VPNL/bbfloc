@@ -1,3 +1,5 @@
+
+#DOESN'T HAVE RANDOM IMAGE AT THE END OF EACH RUN IN THE CODE 
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
