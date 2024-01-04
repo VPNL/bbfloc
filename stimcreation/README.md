@@ -1,3 +1,16 @@
 
 To view and download the final dynamic and static stimuli sets: 
 https://www.dropbox.com/scl/fo/qo76l3a2btp0jt0lqaqpt/h?rlkey=e6eslr3gvj00wyqqt956w2qzn&dl=0
+
+Static stim currently: 
+- 288 static blank images w/ fixation
+- 144 static car images w/ fixation
+- 144 static face images (adult and child) w/ fixation
+- 144 static hand images w/ fixation
+- 144 static scene images (corridors) w/ fixation
+
+Dynamic stim currently: 
+- 52 dynamic face videos w/ no fixation; 13 diff actors
+- 52 dynamic hand videos w/ no fixation; 13 diff actors
+- 52 dynamic car videos w/ no fixation; 23 diff actors (dumptrucks, rccars, excavators)
+- 52 dynamic scene videos w/ no fixation; videos of water flowing 
