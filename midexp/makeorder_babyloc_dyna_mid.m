@@ -255,7 +255,7 @@ end
 video_directory = fullfile('/Users', user, 'Desktop', 'alternating_bb',  'alternating_stimuli', 'dynamic_stimuli')
 
 % Map the original category index to a new index
-category_mapping = [6, 7, 8, 9, 0];
+category_mapping = [5, 6, 7, 8, 0];
 
 
 % Write CSV file for each run of the experiment in the participant folder
