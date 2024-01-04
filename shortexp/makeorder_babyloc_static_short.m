@@ -7,11 +7,12 @@ function makeorder_babyloc_static_short(participant, user)
 % OUTPUTS: Separate script files for each run of PTB experiment.
 
 % STIMULI: 5 stimulus conditions (aka categories)
+% 0) Blank
 % 1) Faces: adults sets
 % 2) Hands: limbs 
 % 3) Cars: cars
 % 4) Scenes: places indoor and outdoors 
-% 5) Blank is the 5th condition
+% BLANKS: 1 blank block for each cycle through other stimulus conditions.
 
 %% no task for the infant floc
 %% VERSION: 1.0 9/29/2023 by AS & VN & XY & CT
