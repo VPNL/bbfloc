@@ -11,7 +11,7 @@ Static stim currently:
 
 Dynamic stim currently: 
 - 1 blank mp4 with no fixation 
-- 52 dynamic face videos w/ no fixation; 13 diff actors
+- 52 dynamic face (adult only) videos w/ no fixation; 13 diff actors
 - 52 dynamic hand videos w/ no fixation; 13 diff actors
 - 52 dynamic car videos w/ no fixation; 23 diff actors (dumptrucks, rccars, excavators)
 - 52 dynamic scene videos w/ no fixation; videos of water flowing 
