@@ -1,6 +1,6 @@
 %% TO AFFIX EMOJIS ONTO VIDEOS 
 %% input: path to dynamic video folder, path to emoji folder
-%% output: randomly generated emoji overlays onto videos
+%% output: randomly generated emoji overlays onto videos, which are saved as new versions in an output folder
 
 % Replace these paths with your dynamic video stimuli folder and fixation points folder paths
 videoFolder = '/path/to/your/video';
