@@ -1,3 +1,5 @@
+To download the emoji fixation points:
+https://www.dropbox.com/scl/fo/8qcn42kni35qtucm0ceez/h?rlkey=q2frsw59ki0t8wdujkwy8b4z9&dl=0
 
 To view and download the final dynamic and static stimuli sets: 
 https://www.dropbox.com/scl/fo/qo76l3a2btp0jt0lqaqpt/h?rlkey=e6eslr3gvj00wyqqt956w2qzn&dl=0
