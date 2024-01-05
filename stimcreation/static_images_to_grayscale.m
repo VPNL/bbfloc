@@ -1,4 +1,4 @@
-% this matlab script converts the static images to gray scale if they are not already in grayscale 
+% this matlab script converts the static images to gray scale if they are not already in grayscale; you will have to do this before you can overlay the fixations onto the images
 
 % Specify the folder containing your images
 folderPath = 'your/folder/here';
