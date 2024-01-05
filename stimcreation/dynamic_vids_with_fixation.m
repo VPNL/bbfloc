@@ -1,4 +1,4 @@
-%% TO AFFIX EMOJIS ONTO VIDEOS 
+%% TO AFFIX emoji fixations ONTO VIDEOS 
 %% input: path to dynamic video folder, path to emoji folder
 %% output: randomly generated emoji overlays onto videos, which are saved as new versions in an output folder
 
