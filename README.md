@@ -8,7 +8,7 @@ The runs for each experiment version are generated on Matlab. The experiment ver
 # How to store the files
 All experiment stuff will be kept in a folder called **'alternating_bb'** on your DESKTOP. 
 
-- Three subfolders to be kept within **['alternating_bb'](https://www.dropbox.com/scl/fo/3hakolem37bef9sax1pkx/h?rlkey=obpg68j8q4nxnyey07c7pxlpb&dl=0)**: 
+- Three subfolders to be kept within **'alternating_bb'**: 
     - **'alternating_matlab'**: where the matlab scripts (used to generate runs) for each experiment version will be kept
         - All the matlab scripts for the combined exp version are under a subfolder called 'combined'
     - **'alternating_psychopy'**: where the PsychoPy scripts for each experiment version will be kept
