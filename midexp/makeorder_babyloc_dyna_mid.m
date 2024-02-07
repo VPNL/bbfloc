@@ -79,12 +79,6 @@ blank_video_path = fullfile(stim_dir, 'blank', 'blank.mp4');
 % Create matrix for Image
 vidmat = cell(ntrials,nruns);
 
-% Create cell arrays of actor names for each category
-faceact = cell(1, nruns);
-handact = cell(1, nruns);
-caract = cell(1, nruns);
-sceneact = cell(1, nruns);
-
 % Create cell arrays to keep track of used actors for each category
 used_face_actors = cell(1, nruns);
 used_hand_actors = cell(1, nruns);
@@ -131,7 +125,7 @@ for r = 1:nruns
     'SS_hands', 4; 
 };
 
-      %Shuffle the order of actors for the cars category
+    %Shuffle the order of actors for the cars category
     caract{r} = shuffle({'blackexcavator', 'blueexcavator', 'dumptruck1', 'dumptruck2', 'dumptruck3', 'dumptruck4', 'dumptruck5', 'dumptruck6', 'dumptruck7', 'dumptruck8', 'dumptruck9', 'car1', 'car2', 'car3', 'car4', 'car5', 'car6', 'car7', 'car8', 'car9', 'yellowexcavator', 'rccar', 'racecar'});
     %Define the video ranges for different types of cars 
     carVideoRanges = {
@@ -160,17 +154,16 @@ for r = 1:nruns
     'racecar', 1;
 };
 
-    
     %Shuffle the order of actors for the scenes category; all have one
     %video so no need to define video ranges
     sceneact{r} = shuffle({'forestwaterfalllow', 'autumnforeststream', 'beachwithdriftwood', 'bigwaterfallinforest', 'birchforeststream', 'blueforeststream', 'bluemistystream', 'bluerapidsintostream', 'bluewaves', 'calmbeach', 'dam', 'evergreenforeststream', 'fastforestrapids', 'foggyaerialbeach', 'forestblueriver', 'forestwaterfall', 'junglesmallwaterfall', 'mossyrockstream', 'mountainbeachwaves', 'mountainrain', 'mountainstreamblue', 'muddystream', 'powerfulwaterfall', 'powerlinewater', 'rivernearbridge', 'riverwithflowers', 'rockybeach', 'rockycliffbeach', 'rockystreamhills', 'sandybeachwaves', 'shadybluewaterfall', 'slowjunglestream', 'smallmossyrockstream', 'smallshallowmossyrockstream', 'snowingtalltrees', 'snowingwithshed', 'snowyfield', 'snowyfield', 'snowylawn', 'streambed', 'sunnyclouds', 'sunnyriver', 'sunnywaves', 'sunsetclouds', 'topofmountainsclouds', 'tropicalbeach', 'twilightbeach', 'waterfallwithbluepond', 'widejunglewaterfall', 'widejunglewaterfall'})
 
+    
     % Initialize used actors for each run
     used_face_actors{r} = {};
     used_hand_actors{r} = {};
     used_car_actors{r} = {};
     used_scene_actors{r} = {};
-
 end
 
 %This loop is used to initialize variables and generate video file names for each run.
@@ -181,13 +174,7 @@ for r = 1:nruns
     hcounter = 0;
     ccounter = 0;
     scounter = 0;
-
-    % % Initialize used actors for each run
-    % used_face_actors{r} = {};
-    % used_hand_actors{r} = {};
-    % used_car_actors{r} = {};
-    % used_scene_actors{r} = {};
-
+    
     for tri = 1:ntrials %Inside this loop, the code checks the value of condmat(tri, r) to determine the category for the current trial (tri) in the current run (r).
         if condmat(tri, r) == 1 % for face category
             fcounter = fcounter + 1;
@@ -249,8 +236,6 @@ for r = 1:nruns
         end
     end
 end
-
-
 % Path to the directory containing video files
 video_directory = fullfile('/Users', user, 'Desktop', 'alternating_bb',  'alternating_stimuli', 'dynamic_stimuli')
 
