@@ -1,7 +1,7 @@
 # bbfloc
 We have three working experiment versions: short, mid, and long. 
 
-We now also have a combined length experiment version: which includes 4 short runs followed by 4 long runs. Which is the version we plan to use going foward. 
+**We now also have a combined length experiment version: which includes 4 short runs followed by 4 long runs. Which is the version we plan to use going foward.**
 
 The runs for each experiment version are generated on Matlab. The experiment versions run on PsychoPy.
 
