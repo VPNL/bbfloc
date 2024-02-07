@@ -272,7 +272,7 @@ end
 
 
 % Path to the directory containing video files
-video_directory = fullfile('/Users', 'user', 'Desktop', 'alternating_bb',  'alternating_stimuli', 'dynamic_stimuli');
+video_directory = fullfile('/Users', user, 'Desktop', 'alternating_bb',  'alternating_stimuli', 'dynamic_stimuli');
 
 % Map the original category index to a new index
 category_mapping = [5, 6, 7, 8, 0];
