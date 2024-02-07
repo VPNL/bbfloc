@@ -77,13 +77,7 @@ blank_video_path = fullfile(stim_dir, 'blank', 'blank.mp4');
 
 % Create matrix for Image
 vidmat = cell(ntrials,nruns);
-
-% Create cell arrays of actor names for each category
-faceact = cell(1, nruns);
-handact = cell(1, nruns);
-caract = cell(1, nruns);
-sceneact = cell(1, nruns);
-
+    
 % Create cell arrays to keep track of used actors for each category
 used_face_actors = cell(1, nruns);
 used_hand_actors = cell(1, nruns);
@@ -241,7 +235,6 @@ for r = 1:nruns
         end
     end
 end
-
 
 % Path to the directory containing video files
 video_directory = fullfile('/Users', user, 'Desktop', 'alternating_bb',  'alternating_stimuli', 'dynamic_stimuli')
