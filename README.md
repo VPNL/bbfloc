@@ -5,8 +5,10 @@ We have three working experiment versions: short, mid, and long.
 
 The runs for each experiment version are generated on Matlab. The experiment versions run on PsychoPy.
 
-# How to store the files
-CLONE this repo 
+# Instructions 
+1. Clone repository on the computer you will use to present stimuli
+
+# Folder Organization
 
 - Three subfolders to be kept within **'alternating_bb'**: 
     - **'alternating_matlab'**: where the matlab scripts (used to generate runs) for each experiment version will be kept
