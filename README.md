@@ -6,7 +6,7 @@ We have three working experiment versions: short, mid, and long.
 The runs for each experiment version are generated on Matlab. The experiment versions run on PsychoPy.
 
 # How to store the files
-All experiment stuff will be kept in a folder called **'alternating_bb'** on your DESKTOP. You can (and should) copy this folder from the following path and store it locally: /Volumes/group/biac2/kgs/projects/bbfloc/alternating_bb 
+CLONE this repo 
 
 - Three subfolders to be kept within **'alternating_bb'**: 
     - **'alternating_matlab'**: where the matlab scripts (used to generate runs) for each experiment version will be kept
