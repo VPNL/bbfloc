@@ -10,15 +10,15 @@ The runs for each experiment version are generated on Matlab. The experiment ver
 
 # Folder Organization
 
-- Three subfolders to be kept within **'alternating_bb'**: 
-    - **'alternating_matlab'**: where the matlab scripts (used to generate runs) for each experiment version will be kept
+- Three subfolders to be kept within **'bbfloc'**: 
+    - **'matlab'**: where the matlab scripts (used to generate runs) for each experiment version will be kept
         - All the matlab scripts for the combined exp version are under a subfolder called 'combined'
-    - **'alternating_psychopy'**: where the PsychoPy scripts for each experiment version will be kept
+    - **'psychopy'**: where the PsychoPy scripts for each experiment version will be kept
       - contains a folder called 'countdown_imgs' where the countdown_imgs are kept
         - also contains a subfolder called 'data' where the participant exp data is kept 
             - within this subfolder is a folder for each participant (i.e. 'bb01', 'bb02')
                   - each participant folder contains another four subfolders: 'short', 'mid', 'long', and 'combined' (for the new combined exp)
-    - **'alternating_stimuli'**: contains 2 subfolders
+    - **'stimuli'**: contains 2 subfolders
         - 'dynamic_stimuli': contains the dynamic stimuli - updated to be phase scrambled
         - 'static_sitmuli': contains the static stimuli
 
