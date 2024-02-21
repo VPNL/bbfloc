@@ -1,0 +1,23 @@
+Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path
+1,0.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+2,4.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+3,8.000000,6,faces,BP_4.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/BP_4.mp4
+4,12.000000,7,hands,SE_hands_2.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/SE_hands_2.mp4
+5,16.000000,9,scenes,calmbeach.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/calmbeach.mp4
+6,20.000000,8,cars,car8_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/car8_1.mp4
+7,24.000000,9,scenes,snowingwithshed.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/snowingwithshed.mp4
+8,28.000000,8,cars,car7_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/car7_1.mp4
+9,32.000000,6,faces,SE_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/SE_3.mp4
+10,36.000000,7,hands,EC_hands_2.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/EC_hands_2.mp4
+11,40.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+12,44.000000,8,cars,racecar_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/racecar_1.mp4
+13,48.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+14,52.000000,9,scenes,bluerapidsintostream.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/bluerapidsintostream.mp4
+15,56.000000,7,hands,JC_hands_4.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/JC_hands_4.mp4
+16,60.000000,6,faces,IK_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/IK_1.mp4
+17,64.000000,9,scenes,birchforeststream.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/birchforeststream.mp4
+18,68.000000,6,faces,SS_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/SS_3.mp4
+19,72.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+20,76.000000,8,cars,car6_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/car6_1.mp4
+21,80.000000,7,hands,KP_hands_2.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/KP_hands_2.mp4
+22,84.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4

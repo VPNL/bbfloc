@@ -1,0 +1,23 @@
+Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path
+1,0.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+2,4.000000,6,hands,HO_hands_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/HO_hands_3.mp4
+3,8.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+4,12.000000,7,cars,car3_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/car3_1.mp4
+5,16.000000,5,faces,KW_faces_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/KW_faces_3.mp4
+6,20.000000,8,scenes,sky_2.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/sky_2.mp4
+7,24.000000,5,faces,SS_faces_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/SS_faces_1.mp4
+8,28.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+9,32.000000,7,cars,dumptruck9_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/dumptruck9_1.mp4
+10,36.000000,8,scenes,shore_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/shore_3.mp4
+11,40.000000,6,hands,KW_hands_2.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/KW_hands_2.mp4
+12,44.000000,5,faces,JY_faces_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/JY_faces_1.mp4
+13,48.000000,7,cars,car8_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/car8_1.mp4
+14,52.000000,8,scenes,trees_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/trees_3.mp4
+15,56.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+16,60.000000,6,hands,SE_hands_2.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/SE_hands_2.mp4
+17,64.000000,5,faces,IK_faces_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/IK_faces_3.mp4
+18,68.000000,7,cars,dumptruck7_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/dumptruck7_1.mp4
+19,72.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+20,76.000000,6,hands,BP_hands_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/BP_hands_1.mp4
+21,80.000000,8,scenes,forest_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/forest_3.mp4
+22,84.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4

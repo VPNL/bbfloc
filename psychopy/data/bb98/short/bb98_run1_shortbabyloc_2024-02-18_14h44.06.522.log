@@ -1,0 +1,960 @@
+13.5137 	EXP 	window1: mouseVisible = True
+13.5540 	EXP 	Created waiting_for_trigger_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='waiting_for_trigger_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Waiting for trigger (t)...', units='pix', win=Window(...), wrapWidth=500)
+13.5542 	EXP 	window1: mouseVisible = True
+13.5557 	EXP 	Created countdown = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='countdown', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='pix', win=Window(...), wrapWidth=500)
+13.5558 	EXP 	window1: mouseVisible = True
+13.5942 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.5943 	EXP 	window1: mouseVisible = True
+13.6298 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.6299 	EXP 	window1: mouseVisible = True
+13.6650 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.6652 	EXP 	window1: mouseVisible = True
+13.7058 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.7060 	EXP 	window1: mouseVisible = True
+13.7473 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.7475 	EXP 	window1: mouseVisible = True
+13.7841 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.7843 	EXP 	window1: mouseVisible = True
+13.8199 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.8202 	EXP 	window1: mouseVisible = True
+13.8709 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.8711 	EXP 	window1: mouseVisible = True
+13.9121 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.9123 	EXP 	window1: mouseVisible = True
+13.9522 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.9523 	EXP 	window1: mouseVisible = True
+13.9980 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+13.9982 	EXP 	window1: mouseVisible = True
+14.0439 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.0441 	EXP 	window1: mouseVisible = True
+14.0825 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.0827 	EXP 	window1: mouseVisible = True
+14.1183 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.1184 	EXP 	window1: mouseVisible = True
+14.1554 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.1556 	EXP 	window1: mouseVisible = True
+14.1985 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.1987 	EXP 	window1: mouseVisible = True
+14.2473 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.2475 	EXP 	window1: mouseVisible = True
+14.2902 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.2904 	EXP 	window1: mouseVisible = True
+14.3320 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.3322 	EXP 	window1: mouseVisible = True
+14.3850 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.3853 	EXP 	window1: mouseVisible = True
+14.4457 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.4459 	EXP 	window1: mouseVisible = True
+14.4997 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.4999 	EXP 	window1: mouseVisible = True
+14.5531 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.5534 	EXP 	window1: mouseVisible = True
+14.6025 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.6027 	EXP 	window1: mouseVisible = True
+14.7467 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.7469 	EXP 	window1: mouseVisible = True
+14.8810 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+14.8811 	EXP 	window1: mouseVisible = True
+15.0270 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.0272 	EXP 	window1: mouseVisible = True
+15.1563 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.1565 	EXP 	window1: mouseVisible = True
+15.3025 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.3027 	EXP 	window1: mouseVisible = True
+15.4382 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.4384 	EXP 	window1: mouseVisible = True
+15.5627 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.5629 	EXP 	window1: mouseVisible = True
+15.6864 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.6866 	EXP 	window1: mouseVisible = True
+15.7275 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.7276 	EXP 	window1: mouseVisible = True
+15.7672 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.7674 	EXP 	window1: mouseVisible = True
+15.8162 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.8163 	EXP 	window1: mouseVisible = True
+15.8682 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.8684 	EXP 	window1: mouseVisible = True
+15.9149 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.9151 	EXP 	window1: mouseVisible = True
+15.9641 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+15.9646 	EXP 	window1: mouseVisible = True
+16.0134 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.0136 	EXP 	window1: mouseVisible = True
+16.0591 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.0593 	EXP 	window1: mouseVisible = True
+16.1034 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.1036 	EXP 	window1: mouseVisible = True
+16.1444 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.1446 	EXP 	window1: mouseVisible = True
+16.1850 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.1852 	EXP 	window1: mouseVisible = True
+16.2315 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.2318 	EXP 	window1: mouseVisible = True
+16.2972 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.2975 	EXP 	window1: mouseVisible = True
+16.3655 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.3657 	EXP 	window1: mouseVisible = True
+16.4120 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.4122 	EXP 	window1: mouseVisible = True
+16.4554 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.4556 	EXP 	window1: mouseVisible = True
+16.5887 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.5888 	EXP 	window1: mouseVisible = True
+16.7342 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.7343 	EXP 	window1: mouseVisible = True
+16.8752 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.8754 	EXP 	window1: mouseVisible = True
+16.9947 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+16.9950 	EXP 	window1: mouseVisible = True
+17.1380 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.1382 	EXP 	window1: mouseVisible = True
+17.3094 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.3097 	EXP 	window1: mouseVisible = True
+17.4624 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.4631 	EXP 	window1: mouseVisible = True
+17.6031 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.6033 	EXP 	window1: mouseVisible = True
+17.6473 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.6475 	EXP 	window1: mouseVisible = True
+17.7160 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.7163 	EXP 	window1: mouseVisible = True
+17.7683 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.7685 	EXP 	window1: mouseVisible = True
+17.8168 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.8170 	EXP 	window1: mouseVisible = True
+17.8612 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.8613 	EXP 	window1: mouseVisible = True
+17.9135 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.9138 	EXP 	window1: mouseVisible = True
+17.9759 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+17.9761 	EXP 	window1: mouseVisible = True
+18.0441 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.0444 	EXP 	window1: mouseVisible = True
+18.1129 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.1131 	EXP 	window1: mouseVisible = True
+18.1818 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.1821 	EXP 	window1: mouseVisible = True
+18.2345 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.2347 	EXP 	window1: mouseVisible = True
+18.2840 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.2842 	EXP 	window1: mouseVisible = True
+18.3276 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.3277 	EXP 	window1: mouseVisible = True
+18.3921 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.3923 	EXP 	window1: mouseVisible = True
+18.4482 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.4484 	EXP 	window1: mouseVisible = True
+18.5080 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.5083 	EXP 	window1: mouseVisible = True
+18.5568 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.5569 	EXP 	window1: mouseVisible = True
+18.5972 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.5974 	EXP 	window1: mouseVisible = True
+18.6399 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.6404 	EXP 	window1: mouseVisible = True
+18.6794 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.6796 	EXP 	window1: mouseVisible = True
+18.7141 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.7143 	EXP 	window1: mouseVisible = True
+18.7492 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.7495 	EXP 	window1: mouseVisible = True
+18.8062 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.8064 	EXP 	window1: mouseVisible = True
+18.8614 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.8617 	EXP 	window1: mouseVisible = True
+18.9097 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.9099 	EXP 	window1: mouseVisible = True
+18.9575 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+18.9578 	EXP 	window1: mouseVisible = True
+19.0134 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.0136 	EXP 	window1: mouseVisible = True
+19.0720 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.0721 	EXP 	window1: mouseVisible = True
+19.1209 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.1210 	EXP 	window1: mouseVisible = True
+19.1694 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.1696 	EXP 	window1: mouseVisible = True
+19.2138 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.2140 	EXP 	window1: mouseVisible = True
+19.2561 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.2563 	EXP 	window1: mouseVisible = True
+19.2999 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.3001 	EXP 	window1: mouseVisible = True
+19.3463 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.3465 	EXP 	window1: mouseVisible = True
+19.3957 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.3962 	EXP 	window1: mouseVisible = True
+19.4397 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.4399 	EXP 	window1: mouseVisible = True
+19.4810 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.4812 	EXP 	window1: mouseVisible = True
+19.5233 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.5234 	EXP 	window1: mouseVisible = True
+19.5647 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.5649 	EXP 	window1: mouseVisible = True
+19.6098 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.6100 	EXP 	window1: mouseVisible = True
+19.6556 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.6557 	EXP 	window1: mouseVisible = True
+19.6970 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.6972 	EXP 	window1: mouseVisible = True
+19.7555 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.7558 	EXP 	window1: mouseVisible = True
+19.8191 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.8193 	EXP 	window1: mouseVisible = True
+19.8694 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.8696 	EXP 	window1: mouseVisible = True
+19.9154 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.9156 	EXP 	window1: mouseVisible = True
+19.9626 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+19.9627 	EXP 	window1: mouseVisible = True
+20.0098 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+20.0100 	EXP 	window1: mouseVisible = True
+20.1495 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+20.1497 	EXP 	window1: mouseVisible = True
+20.3078 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+20.3080 	EXP 	window1: mouseVisible = True
+20.4408 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+20.4410 	EXP 	window1: mouseVisible = True
+20.5632 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+20.5634 	EXP 	window1: mouseVisible = True
+20.7230 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+20.7233 	EXP 	window1: mouseVisible = True
+20.8955 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+20.8957 	EXP 	window1: mouseVisible = True
+21.0485 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.0487 	EXP 	window1: mouseVisible = True
+21.1838 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.1840 	EXP 	window1: mouseVisible = True
+21.2334 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.2336 	EXP 	window1: mouseVisible = True
+21.2804 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.2806 	EXP 	window1: mouseVisible = True
+21.3319 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.3321 	EXP 	window1: mouseVisible = True
+21.3808 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.3810 	EXP 	window1: mouseVisible = True
+21.4285 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.4287 	EXP 	window1: mouseVisible = True
+21.4797 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.4799 	EXP 	window1: mouseVisible = True
+21.5294 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.5296 	EXP 	window1: mouseVisible = True
+21.5784 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.5786 	EXP 	window1: mouseVisible = True
+21.6186 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.6187 	EXP 	window1: mouseVisible = True
+21.6555 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.6556 	EXP 	window1: mouseVisible = True
+21.6933 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.6935 	EXP 	window1: mouseVisible = True
+21.7294 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.7295 	EXP 	window1: mouseVisible = True
+21.7697 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.7699 	EXP 	window1: mouseVisible = True
+21.8106 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.8107 	EXP 	window1: mouseVisible = True
+21.8506 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.8508 	EXP 	window1: mouseVisible = True
+21.8906 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+21.8908 	EXP 	window1: mouseVisible = True
+22.0200 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.0202 	EXP 	window1: mouseVisible = True
+22.1523 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.1525 	EXP 	window1: mouseVisible = True
+22.2934 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.2935 	EXP 	window1: mouseVisible = True
+22.4222 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.4224 	EXP 	window1: mouseVisible = True
+22.5519 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.5524 	EXP 	window1: mouseVisible = True
+22.6881 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.6883 	EXP 	window1: mouseVisible = True
+22.8113 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.8115 	EXP 	window1: mouseVisible = True
+22.9417 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.9419 	EXP 	window1: mouseVisible = True
+22.9771 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+22.9773 	EXP 	window1: mouseVisible = True
+23.0173 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.0175 	EXP 	window1: mouseVisible = True
+23.0602 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.0604 	EXP 	window1: mouseVisible = True
+23.1025 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.1027 	EXP 	window1: mouseVisible = True
+23.1440 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.1442 	EXP 	window1: mouseVisible = True
+23.1832 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.1834 	EXP 	window1: mouseVisible = True
+23.2207 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.2208 	EXP 	window1: mouseVisible = True
+23.2570 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.2572 	EXP 	window1: mouseVisible = True
+23.3154 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.3157 	EXP 	window1: mouseVisible = True
+23.3778 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.3780 	EXP 	window1: mouseVisible = True
+23.4282 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.4284 	EXP 	window1: mouseVisible = True
+23.4812 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.4814 	EXP 	window1: mouseVisible = True
+23.5286 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.5288 	EXP 	window1: mouseVisible = True
+23.5732 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.5734 	EXP 	window1: mouseVisible = True
+23.6158 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.6160 	EXP 	window1: mouseVisible = True
+23.6576 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.6578 	EXP 	window1: mouseVisible = True
+23.7070 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.7072 	EXP 	window1: mouseVisible = True
+23.7504 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.7505 	EXP 	window1: mouseVisible = True
+23.7916 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.7918 	EXP 	window1: mouseVisible = True
+23.8314 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.8315 	EXP 	window1: mouseVisible = True
+23.8758 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.8759 	EXP 	window1: mouseVisible = True
+23.9257 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.9260 	EXP 	window1: mouseVisible = True
+23.9820 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+23.9823 	EXP 	window1: mouseVisible = True
+24.0293 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.0295 	EXP 	window1: mouseVisible = True
+24.0705 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.0707 	EXP 	window1: mouseVisible = True
+24.1118 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.1120 	EXP 	window1: mouseVisible = True
+24.1537 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.1539 	EXP 	window1: mouseVisible = True
+24.1953 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.1955 	EXP 	window1: mouseVisible = True
+24.2346 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.2347 	EXP 	window1: mouseVisible = True
+24.2743 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.2745 	EXP 	window1: mouseVisible = True
+24.3169 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.3171 	EXP 	window1: mouseVisible = True
+24.3583 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.3585 	EXP 	window1: mouseVisible = True
+24.3935 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.3937 	EXP 	window1: mouseVisible = True
+24.4273 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.4274 	EXP 	window1: mouseVisible = True
+24.4610 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.4612 	EXP 	window1: mouseVisible = True
+24.4951 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.4953 	EXP 	window1: mouseVisible = True
+24.5287 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.5289 	EXP 	window1: mouseVisible = True
+24.5624 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.5625 	EXP 	window1: mouseVisible = True
+24.5990 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.5992 	EXP 	window1: mouseVisible = True
+24.6377 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.6385 	EXP 	window1: mouseVisible = True
+24.6657 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.6659 	EXP 	window1: mouseVisible = True
+24.6846 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.6848 	EXP 	window1: mouseVisible = True
+24.7116 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.7118 	EXP 	window1: mouseVisible = True
+24.7311 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.7312 	EXP 	window1: mouseVisible = True
+24.7585 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.7587 	EXP 	window1: mouseVisible = True
+24.7898 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.7900 	EXP 	window1: mouseVisible = True
+24.8220 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.8222 	EXP 	window1: mouseVisible = True
+24.8438 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.8440 	EXP 	window1: mouseVisible = True
+24.8638 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, draggable=False, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([768., 768.]), texRes=128, units='pix', win=Window(...))
+24.8753 	EXP 	waiting_for_trigger_text: autoDraw = True
+35.7837 	EXP 	waiting_for_trigger_text: autoDraw = False
+35.7837 	EXP 	countdown: autoDraw = True
+35.7837 	EXP 	countdown: height = 0.1
+35.7837 	EXP 	countdown: height = 0.1
+35.7837 	EXP 	countdown: height = 0.1
+35.7837 	EXP 	countdown: text = ''
+41.7835 	EXP 	countdown: autoDraw = False
+41.7835 	EXP 	countdown: autoDraw = False
+41.7835 	EXP 	unnamed ImageStim: autoDraw = True
+42.2836 	EXP 	unnamed ImageStim: autoDraw = False
+42.2836 	EXP 	unnamed ImageStim: autoDraw = False
+42.2836 	EXP 	unnamed ImageStim: autoDraw = False
+42.2836 	EXP 	unnamed ImageStim: autoDraw = True
+42.7834 	EXP 	unnamed ImageStim: autoDraw = False
+42.7834 	EXP 	unnamed ImageStim: autoDraw = False
+42.7834 	EXP 	unnamed ImageStim: autoDraw = False
+42.7834 	EXP 	unnamed ImageStim: autoDraw = True
+43.2848 	EXP 	unnamed ImageStim: autoDraw = False
+43.2848 	EXP 	unnamed ImageStim: autoDraw = False
+43.2848 	EXP 	unnamed ImageStim: autoDraw = False
+43.2848 	EXP 	unnamed ImageStim: autoDraw = True
+43.8004 	EXP 	unnamed ImageStim: autoDraw = False
+43.8004 	EXP 	unnamed ImageStim: autoDraw = False
+43.8004 	EXP 	unnamed ImageStim: autoDraw = True
+44.2843 	EXP 	unnamed ImageStim: autoDraw = False
+44.2843 	EXP 	unnamed ImageStim: autoDraw = False
+44.2843 	EXP 	unnamed ImageStim: autoDraw = True
+44.7839 	EXP 	unnamed ImageStim: autoDraw = False
+44.7839 	EXP 	unnamed ImageStim: autoDraw = False
+44.7839 	EXP 	unnamed ImageStim: autoDraw = False
+44.7839 	EXP 	unnamed ImageStim: autoDraw = True
+45.2839 	EXP 	unnamed ImageStim: autoDraw = False
+45.2839 	EXP 	unnamed ImageStim: autoDraw = False
+45.2839 	EXP 	unnamed ImageStim: autoDraw = False
+45.2839 	EXP 	unnamed ImageStim: autoDraw = True
+45.7838 	EXP 	unnamed ImageStim: autoDraw = False
+45.7838 	EXP 	unnamed ImageStim: autoDraw = False
+45.7838 	EXP 	unnamed ImageStim: autoDraw = False
+45.7838 	EXP 	unnamed ImageStim: autoDraw = True
+46.2845 	EXP 	unnamed ImageStim: autoDraw = False
+46.2845 	EXP 	unnamed ImageStim: autoDraw = False
+46.2845 	EXP 	unnamed ImageStim: autoDraw = False
+46.2845 	EXP 	unnamed ImageStim: autoDraw = True
+46.7844 	EXP 	unnamed ImageStim: autoDraw = False
+46.7844 	EXP 	unnamed ImageStim: autoDraw = False
+46.7844 	EXP 	unnamed ImageStim: autoDraw = False
+46.7844 	EXP 	unnamed ImageStim: autoDraw = True
+47.2843 	EXP 	unnamed ImageStim: autoDraw = False
+47.2843 	EXP 	unnamed ImageStim: autoDraw = False
+47.2843 	EXP 	unnamed ImageStim: autoDraw = False
+47.2843 	EXP 	unnamed ImageStim: autoDraw = True
+47.7847 	EXP 	unnamed ImageStim: autoDraw = False
+47.7847 	EXP 	unnamed ImageStim: autoDraw = False
+47.7847 	EXP 	unnamed ImageStim: autoDraw = False
+47.7847 	EXP 	unnamed ImageStim: autoDraw = True
+48.2843 	EXP 	unnamed ImageStim: autoDraw = False
+48.2843 	EXP 	unnamed ImageStim: autoDraw = False
+48.2843 	EXP 	unnamed ImageStim: autoDraw = False
+48.2843 	EXP 	unnamed ImageStim: autoDraw = True
+48.7839 	EXP 	unnamed ImageStim: autoDraw = False
+48.7839 	EXP 	unnamed ImageStim: autoDraw = False
+48.7839 	EXP 	unnamed ImageStim: autoDraw = False
+48.7839 	EXP 	unnamed ImageStim: autoDraw = True
+49.2848 	EXP 	unnamed ImageStim: autoDraw = False
+49.2848 	EXP 	unnamed ImageStim: autoDraw = False
+49.2848 	EXP 	unnamed ImageStim: autoDraw = False
+49.2848 	EXP 	unnamed ImageStim: autoDraw = True
+49.7838 	EXP 	unnamed ImageStim: autoDraw = False
+49.7838 	EXP 	unnamed ImageStim: autoDraw = False
+49.7838 	EXP 	unnamed ImageStim: autoDraw = False
+49.7838 	EXP 	unnamed ImageStim: autoDraw = True
+50.2841 	EXP 	unnamed ImageStim: autoDraw = False
+50.2841 	EXP 	unnamed ImageStim: autoDraw = False
+50.2841 	EXP 	unnamed ImageStim: autoDraw = False
+50.2841 	EXP 	unnamed ImageStim: autoDraw = True
+50.7839 	EXP 	unnamed ImageStim: autoDraw = False
+50.7839 	EXP 	unnamed ImageStim: autoDraw = False
+50.7839 	EXP 	unnamed ImageStim: autoDraw = False
+50.7839 	EXP 	unnamed ImageStim: autoDraw = True
+51.4280 	EXP 	unnamed ImageStim: autoDraw = False
+51.4280 	EXP 	unnamed ImageStim: autoDraw = False
+51.4280 	EXP 	unnamed ImageStim: autoDraw = True
+51.8005 	EXP 	unnamed ImageStim: autoDraw = False
+51.8005 	EXP 	unnamed ImageStim: autoDraw = False
+51.8005 	EXP 	unnamed ImageStim: autoDraw = True
+52.3008 	EXP 	unnamed ImageStim: autoDraw = False
+52.3008 	EXP 	unnamed ImageStim: autoDraw = False
+52.3008 	EXP 	unnamed ImageStim: autoDraw = True
+52.8007 	EXP 	unnamed ImageStim: autoDraw = False
+52.8007 	EXP 	unnamed ImageStim: autoDraw = False
+52.8007 	EXP 	unnamed ImageStim: autoDraw = True
+53.3008 	EXP 	unnamed ImageStim: autoDraw = False
+53.3008 	EXP 	unnamed ImageStim: autoDraw = False
+53.3008 	EXP 	unnamed ImageStim: autoDraw = True
+53.8010 	EXP 	unnamed ImageStim: autoDraw = False
+53.8010 	EXP 	unnamed ImageStim: autoDraw = False
+53.8010 	EXP 	unnamed ImageStim: autoDraw = True
+54.3004 	EXP 	unnamed ImageStim: autoDraw = False
+54.3004 	EXP 	unnamed ImageStim: autoDraw = False
+54.3004 	EXP 	unnamed ImageStim: autoDraw = True
+54.8008 	EXP 	unnamed ImageStim: autoDraw = False
+54.8008 	EXP 	unnamed ImageStim: autoDraw = False
+54.8008 	EXP 	unnamed ImageStim: autoDraw = True
+55.3008 	EXP 	unnamed ImageStim: autoDraw = False
+55.3008 	EXP 	unnamed ImageStim: autoDraw = False
+55.3008 	EXP 	unnamed ImageStim: autoDraw = True
+55.8008 	EXP 	unnamed ImageStim: autoDraw = False
+55.8008 	EXP 	unnamed ImageStim: autoDraw = False
+55.8008 	EXP 	unnamed ImageStim: autoDraw = True
+56.3004 	EXP 	unnamed ImageStim: autoDraw = False
+56.3004 	EXP 	unnamed ImageStim: autoDraw = False
+56.3004 	EXP 	unnamed ImageStim: autoDraw = True
+56.8117 	EXP 	unnamed ImageStim: autoDraw = False
+56.8117 	EXP 	unnamed ImageStim: autoDraw = False
+56.8117 	EXP 	unnamed ImageStim: autoDraw = True
+57.2873 	EXP 	unnamed ImageStim: autoDraw = False
+57.2873 	EXP 	unnamed ImageStim: autoDraw = False
+57.2873 	EXP 	unnamed ImageStim: autoDraw = True
+57.8004 	EXP 	unnamed ImageStim: autoDraw = False
+57.8004 	EXP 	unnamed ImageStim: autoDraw = False
+57.8004 	EXP 	unnamed ImageStim: autoDraw = True
+58.3010 	EXP 	unnamed ImageStim: autoDraw = False
+58.3010 	EXP 	unnamed ImageStim: autoDraw = False
+58.3010 	EXP 	unnamed ImageStim: autoDraw = True
+58.8008 	EXP 	unnamed ImageStim: autoDraw = False
+58.8008 	EXP 	unnamed ImageStim: autoDraw = False
+58.8008 	EXP 	unnamed ImageStim: autoDraw = True
+59.3010 	EXP 	unnamed ImageStim: autoDraw = False
+59.3010 	EXP 	unnamed ImageStim: autoDraw = False
+59.3010 	EXP 	unnamed ImageStim: autoDraw = True
+59.8012 	EXP 	unnamed ImageStim: autoDraw = False
+59.8012 	EXP 	unnamed ImageStim: autoDraw = False
+59.8012 	EXP 	unnamed ImageStim: autoDraw = True
+60.3590 	EXP 	unnamed ImageStim: autoDraw = False
+60.3590 	EXP 	unnamed ImageStim: autoDraw = False
+60.3590 	EXP 	unnamed ImageStim: autoDraw = True
+60.7840 	EXP 	unnamed ImageStim: autoDraw = False
+60.7840 	EXP 	unnamed ImageStim: autoDraw = False
+60.7840 	EXP 	unnamed ImageStim: autoDraw = True
+61.2840 	EXP 	unnamed ImageStim: autoDraw = False
+61.2840 	EXP 	unnamed ImageStim: autoDraw = False
+61.2840 	EXP 	unnamed ImageStim: autoDraw = False
+61.2840 	EXP 	unnamed ImageStim: autoDraw = True
+61.7840 	EXP 	unnamed ImageStim: autoDraw = False
+61.7840 	EXP 	unnamed ImageStim: autoDraw = False
+61.7840 	EXP 	unnamed ImageStim: autoDraw = False
+61.7840 	EXP 	unnamed ImageStim: autoDraw = True
+62.2835 	EXP 	unnamed ImageStim: autoDraw = False
+62.2835 	EXP 	unnamed ImageStim: autoDraw = False
+62.2835 	EXP 	unnamed ImageStim: autoDraw = False
+62.2835 	EXP 	unnamed ImageStim: autoDraw = True
+62.7843 	EXP 	unnamed ImageStim: autoDraw = False
+62.7843 	EXP 	unnamed ImageStim: autoDraw = False
+62.7843 	EXP 	unnamed ImageStim: autoDraw = False
+62.7843 	EXP 	unnamed ImageStim: autoDraw = True
+63.2840 	EXP 	unnamed ImageStim: autoDraw = False
+63.2840 	EXP 	unnamed ImageStim: autoDraw = False
+63.2840 	EXP 	unnamed ImageStim: autoDraw = False
+63.2840 	EXP 	unnamed ImageStim: autoDraw = True
+63.7839 	EXP 	unnamed ImageStim: autoDraw = False
+63.7839 	EXP 	unnamed ImageStim: autoDraw = False
+63.7839 	EXP 	unnamed ImageStim: autoDraw = False
+63.7839 	EXP 	unnamed ImageStim: autoDraw = True
+64.2840 	EXP 	unnamed ImageStim: autoDraw = False
+64.2840 	EXP 	unnamed ImageStim: autoDraw = False
+64.2840 	EXP 	unnamed ImageStim: autoDraw = False
+64.2840 	EXP 	unnamed ImageStim: autoDraw = True
+64.7840 	EXP 	unnamed ImageStim: autoDraw = False
+64.7840 	EXP 	unnamed ImageStim: autoDraw = False
+64.7840 	EXP 	unnamed ImageStim: autoDraw = False
+64.7840 	EXP 	unnamed ImageStim: autoDraw = True
+65.2842 	EXP 	unnamed ImageStim: autoDraw = False
+65.2842 	EXP 	unnamed ImageStim: autoDraw = False
+65.2842 	EXP 	unnamed ImageStim: autoDraw = False
+65.2842 	EXP 	unnamed ImageStim: autoDraw = True
+65.7872 	EXP 	unnamed ImageStim: autoDraw = False
+65.7872 	EXP 	unnamed ImageStim: autoDraw = False
+65.7872 	EXP 	unnamed ImageStim: autoDraw = True
+66.3006 	EXP 	unnamed ImageStim: autoDraw = False
+66.3006 	EXP 	unnamed ImageStim: autoDraw = False
+66.3006 	EXP 	unnamed ImageStim: autoDraw = True
+66.8005 	EXP 	unnamed ImageStim: autoDraw = False
+66.8005 	EXP 	unnamed ImageStim: autoDraw = False
+66.8005 	EXP 	unnamed ImageStim: autoDraw = True
+67.3008 	EXP 	unnamed ImageStim: autoDraw = False
+67.3008 	EXP 	unnamed ImageStim: autoDraw = False
+67.3008 	EXP 	unnamed ImageStim: autoDraw = True
+67.8006 	EXP 	unnamed ImageStim: autoDraw = False
+67.8006 	EXP 	unnamed ImageStim: autoDraw = False
+67.8006 	EXP 	unnamed ImageStim: autoDraw = True
+68.3007 	EXP 	unnamed ImageStim: autoDraw = False
+68.3007 	EXP 	unnamed ImageStim: autoDraw = False
+68.3007 	EXP 	unnamed ImageStim: autoDraw = True
+68.8003 	EXP 	unnamed ImageStim: autoDraw = False
+68.8003 	EXP 	unnamed ImageStim: autoDraw = False
+68.8003 	EXP 	unnamed ImageStim: autoDraw = True
+69.3003 	EXP 	unnamed ImageStim: autoDraw = False
+69.3003 	EXP 	unnamed ImageStim: autoDraw = False
+69.3003 	EXP 	unnamed ImageStim: autoDraw = True
+69.8009 	EXP 	unnamed ImageStim: autoDraw = False
+69.8009 	EXP 	unnamed ImageStim: autoDraw = False
+69.8009 	EXP 	unnamed ImageStim: autoDraw = True
+70.3009 	EXP 	unnamed ImageStim: autoDraw = False
+70.3009 	EXP 	unnamed ImageStim: autoDraw = False
+70.3009 	EXP 	unnamed ImageStim: autoDraw = True
+70.8002 	EXP 	unnamed ImageStim: autoDraw = False
+70.8002 	EXP 	unnamed ImageStim: autoDraw = False
+70.8002 	EXP 	unnamed ImageStim: autoDraw = True
+71.3007 	EXP 	unnamed ImageStim: autoDraw = False
+71.3007 	EXP 	unnamed ImageStim: autoDraw = False
+71.3007 	EXP 	unnamed ImageStim: autoDraw = True
+71.8006 	EXP 	unnamed ImageStim: autoDraw = False
+71.8006 	EXP 	unnamed ImageStim: autoDraw = False
+71.8006 	EXP 	unnamed ImageStim: autoDraw = True
+72.2995 	EXP 	unnamed ImageStim: autoDraw = False
+72.2995 	EXP 	unnamed ImageStim: autoDraw = False
+72.2995 	EXP 	unnamed ImageStim: autoDraw = True
+72.8006 	EXP 	unnamed ImageStim: autoDraw = False
+72.8006 	EXP 	unnamed ImageStim: autoDraw = False
+72.8006 	EXP 	unnamed ImageStim: autoDraw = True
+73.3006 	EXP 	unnamed ImageStim: autoDraw = False
+73.3006 	EXP 	unnamed ImageStim: autoDraw = False
+73.3006 	EXP 	unnamed ImageStim: autoDraw = True
+73.8008 	EXP 	unnamed ImageStim: autoDraw = False
+73.8008 	EXP 	unnamed ImageStim: autoDraw = False
+73.8008 	EXP 	unnamed ImageStim: autoDraw = True
+74.3007 	EXP 	unnamed ImageStim: autoDraw = False
+74.3007 	EXP 	unnamed ImageStim: autoDraw = False
+74.3007 	EXP 	unnamed ImageStim: autoDraw = True
+74.8010 	EXP 	unnamed ImageStim: autoDraw = False
+74.8010 	EXP 	unnamed ImageStim: autoDraw = False
+74.8010 	EXP 	unnamed ImageStim: autoDraw = True
+75.3002 	EXP 	unnamed ImageStim: autoDraw = False
+75.3002 	EXP 	unnamed ImageStim: autoDraw = False
+75.3002 	EXP 	unnamed ImageStim: autoDraw = True
+75.8006 	EXP 	unnamed ImageStim: autoDraw = False
+75.8006 	EXP 	unnamed ImageStim: autoDraw = False
+75.8006 	EXP 	unnamed ImageStim: autoDraw = True
+76.3007 	EXP 	unnamed ImageStim: autoDraw = False
+76.3007 	EXP 	unnamed ImageStim: autoDraw = False
+76.3007 	EXP 	unnamed ImageStim: autoDraw = True
+76.8007 	EXP 	unnamed ImageStim: autoDraw = False
+76.8007 	EXP 	unnamed ImageStim: autoDraw = False
+76.8007 	EXP 	unnamed ImageStim: autoDraw = True
+77.3012 	EXP 	unnamed ImageStim: autoDraw = False
+77.3012 	EXP 	unnamed ImageStim: autoDraw = False
+77.3012 	EXP 	unnamed ImageStim: autoDraw = True
+77.7848 	EXP 	unnamed ImageStim: autoDraw = False
+77.7848 	EXP 	unnamed ImageStim: autoDraw = False
+77.7848 	EXP 	unnamed ImageStim: autoDraw = True
+78.2845 	EXP 	unnamed ImageStim: autoDraw = False
+78.2845 	EXP 	unnamed ImageStim: autoDraw = False
+78.2845 	EXP 	unnamed ImageStim: autoDraw = False
+78.2845 	EXP 	unnamed ImageStim: autoDraw = True
+78.7845 	EXP 	unnamed ImageStim: autoDraw = False
+78.7845 	EXP 	unnamed ImageStim: autoDraw = False
+78.7845 	EXP 	unnamed ImageStim: autoDraw = False
+78.7845 	EXP 	unnamed ImageStim: autoDraw = True
+79.2845 	EXP 	unnamed ImageStim: autoDraw = False
+79.2845 	EXP 	unnamed ImageStim: autoDraw = False
+79.2845 	EXP 	unnamed ImageStim: autoDraw = False
+79.2845 	EXP 	unnamed ImageStim: autoDraw = True
+79.7998 	EXP 	unnamed ImageStim: autoDraw = False
+79.7998 	EXP 	unnamed ImageStim: autoDraw = False
+79.7998 	EXP 	unnamed ImageStim: autoDraw = True
+80.3015 	EXP 	unnamed ImageStim: autoDraw = False
+80.3015 	EXP 	unnamed ImageStim: autoDraw = False
+80.3015 	EXP 	unnamed ImageStim: autoDraw = True
+80.8014 	EXP 	unnamed ImageStim: autoDraw = False
+80.8014 	EXP 	unnamed ImageStim: autoDraw = False
+80.8014 	EXP 	unnamed ImageStim: autoDraw = True
+81.2845 	EXP 	unnamed ImageStim: autoDraw = False
+81.2845 	EXP 	unnamed ImageStim: autoDraw = False
+81.2845 	EXP 	unnamed ImageStim: autoDraw = True
+81.7846 	EXP 	unnamed ImageStim: autoDraw = False
+81.7846 	EXP 	unnamed ImageStim: autoDraw = False
+81.7846 	EXP 	unnamed ImageStim: autoDraw = False
+81.7846 	EXP 	unnamed ImageStim: autoDraw = True
+82.2847 	EXP 	unnamed ImageStim: autoDraw = False
+82.2847 	EXP 	unnamed ImageStim: autoDraw = False
+82.2847 	EXP 	unnamed ImageStim: autoDraw = False
+82.2847 	EXP 	unnamed ImageStim: autoDraw = True
+82.7844 	EXP 	unnamed ImageStim: autoDraw = False
+82.7844 	EXP 	unnamed ImageStim: autoDraw = False
+82.7844 	EXP 	unnamed ImageStim: autoDraw = False
+82.7844 	EXP 	unnamed ImageStim: autoDraw = True
+83.2843 	EXP 	unnamed ImageStim: autoDraw = False
+83.2843 	EXP 	unnamed ImageStim: autoDraw = False
+83.2843 	EXP 	unnamed ImageStim: autoDraw = False
+83.2843 	EXP 	unnamed ImageStim: autoDraw = True
+83.7839 	EXP 	unnamed ImageStim: autoDraw = False
+83.7839 	EXP 	unnamed ImageStim: autoDraw = False
+83.7839 	EXP 	unnamed ImageStim: autoDraw = False
+83.7839 	EXP 	unnamed ImageStim: autoDraw = True
+84.2843 	EXP 	unnamed ImageStim: autoDraw = False
+84.2843 	EXP 	unnamed ImageStim: autoDraw = False
+84.2843 	EXP 	unnamed ImageStim: autoDraw = False
+84.2843 	EXP 	unnamed ImageStim: autoDraw = True
+84.7839 	EXP 	unnamed ImageStim: autoDraw = False
+84.7839 	EXP 	unnamed ImageStim: autoDraw = False
+84.7839 	EXP 	unnamed ImageStim: autoDraw = False
+84.7839 	EXP 	unnamed ImageStim: autoDraw = True
+85.2845 	EXP 	unnamed ImageStim: autoDraw = False
+85.2845 	EXP 	unnamed ImageStim: autoDraw = False
+85.2845 	EXP 	unnamed ImageStim: autoDraw = False
+85.2845 	EXP 	unnamed ImageStim: autoDraw = True
+85.7844 	EXP 	unnamed ImageStim: autoDraw = False
+85.7844 	EXP 	unnamed ImageStim: autoDraw = False
+85.7844 	EXP 	unnamed ImageStim: autoDraw = False
+85.7844 	EXP 	unnamed ImageStim: autoDraw = True
+86.2844 	EXP 	unnamed ImageStim: autoDraw = False
+86.2844 	EXP 	unnamed ImageStim: autoDraw = False
+86.2844 	EXP 	unnamed ImageStim: autoDraw = False
+86.2844 	EXP 	unnamed ImageStim: autoDraw = True
+86.7843 	EXP 	unnamed ImageStim: autoDraw = False
+86.7843 	EXP 	unnamed ImageStim: autoDraw = False
+86.7843 	EXP 	unnamed ImageStim: autoDraw = False
+86.7843 	EXP 	unnamed ImageStim: autoDraw = True
+87.2839 	EXP 	unnamed ImageStim: autoDraw = False
+87.2839 	EXP 	unnamed ImageStim: autoDraw = False
+87.2839 	EXP 	unnamed ImageStim: autoDraw = False
+87.2839 	EXP 	unnamed ImageStim: autoDraw = True
+87.7832 	EXP 	unnamed ImageStim: autoDraw = False
+87.7832 	EXP 	unnamed ImageStim: autoDraw = False
+87.7832 	EXP 	unnamed ImageStim: autoDraw = False
+87.7832 	EXP 	unnamed ImageStim: autoDraw = True
+88.2846 	EXP 	unnamed ImageStim: autoDraw = False
+88.2846 	EXP 	unnamed ImageStim: autoDraw = False
+88.2846 	EXP 	unnamed ImageStim: autoDraw = False
+88.2846 	EXP 	unnamed ImageStim: autoDraw = True
+88.8010 	EXP 	unnamed ImageStim: autoDraw = False
+88.8010 	EXP 	unnamed ImageStim: autoDraw = False
+88.8010 	EXP 	unnamed ImageStim: autoDraw = True
+89.3004 	EXP 	unnamed ImageStim: autoDraw = False
+89.3004 	EXP 	unnamed ImageStim: autoDraw = False
+89.3004 	EXP 	unnamed ImageStim: autoDraw = True
+89.8000 	EXP 	unnamed ImageStim: autoDraw = False
+89.8000 	EXP 	unnamed ImageStim: autoDraw = False
+89.8000 	EXP 	unnamed ImageStim: autoDraw = True
+90.3006 	EXP 	unnamed ImageStim: autoDraw = False
+90.3006 	EXP 	unnamed ImageStim: autoDraw = False
+90.3006 	EXP 	unnamed ImageStim: autoDraw = True
+90.8009 	EXP 	unnamed ImageStim: autoDraw = False
+90.8009 	EXP 	unnamed ImageStim: autoDraw = False
+90.8009 	EXP 	unnamed ImageStim: autoDraw = True
+91.3012 	EXP 	unnamed ImageStim: autoDraw = False
+91.3012 	EXP 	unnamed ImageStim: autoDraw = False
+91.3012 	EXP 	unnamed ImageStim: autoDraw = True
+91.8004 	EXP 	unnamed ImageStim: autoDraw = False
+91.8004 	EXP 	unnamed ImageStim: autoDraw = False
+91.8004 	EXP 	unnamed ImageStim: autoDraw = True
+92.3008 	EXP 	unnamed ImageStim: autoDraw = False
+92.3008 	EXP 	unnamed ImageStim: autoDraw = False
+92.3008 	EXP 	unnamed ImageStim: autoDraw = True
+92.7992 	EXP 	unnamed ImageStim: autoDraw = False
+92.7992 	EXP 	unnamed ImageStim: autoDraw = False
+92.7992 	EXP 	unnamed ImageStim: autoDraw = True
+93.3010 	EXP 	unnamed ImageStim: autoDraw = False
+93.3010 	EXP 	unnamed ImageStim: autoDraw = False
+93.3010 	EXP 	unnamed ImageStim: autoDraw = True
+93.8046 	EXP 	unnamed ImageStim: autoDraw = False
+93.8046 	EXP 	unnamed ImageStim: autoDraw = False
+93.8046 	EXP 	unnamed ImageStim: autoDraw = True
+94.3006 	EXP 	unnamed ImageStim: autoDraw = False
+94.3006 	EXP 	unnamed ImageStim: autoDraw = False
+94.3006 	EXP 	unnamed ImageStim: autoDraw = True
+94.8007 	EXP 	unnamed ImageStim: autoDraw = False
+94.8007 	EXP 	unnamed ImageStim: autoDraw = False
+94.8007 	EXP 	unnamed ImageStim: autoDraw = True
+95.3005 	EXP 	unnamed ImageStim: autoDraw = False
+95.3005 	EXP 	unnamed ImageStim: autoDraw = False
+95.3005 	EXP 	unnamed ImageStim: autoDraw = True
+95.7999 	EXP 	unnamed ImageStim: autoDraw = False
+95.7999 	EXP 	unnamed ImageStim: autoDraw = False
+95.7999 	EXP 	unnamed ImageStim: autoDraw = True
+96.2833 	EXP 	unnamed ImageStim: autoDraw = False
+96.2833 	EXP 	unnamed ImageStim: autoDraw = False
+96.2833 	EXP 	unnamed ImageStim: autoDraw = True
+96.7827 	EXP 	unnamed ImageStim: autoDraw = False
+96.7827 	EXP 	unnamed ImageStim: autoDraw = False
+96.7827 	EXP 	unnamed ImageStim: autoDraw = False
+96.7827 	EXP 	unnamed ImageStim: autoDraw = True
+97.2839 	EXP 	unnamed ImageStim: autoDraw = False
+97.2839 	EXP 	unnamed ImageStim: autoDraw = False
+97.2839 	EXP 	unnamed ImageStim: autoDraw = False
+97.2839 	EXP 	unnamed ImageStim: autoDraw = True
+97.7838 	EXP 	unnamed ImageStim: autoDraw = False
+97.7838 	EXP 	unnamed ImageStim: autoDraw = False
+97.7838 	EXP 	unnamed ImageStim: autoDraw = False
+97.7838 	EXP 	unnamed ImageStim: autoDraw = True
+98.2840 	EXP 	unnamed ImageStim: autoDraw = False
+98.2840 	EXP 	unnamed ImageStim: autoDraw = False
+98.2840 	EXP 	unnamed ImageStim: autoDraw = False
+98.2840 	EXP 	unnamed ImageStim: autoDraw = True
+98.7836 	EXP 	unnamed ImageStim: autoDraw = False
+98.7836 	EXP 	unnamed ImageStim: autoDraw = False
+98.7836 	EXP 	unnamed ImageStim: autoDraw = False
+98.7836 	EXP 	unnamed ImageStim: autoDraw = True
+99.2837 	EXP 	unnamed ImageStim: autoDraw = False
+99.2837 	EXP 	unnamed ImageStim: autoDraw = False
+99.2837 	EXP 	unnamed ImageStim: autoDraw = True
+99.7833 	EXP 	unnamed ImageStim: autoDraw = False
+99.7833 	EXP 	unnamed ImageStim: autoDraw = False
+99.7833 	EXP 	unnamed ImageStim: autoDraw = False
+99.7833 	EXP 	unnamed ImageStim: autoDraw = True
+100.2838 	EXP 	unnamed ImageStim: autoDraw = False
+100.2838 	EXP 	unnamed ImageStim: autoDraw = False
+100.2838 	EXP 	unnamed ImageStim: autoDraw = False
+100.2838 	EXP 	unnamed ImageStim: autoDraw = True
+100.7838 	EXP 	unnamed ImageStim: autoDraw = False
+100.7838 	EXP 	unnamed ImageStim: autoDraw = False
+100.7838 	EXP 	unnamed ImageStim: autoDraw = False
+100.7838 	EXP 	unnamed ImageStim: autoDraw = True
+101.2826 	EXP 	unnamed ImageStim: autoDraw = False
+101.2826 	EXP 	unnamed ImageStim: autoDraw = False
+101.2826 	EXP 	unnamed ImageStim: autoDraw = False
+101.2826 	EXP 	unnamed ImageStim: autoDraw = True
+101.7828 	EXP 	unnamed ImageStim: autoDraw = False
+101.7828 	EXP 	unnamed ImageStim: autoDraw = False
+101.7828 	EXP 	unnamed ImageStim: autoDraw = False
+101.7828 	EXP 	unnamed ImageStim: autoDraw = True
+102.2849 	EXP 	unnamed ImageStim: autoDraw = False
+102.2849 	EXP 	unnamed ImageStim: autoDraw = False
+102.2849 	EXP 	unnamed ImageStim: autoDraw = False
+102.2849 	EXP 	unnamed ImageStim: autoDraw = True
+102.8007 	EXP 	unnamed ImageStim: autoDraw = False
+102.8007 	EXP 	unnamed ImageStim: autoDraw = False
+102.8007 	EXP 	unnamed ImageStim: autoDraw = True
+103.3006 	EXP 	unnamed ImageStim: autoDraw = False
+103.3006 	EXP 	unnamed ImageStim: autoDraw = False
+103.3006 	EXP 	unnamed ImageStim: autoDraw = True
+103.7834 	EXP 	unnamed ImageStim: autoDraw = False
+103.7834 	EXP 	unnamed ImageStim: autoDraw = False
+103.7834 	EXP 	unnamed ImageStim: autoDraw = True
+104.2829 	EXP 	unnamed ImageStim: autoDraw = False
+104.2829 	EXP 	unnamed ImageStim: autoDraw = False
+104.2829 	EXP 	unnamed ImageStim: autoDraw = False
+104.2829 	EXP 	unnamed ImageStim: autoDraw = True
+104.7838 	EXP 	unnamed ImageStim: autoDraw = False
+104.7838 	EXP 	unnamed ImageStim: autoDraw = False
+104.7838 	EXP 	unnamed ImageStim: autoDraw = False
+104.7838 	EXP 	unnamed ImageStim: autoDraw = True
+105.2854 	EXP 	unnamed ImageStim: autoDraw = False
+105.2854 	EXP 	unnamed ImageStim: autoDraw = False
+105.2854 	EXP 	unnamed ImageStim: autoDraw = False
+105.2854 	EXP 	unnamed ImageStim: autoDraw = True
+105.8006 	EXP 	unnamed ImageStim: autoDraw = False
+105.8006 	EXP 	unnamed ImageStim: autoDraw = False
+105.8006 	EXP 	unnamed ImageStim: autoDraw = True
+106.3004 	EXP 	unnamed ImageStim: autoDraw = False
+106.3004 	EXP 	unnamed ImageStim: autoDraw = False
+106.3004 	EXP 	unnamed ImageStim: autoDraw = True
+106.7997 	EXP 	unnamed ImageStim: autoDraw = False
+106.7997 	EXP 	unnamed ImageStim: autoDraw = False
+106.7997 	EXP 	unnamed ImageStim: autoDraw = True
+107.2993 	EXP 	unnamed ImageStim: autoDraw = False
+107.2993 	EXP 	unnamed ImageStim: autoDraw = False
+107.2993 	EXP 	unnamed ImageStim: autoDraw = True
+107.7996 	EXP 	unnamed ImageStim: autoDraw = False
+107.7996 	EXP 	unnamed ImageStim: autoDraw = False
+107.7996 	EXP 	unnamed ImageStim: autoDraw = True
+108.2995 	EXP 	unnamed ImageStim: autoDraw = False
+108.2995 	EXP 	unnamed ImageStim: autoDraw = False
+108.2995 	EXP 	unnamed ImageStim: autoDraw = True
+108.7996 	EXP 	unnamed ImageStim: autoDraw = False
+108.7996 	EXP 	unnamed ImageStim: autoDraw = False
+108.7996 	EXP 	unnamed ImageStim: autoDraw = True
+109.2991 	EXP 	unnamed ImageStim: autoDraw = False
+109.2991 	EXP 	unnamed ImageStim: autoDraw = False
+109.2991 	EXP 	unnamed ImageStim: autoDraw = True
+109.8002 	EXP 	unnamed ImageStim: autoDraw = False
+109.8002 	EXP 	unnamed ImageStim: autoDraw = False
+109.8002 	EXP 	unnamed ImageStim: autoDraw = True
+110.2991 	EXP 	unnamed ImageStim: autoDraw = False
+110.2991 	EXP 	unnamed ImageStim: autoDraw = False
+110.2991 	EXP 	unnamed ImageStim: autoDraw = True
+110.7999 	EXP 	unnamed ImageStim: autoDraw = False
+110.7999 	EXP 	unnamed ImageStim: autoDraw = False
+110.7999 	EXP 	unnamed ImageStim: autoDraw = True
+111.2996 	EXP 	unnamed ImageStim: autoDraw = False
+111.2996 	EXP 	unnamed ImageStim: autoDraw = False
+111.2996 	EXP 	unnamed ImageStim: autoDraw = True
+111.7995 	EXP 	unnamed ImageStim: autoDraw = False
+111.7995 	EXP 	unnamed ImageStim: autoDraw = False
+111.7995 	EXP 	unnamed ImageStim: autoDraw = True
+112.3004 	EXP 	unnamed ImageStim: autoDraw = False
+112.3004 	EXP 	unnamed ImageStim: autoDraw = False
+112.3004 	EXP 	unnamed ImageStim: autoDraw = True
+112.8004 	EXP 	unnamed ImageStim: autoDraw = False
+112.8004 	EXP 	unnamed ImageStim: autoDraw = False
+112.8004 	EXP 	unnamed ImageStim: autoDraw = True
+113.3002 	EXP 	unnamed ImageStim: autoDraw = False
+113.3002 	EXP 	unnamed ImageStim: autoDraw = False
+113.3002 	EXP 	unnamed ImageStim: autoDraw = True
+113.7999 	EXP 	unnamed ImageStim: autoDraw = False
+113.7999 	EXP 	unnamed ImageStim: autoDraw = False
+113.7999 	EXP 	unnamed ImageStim: autoDraw = True
+114.2998 	EXP 	unnamed ImageStim: autoDraw = False
+114.2998 	EXP 	unnamed ImageStim: autoDraw = False
+114.2998 	EXP 	unnamed ImageStim: autoDraw = True
+114.8003 	EXP 	unnamed ImageStim: autoDraw = False
+114.8003 	EXP 	unnamed ImageStim: autoDraw = False
+114.8003 	EXP 	unnamed ImageStim: autoDraw = True
+115.2997 	EXP 	unnamed ImageStim: autoDraw = False
+115.2997 	EXP 	unnamed ImageStim: autoDraw = False
+115.2997 	EXP 	unnamed ImageStim: autoDraw = True
+115.8003 	EXP 	unnamed ImageStim: autoDraw = False
+115.8003 	EXP 	unnamed ImageStim: autoDraw = False
+115.8003 	EXP 	unnamed ImageStim: autoDraw = True
+116.2998 	EXP 	unnamed ImageStim: autoDraw = False
+116.2998 	EXP 	unnamed ImageStim: autoDraw = False
+116.2998 	EXP 	unnamed ImageStim: autoDraw = True
+116.8001 	EXP 	unnamed ImageStim: autoDraw = False
+116.8001 	EXP 	unnamed ImageStim: autoDraw = False
+116.8001 	EXP 	unnamed ImageStim: autoDraw = True
+117.2989 	EXP 	unnamed ImageStim: autoDraw = False
+117.2989 	EXP 	unnamed ImageStim: autoDraw = False
+117.2989 	EXP 	unnamed ImageStim: autoDraw = True
+117.7994 	EXP 	unnamed ImageStim: autoDraw = False
+117.7994 	EXP 	unnamed ImageStim: autoDraw = False
+117.7994 	EXP 	unnamed ImageStim: autoDraw = True
+118.3001 	EXP 	unnamed ImageStim: autoDraw = False
+118.3001 	EXP 	unnamed ImageStim: autoDraw = False
+118.3001 	EXP 	unnamed ImageStim: autoDraw = True
+118.8001 	EXP 	unnamed ImageStim: autoDraw = False
+118.8001 	EXP 	unnamed ImageStim: autoDraw = False
+118.8001 	EXP 	unnamed ImageStim: autoDraw = True
+119.2995 	EXP 	unnamed ImageStim: autoDraw = False
+119.2995 	EXP 	unnamed ImageStim: autoDraw = False
+119.2995 	EXP 	unnamed ImageStim: autoDraw = True
+119.7993 	EXP 	unnamed ImageStim: autoDraw = False
+119.7993 	EXP 	unnamed ImageStim: autoDraw = False
+119.7993 	EXP 	unnamed ImageStim: autoDraw = True
+120.2994 	EXP 	unnamed ImageStim: autoDraw = False
+120.2994 	EXP 	unnamed ImageStim: autoDraw = False
+120.2994 	EXP 	unnamed ImageStim: autoDraw = True
+120.8002 	EXP 	unnamed ImageStim: autoDraw = False
+120.8002 	EXP 	unnamed ImageStim: autoDraw = False
+120.8002 	EXP 	unnamed ImageStim: autoDraw = True
+121.2993 	EXP 	unnamed ImageStim: autoDraw = False
+121.2993 	EXP 	unnamed ImageStim: autoDraw = False
+121.2993 	EXP 	unnamed ImageStim: autoDraw = True
+121.7993 	EXP 	unnamed ImageStim: autoDraw = False
+121.7993 	EXP 	unnamed ImageStim: autoDraw = False
+121.7993 	EXP 	unnamed ImageStim: autoDraw = True
+122.3002 	EXP 	unnamed ImageStim: autoDraw = False
+122.3002 	EXP 	unnamed ImageStim: autoDraw = False
+122.3002 	EXP 	unnamed ImageStim: autoDraw = True
+122.7994 	EXP 	unnamed ImageStim: autoDraw = False
+122.7994 	EXP 	unnamed ImageStim: autoDraw = False
+122.7994 	EXP 	unnamed ImageStim: autoDraw = True
+123.2993 	EXP 	unnamed ImageStim: autoDraw = False
+123.2993 	EXP 	unnamed ImageStim: autoDraw = False
+123.2993 	EXP 	unnamed ImageStim: autoDraw = True
+123.7989 	EXP 	unnamed ImageStim: autoDraw = False
+123.7989 	EXP 	unnamed ImageStim: autoDraw = False
+123.7989 	EXP 	unnamed ImageStim: autoDraw = True
+124.2992 	EXP 	unnamed ImageStim: autoDraw = False
+124.2992 	EXP 	unnamed ImageStim: autoDraw = False
+124.2992 	EXP 	unnamed ImageStim: autoDraw = True
+124.7997 	EXP 	unnamed ImageStim: autoDraw = False
+124.7997 	EXP 	unnamed ImageStim: autoDraw = False
+124.7997 	EXP 	unnamed ImageStim: autoDraw = True
+125.2988 	EXP 	unnamed ImageStim: autoDraw = False
+125.2988 	EXP 	unnamed ImageStim: autoDraw = False
+125.2988 	EXP 	unnamed ImageStim: autoDraw = True
+125.7991 	EXP 	unnamed ImageStim: autoDraw = False
+125.7991 	EXP 	unnamed ImageStim: autoDraw = False
+125.7991 	EXP 	unnamed ImageStim: autoDraw = True
+126.3001 	EXP 	unnamed ImageStim: autoDraw = False
+126.3001 	EXP 	unnamed ImageStim: autoDraw = False
+126.3001 	EXP 	unnamed ImageStim: autoDraw = True
+126.7999 	EXP 	unnamed ImageStim: autoDraw = False
+126.7999 	EXP 	unnamed ImageStim: autoDraw = False
+126.7999 	EXP 	unnamed ImageStim: autoDraw = True
+127.2991 	EXP 	unnamed ImageStim: autoDraw = False
+127.2991 	EXP 	unnamed ImageStim: autoDraw = False
+127.2991 	EXP 	unnamed ImageStim: autoDraw = True
+127.7992 	EXP 	unnamed ImageStim: autoDraw = False
+127.7992 	EXP 	unnamed ImageStim: autoDraw = False
+127.7992 	EXP 	unnamed ImageStim: autoDraw = True
+128.2997 	EXP 	unnamed ImageStim: autoDraw = False
+128.2997 	EXP 	unnamed ImageStim: autoDraw = False
+128.2997 	EXP 	unnamed ImageStim: autoDraw = True
+130.9536 	EXP 	window1: mouseVisible = True

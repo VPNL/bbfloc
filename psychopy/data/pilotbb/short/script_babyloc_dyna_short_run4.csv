@@ -1,0 +1,23 @@
+Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path
+1,0.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+2,4.000000,5,faces,EC_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/EC_3.mp4
+3,8.000000,8,scenes,blueforeststream.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blueforeststream.mp4
+4,12.000000,6,hands,IK_hands_2.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/IK_hands_2.mp4
+5,16.000000,7,cars,car6_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/car6_1.mp4
+6,20.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+7,24.000000,8,scenes,rockystreamhills.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/rockystreamhills.mp4
+8,28.000000,7,cars,car5_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/car5_1.mp4
+9,32.000000,5,faces,AX_2.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/AX_2.mp4
+10,36.000000,6,hands,JO_hands_4.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/JO_hands_4.mp4
+11,40.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+12,44.000000,8,scenes,beachwithdriftwood.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/beachwithdriftwood.mp4
+13,48.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+14,52.000000,5,faces,SE_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/SE_1.mp4
+15,56.000000,6,hands,SE_hands_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/SE_hands_3.mp4
+16,60.000000,7,cars,rccar_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/rccar_1.mp4
+17,64.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
+18,68.000000,8,scenes,rivernearbridge.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/rivernearbridge.mp4
+19,72.000000,5,faces,JC_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/JC_1.mp4
+20,76.000000,7,cars,dumptruck3_1.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/dumptruck3_1.mp4
+21,80.000000,6,hands,BS_hands_3.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/BS_hands_3.mp4
+22,84.000000,0,blank,blank.mp4,/Users/vpnl/Desktop/alternating_bb/alternating_stimuli/dynamic_stimuli/blank.mp4
