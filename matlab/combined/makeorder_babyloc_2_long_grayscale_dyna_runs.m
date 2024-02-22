@@ -73,8 +73,8 @@ for r = 1:nruns
     condmat(:, r) = reshape(repmat(condvec', stimsperblock, 1), ntrials, 1);
 end
 
-stim_dir = '/Users/vpnl/Desktop/bbfloc/stimuli/dynamic_grayscale_stim';
-blank_video_path = '/Users/vpnl/Desktop/bbfloc/stimuli/dynamic_stimuli/blank/blank.mp4'
+stim_dir = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'dynamic_grayscale_stim');
+blank_video_path = fullfile(stim_dir, 'blank', 'blank.mp4');
 
 % Create matrix for Image
 vidmat = cell(ntrials,nruns);
