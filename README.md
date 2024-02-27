@@ -7,15 +7,9 @@ The runs for each experiment version are generated on Matlab. The experiment ver
 
 # COMBINED VERSION OF EXPERIMENT: 4 alternating cond runs with 4 repeats per category (short); 4 alternating cond  runs with 12 repeats per category (long)
 - Short alternating runs: each have a 94 second duration, 20 blocks, 2 blank padding blocks
-      Run 1: dynamic
-      Run 2: static
-      Run 3: dynamic
-      Run 4: static
 - Long alternating runs: each have a 4 min and 14 second duration, 60 blocks, 2 blank padding blocks
-      Run 5: dynamic
-      Run 6: static
-      Run 7: dynamic
-      Run 8: static 
+**Experiment Breakdown: run1: dynamic short, run2: static short, run3: dynamic short, run4: static short, run5: dynamic long, run6: static long, run7: dynamic long, run8: static long**
+    
 Must run all the functions under the **'combined'** folder in alternating matlab (generates 8 runs total; 2 dynamic short, 2 static short, 2 dynamic long, 2 static long) before running the PsychoPy script **runalternatingStim_withCountdown_combined_lengths**
 
 # Instructions 
@@ -34,9 +28,6 @@ Must run all the functions under the **'combined'** folder in alternating matlab
     - **'stimuli'**: contains 2 subfolders
         - 'dynamic_stimuli': contains the dynamic stimuli - updated to be phase scrambled
         - 'static_sitmuli': contains the static stimuli
-
-
-**Experiment Breakdown: run1: dynamic short, run2: static short, run3: dynamic short, run4: static short, run5: dynamic short, run6: static short, run7: dynamic short, run8: static short**
 
 # SHORT VERSION OF EXPERIMENT: 8 runs with 4 repeats per category
 Single run: 94 second duration, 20 blocks, 2 blank padding blocks
