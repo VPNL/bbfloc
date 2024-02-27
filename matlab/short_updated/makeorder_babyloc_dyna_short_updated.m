@@ -26,7 +26,7 @@ ncats = length(cats); % number of stimulus conditions
 nconds = ncats  % number of conditions to be counterbalanced (including baseline blocks)
 
 % Presentation and design parameters
-nruns = 6; % number of runs
+nruns = 8; % number of runs
 nreps = 4; % number of blocks per category per run
 stimsperblock = 1; % number of stimuli in a block
 stimdur = 4 % stimulus presentation time (secs)
