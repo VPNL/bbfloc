@@ -1,9 +1,9 @@
-function makeorder_babyloc_2_short_static_runs(participant)
-%% Generates static runs (2 short) + CSV scripts for functional
-%% localizer for the infant scans containing 8 stimuli per block with presentation rates of
+function makeorder_babyloc_2_short_static_runs(participant, user)
+%% Generates 2 short static runs + CSV scripts for functional
+%% containing 8 stimuli per block with presentation rates of
 %% 2Hz. Last image in a run is a random pattern, to account for lag in measuring frame rate.
 
-% INPUT: Should be the baby's number 
+% INPUT: Should be the baby's number, the user of the laptop
 % OUTPUTS: Separate script files for each run of PTB experiment.
 
 % STIMULI: 5 stimulus conditions (aka categories)
@@ -41,7 +41,7 @@ blockdur = stimsperblock * stimdur; % block duration (sec)
 rundur = nblocks * blockdur; % run duration (sec)
 
 % Get user input and concatenate it into the file path
-participant_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'combined');
+participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'combined');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % GENERATE STIMULUS SEQUENCES
@@ -114,7 +114,7 @@ end
 %%%%%%%%%%%%%%%%%%%
 
 % Path to the directory containing image files
-image_directory = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'stimuli', 'static_stimuli');
+image_directory = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'static_stimuli');
 
 for r = 1:nruns
     % Adjust the condition for selecting static runs

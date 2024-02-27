@@ -1,9 +1,9 @@
-function makeorder_babyloc_dyna_long(participant, user)
-%% Generates 4 runs/CSV scripts for dynamic condition for the infant scans containing 2 stimuli per block with presentation rates of
+function makeorder_babyloc_2_long_grayscale_dyna_runs(participant, user)
+%% Generates 2 runs/CSV scripts for dynamic GRAYSCALE condition containing 2 stimuli per block with presentation rates of
 %% long.
 %
-% INPUT: Should be the baby's number 
-% OUTPUTS: Separate script file for each run of PsychoPy experiment.
+% INPUT: Should be the baby's number, the user of the laptop
+% OUTPUTS: Separate script file for each run of psychopy experiment.
 %
 % STIMULI: 5 stimulus conditions (aka categories) 
 % 6) Faces: adults sets
@@ -27,7 +27,7 @@ ncats = length(cats); % number of stimulus conditions
 nconds = ncats  % number of conditions to be counterbalanced (including baseline blocks)
 
 % Presentation and design parameters
-nruns = 4; % number of runs
+nruns = 2; % number of runs
 nreps = 12; % number of blocks per category per run
 stimsperblock = 1; % number of stimuli in a block
 stimdur = 4 % stimulus presentation time (secs)
@@ -40,7 +40,7 @@ ntrials = nblocks*stimsperblock; % number of trials in a run
 blockdur = stimsperblock*stimdur; % block duration (sec)
 rundur = nblocks*blockdur; % run duration (sec)
 
-participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'long');
+participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'grayscale');
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -73,7 +73,7 @@ for r = 1:nruns
     condmat(:, r) = reshape(repmat(condvec', stimsperblock, 1), ntrials, 1);
 end
 
-stim_dir = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'dynamic_stimuli');
+stim_dir = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'dynamic_grayscale_stim');
 blank_video_path = fullfile(stim_dir, 'blank', 'blank.mp4');
 
 % Create matrix for Image
@@ -91,54 +91,52 @@ used_hand_actors = cell(1, nruns);
 used_car_actors = cell(1, nruns);
 used_scene_actors = cell(1, nruns);
 
+
 %% Shuffle order of actors for all categories, then define the video ranges for different actors
 for r = 1:nruns
     % Shuffle the order of actors for the faces category
-    faceact{r} = shuffle({'AX_faces' 'BP_faces' 'BS_faces' 'DO_faces' 'EC_faces' 'HO_faces' 'IK_faces' 'JC_faces' 'JO_faces' 'JY_faces' 'KP_faces' 'KW_faces' 'SE_faces' 'SS_faces'});
+    faceact{r} = shuffle({'AX_faces', 'BP_faces', 'BR_faces', 'BS_faces', 'DO_faces', 'EC_faces', 'HO_faces', 'IK_faces', 'JC_faces', 'JO_faces', 'JY_faces', 'KP_faces', 'KW_faces', 'SS_faces'});
     %Define the video ranges for different faces
     faceVideoRanges = {
     'AX_faces', 3;
     'BP_faces', 4;
-    'BS_faces', 3;
-    'DO_faces', 4; 
-    'EC_faces', 3;
+    'BR_faces', 3;
+    'BS_faces', 4;
+    'DO_faces', 3; 
+    'EC_faces', 4;
     'HO_faces', 4;
     'IK_faces', 3; 
-    'JC_faces', 3;
+    'JC_faces', 4;
     'JO_faces', 4;
-    'JY_faces', 4; 
-    'KP_faces', 4; 
+    'JY_faces', 3; 
+    'KP_faces', 3; 
     'KW_faces', 3; 
-    'SE_faces', 3; 
     'SS_faces', 3; 
 };
 
     % Shuffle the order of actors for the hands category
-    handact{r} = shuffle({'AX_hands' 'BP_hands' 'BS_hands' 'DO_hands' 'EC_hands' 'HO_faces' 'IK_hands' 'JC_hands' 'JO_hands' 'JY_hands' 'KP_hands' 'KW_hands' 'SE_hands' 'SS_hands'});
+    handact{r} = shuffle({'AX_hands', 'BP_hands', 'BS_hands', 'DO_hands', 'EC_hands', 'IK_hands', 'JO_hands', 'KP_hands', 'KW_hands', 'polished_hands', 'rando_hands', 'SS_hands'});
     %Define the video ranges for different hands
     handVideoRanges = {
-    'AX_hands', 3;
+    'AX_hands', 4;
     'BP_hands', 4;
-    'BS_hands', 3;
-    'DO_hands', 3; 
-    'HO_hands', 3; 
+    'BS_hands', 4;
+    'DO_hands', 4; 
     'EC_hands', 4;
     'IK_hands', 4; 
-    'JC_hands', 3;
     'JO_hands', 4;
-    'JY_hands', 4; 
     'KP_hands', 4; 
-    'KW_hands', 3; 
-    'SE_hands', 3; 
-    'SS_hands', 3; 
+    'KW_hands', 4; 
+    'polished_hands', 4;
+    'rando_hands', 4; 
+    'SS_hands', 4; 
 };
 
      %Shuffle the order of actors for the cars category
-    caract{r} = shuffle({'blackexcavator', 'blueexcavator', 'dumptruck1', 'dumptruck2', 'dumptruck3', 'dumptruck4', 'dumptruck5', 'dumptruck6', 'dumptruck7', 'dumptruck8', 'dumptruck9', 'car1', 'car2', 'car3', 'car4', 'car5', 'car6', 'car7', 'car8', 'car9', 'yellowexcavator', 'rccar', 'racecar'});
+    caract{r} = shuffle({'excavator', 'dumptruck1', 'dumptruck2', 'dumptruck3', 'dumptruck4', 'dumptruck5', 'dumptruck6', 'dumptruck7', 'dumptruck8', 'dumptruck9', 'car1', 'car2', 'car3', 'car4', 'car5', 'car6', 'car7', 'car8', 'car9', 'yellowexcavator', 'rccar', 'racecar'});
     %Define the video ranges for different types of cars 
     carVideoRanges = {
-    'blackexcavator', 8;
-    'blueexcavator', 11;
+    'excavator', 22;
     'dumptruck1', 1;
     'dumptruck2', 1;
     'dumptruck3', 1;
@@ -154,32 +152,32 @@ for r = 1:nruns
     'car4', 1; 
     'car5', 2; 
     'car6', 1;
-    'car7', 1; 
-    'car8', 1; 
-    'car9', 1; 
-    'yellowexcavator', 7;
+    'car7', 1;
+    'car8', 1;
+    'car9', 1;
+    'yellowexcavator', 3;
     'rccar', 2; 
     'racecar', 1;
 };
 
     %Shuffle the order of actors for the scenes category; all have one
     %video so no need to define video ranges
-    sceneact{r} = shuffle({'bigwaterfall', 'forest', 'grass', 'river', 'rockystream', 'shore', 'sky', 'smallwaterfall', 'snow', 'trees', 'volcano', 'waterfallpond', 'waves'})
+    sceneact{r} = shuffle({'waves', 'waterfallpond', 'trees', 'snow', 'rockystream', 'river', 'leaves', 'lake', 'grass', 'bigwaterfall', 'smallwaterfall', 'clouds', 'volcano'});
 
- sceneVideoRanges = {
-    'bigwaterfall', 4;
-    'forest', 3;
-    'grass', 3;
-    'river', 6;
-    'rockystream', 3;
-    'shore', 4;
-    'sky', 2;
-    'smallwaterfall', 3;
-    'snow', 2;
-    'trees', 4; 
-    'volcano', 6;
-    'waterfallpond', 4; 
+    sceneVideoRanges = {
     'waves', 4;
+    'waterfallpond', 2;
+    'trees', 2; 
+    'snow', 3; 
+    'rockystream', 8; 
+    'river', 7; 
+    'leaves', 5; 
+    'lake', 2;
+    'grass', 2; 
+    'bigwaterfall', 3;
+    'smallwaterfall', 3;
+    'clouds', 3; 
+    'volcano', 4; 
 };
 
     % Initialize used actors for each run
@@ -260,8 +258,10 @@ for r = 1:nruns
             actor_num = randi(length(unused_actors));
             actor_name = unused_actors{actor_num};
             used_scene_actors{r} = [used_scene_actors{r}, actor_name];
-            scene_range = carVideoRanges{strcmp(sceneVideoRanges(:, 1), actor_name), 2};
+            scene_range = sceneVideoRanges{strcmp(sceneVideoRanges(:, 1), actor_name), 2};
             vidmat{tri, r} = strcat([actor_name, '_', num2str(randi(scene_range)), '.mp4']);
+        elseif condmat(tri, r) == 5 % for the blank category
+            vidmat{tri, r} = 'blank.mp4';
 
         end
     end
@@ -269,34 +269,25 @@ end
 
 
 % Path to the directory containing video files
-video_directory = fullfile('/Users', user, 'Desktop', 'bbfloc',  'stimuli', 'dynamic_stimuli')
+video_directory = fullfile('/Users', user, 'Desktop', 'bbfloc',  'stimuli', 'dynamic_grayscale_stim');
 
 % Map the original category index to a new index
 category_mapping = [5, 6, 7, 8, 0];
 
 % Write CSV file for each run of the experiment in the participant folder
 for r = 1:nruns
-    if r <= 2
-        %Makes it so third and 4th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(r+2), '.csv'));
+    %Makes it so 6th run in participant's combined folder is dyna long
+    if r == 1
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(9), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
-    elseif 3 <= r && r <= 4
-        %Makes it so 7th and 8th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(r+4), '.csv'));
+    else
+        %Makes it so 8th run in participant's combined folder is dyna long
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(10), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
-    elseif 5 <= r && r <= 6
-        %Makes it so 11th and 12th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(r+6), '.csv'));
-        fid = fopen(csvfilename, 'w');
-        fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
-    elseif 6 <= r
-        %Makes it so 13th and 14th runs in participant's folder are static 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_dyna_long_run', num2str(r+8), '.csv'));
-        fid = fopen(csvfilename, 'w');
-        fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Video Name,Video Path\n');
-    end
+    end 
+
     for i = 1:ntrials
         original_category_index = condmat(i, r);
         mapped_category_index = category_mapping(original_category_index); % Map the category index
@@ -312,5 +303,4 @@ for r = 1:nruns
             vid_name, ... % write video file name
             vid_path); % write full video path
     end
-end
 end
