@@ -21,13 +21,14 @@ Clone this repository onto the computer you will use to present stimuli
 # COMBINED VERSION OF EXPERIMENT: 4 alternating condition runs with 4 repeats per category (short); 4 alternating cond  runs with 12 repeats per category (long)
 - Short alternating runs: each have a 94 second duration, 20 blocks, 2 blank padding blocks
 - Long alternating runs: each have a 4 min and 14 second duration, 60 blocks, 2 blank padding blocks
+- 6s countdown before each run regardless of run length
 
 **Experiment Breakdown: run1: dynamic short, run2: static short, run3: dynamic short, run4: static short, run5: dynamic long, run6: static long, run7: dynamic long, run8: static long**
     
 Must run all the functions under the **'combined'** folder in alternating matlab (generates 8 runs total; 2 dynamic short, 2 static short, 2 dynamic long, 2 static long) before running the PsychoPy script **runalternatingStim_withCountdown_combined_lengths**
 
 # SHORT VERSION OF EXPERIMENT: 8 runs with 4 repeats per category
-Single run: 94 second duration, 20 blocks, 2 blank padding blocks
+Single run: 94 second duration, 20 blocks, 2 blank padding blocks; 6s image countdown before each run 
 - Make_order_babyloc_dyna_short generates **8 dynamic runs/CSVs** in the participant's 'short' subfolder, with **4 repeats per category**, and no repeats in actors within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
     - Each block contains a unique 4s video.
 - Make_order_babyloc_static_short generates **8 static runs/CSVs** in the participant's 'short' subfolder, with **4 repeats per category**, and no repeats in images within a run. Its generated CSVs will be used for running the 'short' experiment on PsychoPy.
@@ -37,7 +38,7 @@ Single run: 94 second duration, 20 blocks, 2 blank padding blocks
 **Experiment Breakdown: run1: static, run2: static, run3: dynamic, run 4: dynamic, run5: static, run6: static, run7: dynamic, run 8: dynamic**
 
 # MID VERSION OF EXPERIMENT: 4 runs with 8 repeats per category
-Single run: 2 min and 54s duration, 40 blocks, 2 blank padding blocks 
+Single run: 2 min and 54s duration, 40 blocks, 2 blank padding blocks; 6s image countdown before each run
 - Make_order_babyloc_dyna_mid generates **4 dynamic runs/CSVs** in the participant's 'mid' subfolder, with **8 repeats per category**, and no repeats in actors within a run. Its generated CSVs will be used for running the 'mid' experiment on PsychoPy.
     - Each block contains a unique 4s video.
 - Make_order_babyloc_static_mid generates **4 static runs/CSVs** in the participant's 'mid' subfolder, with **8 repeats per category**, and no repeats in images within a run. Its generated CSVs will be used for running the 'mid' experiment on PsychoPy.
@@ -47,7 +48,7 @@ Single run: 2 min and 54s duration, 40 blocks, 2 blank padding blocks
 **Experiment Breakdown: run1: static, run2: static, run3: dynamic, run 4: dynamic**
 
 # LONG VERSION OF EXPERIMENT: 4 runs with 12 repeats per category
-Single run: 4 min and 14 second duration, 60 blocks, 2 blank padding blocks 
+Single run: 4 min and 14 second duration, 60 blocks, 2 blank padding blocks; 6s image countdown before each run 
 - Make_order_babyloc_dyna_long generates **4 dynamic runs/CSVs** in the participant's 'long' subfolder, with **12 repeats** per category, and no repeats in actors within a run. Its generated CSVs will be used for running the 'long' experiment on PsychoPy.
      - Each block contains a unique 4s video.
 - Make_order_babyloc_static_long generates **4 static runs/CSVs** in the participant's 'long' subfolder, with **12 repeats** per category, and no repeats in images within a run. Its generated CSVs will be used for running the 'long' experiment on PsychoPy.
