@@ -5,11 +5,11 @@ function makeorder_babyloc_2_short_dynaruns(participant, user)
 % OUTPUTS: Separate script file for each run of PsychoPy experiment.
 %
 % STIMULI: 5 stimulus conditions (aka categories) 
-% 1) Faces: adults sets
-% 2) Hands: hands only - no limbs 
-% 3) Cars: cars, excacvators, dumptrucks, rccars
-% 4) Scenes: places indoor and outdoors 
-% 5) blank is the 5th condition
+% 5) Faces: adults sets
+% 6) Hands: hands only - no limbs 
+% 7) Cars: cars, excacvators, dumptrucks, rccars
+% 8) Scenes: places indoor and outdoors 
+% 0) blank is the zero condition
 % BLANKS: 1 blank block for each cycle through 5 stimulus conditions.
 %
 %% no task for the infant floc
