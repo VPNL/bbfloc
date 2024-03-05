@@ -1,3 +1,4 @@
+# --- For running 8 long length (4:14) runs  --- need to have these runs stored in psychopy/data/participant/long
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
