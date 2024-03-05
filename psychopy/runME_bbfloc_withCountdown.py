@@ -1,3 +1,4 @@
+# --- For running 4 short runs, then 4 long runs, then 2 long grayscale runs    --- need to have these runs stored in psychopy/data/participant/combined
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
