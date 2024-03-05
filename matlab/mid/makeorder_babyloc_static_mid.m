@@ -11,7 +11,7 @@ function makeorder_babyloc_static_mid(participant, user)
 % 2) Hands: limbs 
 % 3) Cars: cars
 % 4) Scenes: places indoor and outdoors 
-% 5) blank is the 5th condition
+% 5) blank is the 0th condition
 % BLANKS: 1 blank block for each cycle through 5 stimulus conditions.
 %
 %% no task for the infant floc
