@@ -6,10 +6,10 @@ function makeorder_babyloc_dyna_long(participant, user)
 % OUTPUTS: Separate script file for each run of PsychoPy experiment.
 %
 % STIMULI: 5 stimulus conditions (aka categories) 
-% 6) Faces: adults sets
-% 7) Hands: hands only - no limbs 
-% 8) Cars: cars, excacvators, dumptrucks, rccars
-% 9) Scenes: places indoor and outdoors 
+% 5) Faces: adults sets
+% 6) Hands: hands only - no limbs 
+% 7) Cars: cars, excacvators, dumptrucks, rccars
+% 8) Scenes: places indoor and outdoors 
 % 0) blank is the 0th condition
 % BLANKS: 1 blank block for each cycle through 5 stimulus conditions.
 %
