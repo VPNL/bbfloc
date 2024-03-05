@@ -8,6 +8,7 @@ function RUNME_makeorderbabyloc(participant, user)
 % Generates 2 runs/CSV scripts for short dynamic condition 
 % Generates 2 runs/CSV scripts for long static condition 
 % Generates 2 runs/CSV scripts for long dynamic condition 
+% Generates 2 runs/CSV scripts for long dynamic GRAYSCALE condition 
 
 
 %% Generates participant's data folder if doesn't exist yet
