@@ -1,3 +1,4 @@
+# --- For running 8 mid length runs  --- need to have these runs stored in psychopy/data/participant/mid
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
