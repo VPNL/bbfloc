@@ -9,7 +9,7 @@ function makeorder_babyloc_dyna_short_updated(participant, user)
 % 2) Hands: hands only - no limbs 
 % 3) Cars: cars, excacvators, dumptrucks, rccars
 % 4) Scenes: places indoor and outdoors 
-% 5) blank is the 5th condition
+% 0) blank is the 5th condition
 % BLANKS: 1 blank block for each cycle through 5 stimulus conditions.
 %
 %% no task for the infant floc
