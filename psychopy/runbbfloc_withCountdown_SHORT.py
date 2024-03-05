@@ -1,3 +1,4 @@
+# --- For running 16 short length (1:34s) runs  --- need to have these runs stored in psychopy/data/participant/short 
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
