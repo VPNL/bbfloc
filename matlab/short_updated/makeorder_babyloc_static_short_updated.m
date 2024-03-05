@@ -11,7 +11,7 @@ function makeorder_babyloc_static_short_updated(participant, user)
 % 2) Hands: limbs 
 % 3) Cars: cars
 % 4) Scenes: places indoor and outdoors 
-% 5) Blank is the 5th condition
+% 0) Blank is the 0th condition
 
 %% no task for the infant floc
 %% VERSION: 1.0 9/29/2023 by AS & VN & XY & CT
