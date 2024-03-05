@@ -15,7 +15,7 @@ Clone this repository onto the computer you will use to present stimuli
             - within this subfolder is a folder for each participant (i.e. 'bb01', 'bb02')
                   - each participant folder contains another four subfolders: 'short', 'mid', 'long', and 'combined' (for the new combined exp)
     - **'stimuli'**: contains 2 subfolders
-        - 'dynamic_stimuli': contains the dynamic stimuli - updated to be phase scrambled
+        - 'dynamic_stimuli': contains the dynamic stimuli - updated to have phase scrambled backgrounds; enlarged stimuli
         - 'static_sitmuli': contains the static stimuli
 
 # COMBINED VERSION OF EXPERIMENT: 4 alternating condition runs with 4 repeats per category (short); 4 alternating cond  runs with 12 repeats per category (long)
