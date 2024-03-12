@@ -7,8 +7,8 @@ Clone this repository onto the computer you will use to present stimuli
 # Folder Organization
 
 - Three subfolders to be kept within **'bbfloc'**: 
-    - **'matlab'**: where the matlab scripts (used to generate runs) for each experiment version will be kept
-        - All the matlab scripts for the combined exp version are under a subfolder called 'combined'
+    - **'matlab'**: where the matlab functions (used to generate runs) for each experiment version will be kept
+        - All the matlab functions for the combined exp version are under a subfolder called 'combined'
     - **'psychopy'**: where the PsychoPy scripts for each experiment version will be kept
       - contains a folder called 'countdown_imgs' where the countdown_imgs are kept
         - also contains a subfolder called 'data' where the participant exp data is kept 
@@ -18,7 +18,7 @@ Clone this repository onto the computer you will use to present stimuli
         - 'dynamic_stimuli': contains the dynamic stimuli - updated to have phase scrambled backgrounds; enlarged stimuli
         - 'static_sitmuli': contains the static stimuli
 
-# COMBINED VERSION OF EXPERIMENT: 4 alternating condition runs with 4 repeats per category (short); 4 alternating cond  runs with 12 repeats per category (long)
+# COMBINED VERSION OF EXPERIMENT: 4 alternating condition runs with 4 repeats per category (short); 4 alternating cond runs with 12 repeats per category (long)
 - Short alternating runs: each have a 94 second duration, 20 blocks, 2 blank padding blocks
 - Long alternating runs: each have a 4 min and 14 second duration, 60 blocks, 2 blank padding blocks
 - 6s countdown before each run regardless of run length
