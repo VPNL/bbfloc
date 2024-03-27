@@ -41,7 +41,7 @@ blockdur = stimsperblock * stimdur; % block duration (sec)
 rundur = nblocks * blockdur; % run duration (sec)
 
 % Get user input and concatenate it into the file path
-participant_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'combined');
+participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'combined');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % GENERATE STIMULUS SEQUENCES
@@ -114,7 +114,7 @@ end
 %%%%%%%%%%%%%%%%%%%
 
 % Path to the directory containing image files
-image_directory = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'stimuli', 'static_stimuli');
+image_directory = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'static_stimuli');
 
 for r = 1:nruns
     % Adjust the condition for selecting static runs
