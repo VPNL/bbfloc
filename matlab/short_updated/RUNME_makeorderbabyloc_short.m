@@ -34,7 +34,7 @@ else
 end
 
 %% Generates 2 runs/CSV scripts for short static condition 
-makeorder_babyloc_static_short_updated(participant)
+makeorder_babyloc_static_short_updated(participant, user)
 
 %% Generates 2 runs/CSV scripts for short dynamic condition 
-makeorder_babyloc_dyna_short_updated(participant)
+makeorder_babyloc_dyna_short_updated(participant, user)
