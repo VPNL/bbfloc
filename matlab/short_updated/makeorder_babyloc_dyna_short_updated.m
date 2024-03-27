@@ -1,5 +1,5 @@
 function makeorder_babyloc_dyna_short_updated(participant, user)
-%% Generates 8 short-length runs/CSV scripts for dynamic condition for the infant scans containing 1 stimuli per block with presentation rates of
+%% Generates 6 short-length runs/CSV scripts for dynamic condition for the infant scans containing 1 stimuli per block with presentation rates of
 %% 4s.
 %
 % INPUT: Should be the baby's number, user of laptop
@@ -27,7 +27,7 @@ ncats = length(cats); % number of stimulus conditions
 nconds = ncats  % number of conditions to be counterbalanced (including baseline blocks)
 
 % Presentation and design parameters
-nruns = 8; % number of runs
+nruns = 6; % number of runs
 nreps = 4; % number of blocks per category per run
 stimsperblock = 1; % number of stimuli in a block
 stimdur = 4 % stimulus presentation time (secs)
