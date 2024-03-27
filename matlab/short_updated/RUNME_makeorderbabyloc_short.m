@@ -33,8 +33,8 @@ else
     disp(['Folder ''' participant_combinedrun_folder ''' already exists.']);
 end
 
-%% Generates 2 runs/CSV scripts for short static condition 
+%% Generates 6 runs/CSV scripts for short static condition 
 makeorder_babyloc_static_short_updated(participant, user)
 
-%% Generates 2 runs/CSV scripts for short dynamic condition 
+%% Generates 6 runs/CSV scripts for short dynamic condition 
 makeorder_babyloc_dyna_short_updated(participant, user)
