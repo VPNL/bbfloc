@@ -34,7 +34,7 @@ else
 end
 
 %% Generates 4 runs/CSV scripts for long static condition 
-makeorder_babyloc_static_long(participant);
+makeorder_babyloc_static_long(participant, user);
 
 %% Generates 4 runs/CSV scripts for long dynamic condition 
 makeorder_babyloc_dyna_long(participant, user);
