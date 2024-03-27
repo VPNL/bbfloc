@@ -43,7 +43,7 @@ rundur = nblocks*blockdur; % run duration (sec)
 
 
 % Get user input and concatenate it into the file path
-participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc, 'PsychoPy', 'data', participant, 'long');
+participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'long');
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
