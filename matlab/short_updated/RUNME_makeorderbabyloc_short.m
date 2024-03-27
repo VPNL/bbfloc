@@ -1,12 +1,12 @@
 function RUNME_makeorderbabyloc_short(participant, user)
-%% Run this function to generate 12 short unique bbfloc runs 
+%% Run this function to generate 16 short unique bbfloc runs 
 %% INPUT
 % participant's initials/number as string i.e. ('BR') 
 % user of laptop for path reasons (i.e. VPNL) 
 %% OUTPUT
 % Generates participant's necessary data folders to run psychopy
-% Generates 6 runs/CSV scripts for short static condition 
-% Generates 6 runs/CSV scripts for short dynamic condition 
+% Generates 8 runs/CSV scripts for short static condition 
+% Generates 8 runs/CSV scripts for short dynamic condition 
 
 
 %% Generates participant's data folder if doesn't exist yet
@@ -33,8 +33,8 @@ else
     disp(['Folder ''' participant_combinedrun_folder ''' already exists.']);
 end
 
-%% Generates 6 runs/CSV scripts for short static condition 
+%% Generates 8 runs/CSV scripts for short static condition 
 makeorder_babyloc_static_short_updated(participant, user)
 
-%% Generates 6 runs/CSV scripts for short dynamic condition 
+%% Generates 8 runs/CSV scripts for short dynamic condition 
 makeorder_babyloc_dyna_short_updated(participant, user)
