@@ -1,9 +1,9 @@
 function makeorder_babyloc_static_short_updated(participant, user)
-%% Generates 8 runs/CSV scripts for functional
+%% Generates 6 short runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
 %% 2Hz. Last image in a run is a random pattern, to account for lag in measuring frame rate.
 
-% INPUT: Should be the baby's number 
+% INPUT: Should be the baby's number, user of the laptop
 % OUTPUTS: Separate script files for each run of PTB experiment.
 
 % STIMULI: 5 stimulus conditions (aka categories)
@@ -27,7 +27,7 @@ ncats = length(cats); % number of stimulus conditions
 nconds = ncats; % number of conditions to be counterbalanced (including baseline blocks)
 
 % Presentation and design parameters
-nruns = 8; % number of runs
+nruns = 6; % number of runs
 nreps = 4; % number of blocks per category per run
 stimsperblock = 8; % number of stimuli in a block
 stimdur = 0.5; % stimulus presentation time (secs)
