@@ -1,1 +1,1 @@
-functions generate unique mid length runs - if you're running the mid length version of the experiment only 
+functions generate unique mid length runs - for running runbbfloc_withCountdown_MID.py
