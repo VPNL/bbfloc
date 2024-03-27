@@ -1,1 +1,1 @@
-functions generate unique mid length runs - for running runbbfloc_withCountdown_MID.py
+use the RUNME_makeorderbabyloc script to generate all runs needed for runbbfloc_withCountdown_MID.py
