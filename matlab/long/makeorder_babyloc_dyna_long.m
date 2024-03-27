@@ -1,15 +1,15 @@
 function makeorder_babyloc_dyna_long(participant, user)
-% Generates 4 long-length runs/CSV scripts for dynamic condition for the infant scans containing 1 stimuli per block with presentation rates of
+%% Generates 4 long runs/CSV scripts for dynamic condition for the infant scans containing 1 stimuli per block with presentation rates of
 %% 4s.
 %
-% INPUT: Should be the baby's number 
-% OUTPUTS: Separate script file for each run of PsychoPy experiment.
+% INPUT: Should be the baby's number, user of the laptop
+% OUTPUTS: Separate script file for each run of psychopy experiment.
 %
 % STIMULI: 5 stimulus conditions (aka categories) 
-% 5) Faces: adults sets
-% 6) Hands: hands only - no limbs 
-% 7) Cars: cars, excacvators, dumptrucks, rccars
-% 8) Scenes: places indoor and outdoors 
+% 6) Faces: adults sets
+% 7) Hands: hands only - no limbs 
+% 8) Cars: cars, excacvators, dumptrucks, rccars
+% 9) Scenes: places indoor and outdoors 
 % 0) blank is the 0th condition
 % BLANKS: 1 blank block for each cycle through 5 stimulus conditions.
 %
@@ -40,7 +40,7 @@ ntrials = nblocks*stimsperblock; % number of trials in a run
 blockdur = stimsperblock*stimdur; % block duration (sec)
 rundur = nblocks*blockdur; % run duration (sec)
 
-participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'long');
+participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'long');
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -74,7 +74,7 @@ for r = 1:nruns
 end
 
 stim_dir = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'dynamic_stimuli');
-blank_video_path = fullfile(stim_dir, 'blank', 'blank.mp4');
+blank_video_path = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'dynamic_stimuli', 'blank.mp4')
 
 % Create matrix for Image
 vidmat = cell(ntrials,nruns);
@@ -91,10 +91,11 @@ used_hand_actors = cell(1, nruns);
 used_car_actors = cell(1, nruns);
 used_scene_actors = cell(1, nruns);
 
+
 %% Shuffle order of actors for all categories, then define the video ranges for different actors
 for r = 1:nruns
     % Shuffle the order of actors for the faces category
-    faceact{r} = shuffle({'AX_faces' 'BP_faces' 'BS_faces' 'DO_faces' 'EC_faces' 'HO_faces' 'IK_faces' 'JC_faces' 'JO_faces' 'JY_faces' 'KP_faces' 'KW_faces' 'SE_faces' 'SS_faces'});
+    faceact{r} = shuffle({'AX_faces', 'BP_faces', 'BS_faces', 'DO_faces', 'EC_faces', 'HO_faces', 'IK_faces', 'JC_faces', 'JO_faces', 'JY_faces', 'KP_faces', 'KW_faces', 'SE_faces', 'SS_faces'});
     %Define the video ranges for different faces
     faceVideoRanges = {
     'AX_faces', 3;
@@ -114,7 +115,7 @@ for r = 1:nruns
 };
 
     % Shuffle the order of actors for the hands category
-    handact{r} = shuffle({'AX_hands' 'BP_hands' 'BS_hands' 'DO_hands' 'EC_hands' 'HO_faces' 'IK_hands' 'JC_hands' 'JO_hands' 'JY_hands' 'KP_hands' 'KW_hands' 'SE_hands' 'SS_hands'});
+    handact{r} = shuffle({'AX_hands', 'BP_hands', 'BS_hands', 'DO_hands', 'HO_hands', 'EC_hands', 'IK_hands', 'JC_hands', 'JO_hands', 'JY_hands', 'KP_hands', 'KW_hands', 'SE_hands', 'SS_hands'});
     %Define the video ranges for different hands
     handVideoRanges = {
     'AX_hands', 3;
@@ -164,9 +165,9 @@ for r = 1:nruns
 
     %Shuffle the order of actors for the scenes category; all have one
     %video so no need to define video ranges
-    sceneact{r} = shuffle({'bigwaterfall', 'forest', 'grass', 'river', 'rockystream', 'shore', 'sky', 'smallwaterfall', 'snow', 'trees', 'volcano', 'waterfallpond', 'waves'})
+    sceneact{r} = shuffle({'bigwaterfall', 'forest', 'grass', 'river', 'rockystream', 'shore', 'sky', 'smallwaterfall', 'snow', 'trees', 'volcano', 'waterfallpond', 'waves'});
 
- sceneVideoRanges = {
+    sceneVideoRanges = {
     'bigwaterfall', 4;
     'forest', 3;
     'grass', 3;
@@ -260,8 +261,10 @@ for r = 1:nruns
             actor_num = randi(length(unused_actors));
             actor_name = unused_actors{actor_num};
             used_scene_actors{r} = [used_scene_actors{r}, actor_name];
-            scene_range = carVideoRanges{strcmp(sceneVideoRanges(:, 1), actor_name), 2};
+            scene_range = sceneVideoRanges{strcmp(sceneVideoRanges(:, 1), actor_name), 2};
             vidmat{tri, r} = strcat([actor_name, '_', num2str(randi(scene_range)), '.mp4']);
+        elseif condmat(tri, r) == 5 % for the blank category
+            vidmat{tri, r} = 'blank.mp4';
 
         end
     end
@@ -269,7 +272,8 @@ end
 
 
 % Path to the directory containing video files
-video_directory = fullfile('/Users', user, 'Desktop', 'bbfloc',  'stimuli', 'dynamic_stimuli')
+video_directory = fullfile('/Users', user, 'Desktop', 'bbfloc',  'stimuli', 'dynamic_stimuli');
+
 
 % Map the original category index to a new index
 category_mapping = [5, 6, 7, 8, 0];
