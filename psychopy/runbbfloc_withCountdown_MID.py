@@ -1,4 +1,3 @@
-# --- For running 8 mid length runs  --- need to have these runs stored in psychopy/data/participant/mid
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
@@ -164,7 +163,56 @@ for run_num in range(run_num, 9):
         # Create a list of countdown images
         countdown_images = [visual.ImageStim(win, str(path), size=(768, 768), flipVert=True) for path in countdown_path.glob('*.png')]
         
+        # ===== Generate par file for run ========================
+         # Define color codes
+        color_codes = {
+            0: '0 0 0',     # blank
+            1: '1 0 0',     # faces
+            2: '0.8 0.8 0', # hands
+            3: '0 0 1',     # cars
+            4: '0 1 0'      # scenes
+        }
         
+        # Create an empty list to store parfile data
+        par_file_data = []
+        
+        # Open and read the CSV file
+        with open(csv_file_path, 'r') as f:
+            next(f)  # Skip the header row
+            current_block_onset_time = None
+            for line in f:
+                # Split the line into columns
+                parts = line.strip().split(',')
+                
+                # Extract relevant information
+                block_num = int(parts[0])
+                onset_time = float(parts[1])
+                category = int(parts[2])
+                condition_name = parts[3]
+                
+                # If the onset time for the current block has not been set yet, set it
+                if current_block_onset_time is None or block_num != previous_block_num:
+                    current_block_onset_time = onset_time
+                
+                # Get color code based on category
+                color_code = color_codes.get(category, '0 0 0')  # Default to blank color if category is not found
+                
+                # Append data to parfile list only for the first trial of each block
+                if onset_time == current_block_onset_time:
+                    par_file_data.append((onset_time, category, condition_name, color_code))
+                
+                # Store the block number for the next iteration
+                previous_block_num = block_num
+        
+        # Define the path to the mid folder
+        output_parfile_path = _thisDir + '/data/' + str(participant) + '/' + 'mid' + '/' + 'run' + str(run_num) + '.par'
+        
+        # Export conditions par file to the specified path
+        with open(output_parfile_path, 'w') as f:
+            for onset_time, category, condition_name, color_code in par_file_data:
+                f.write(f"{onset_time}\t{category}\t{condition_name}\t{color_code}\n")
+        
+        print("Par file exported successfully to:", output_parfile_path)
         # ======================== run experiment! ============================
         # --- Create some handy timers---
         globalClock = core.Clock()  # to track the time since experiment started
@@ -501,52 +549,6 @@ for run_num in range(run_num, 9):
         win.flip()
         core.wait(last_image_duration)
         
-        # --- Export par files ---
-        #set color codes
-        blank = '0 0 0' 
-    
-        faces = '1 0 0'
-    
-        hands = '0.8 0.8 0'
-    
-        cars = '0 0 1'
-    
-        scenes = '0 1 0'
-    
-        condition_colors = pd.DataFrame({
-            'condition_num': [0, 1, 2, 3, 4],
-            'color_code': [blank, faces, hands, cars, scenes]
-        })
-    
-        #build dataframe for conditions par file
-        dfs = []
-        for index, category in enumerate(category):
-            onset_time = onset_nums[index]
-            
-            # Check if there are any matching elements
-            matching_rows = condition_colors.loc[condition_colors['condition_num'] == category, 'color_code']
-            
-            if not matching_rows.empty:
-                # Use .iloc[0] to get the first element if there are duplicates
-                color_code = matching_rows.iloc[0]
-            else:
-                # Handle the case where no matching elements are found
-                color_code = '0 0 0'  # Default color for baselines
-            
-            condition_name = condition_names[index]
-            block_cond = block_conds_all[index]
-            
-            new_data = {'onset_time': onset_time, 'cond_num': category, 'cond_name': condition_name, 'color_code': color_code} 
-            new_data_df = pd.DataFrame([new_data])
-            
-            dfs.append(new_data_df)
-        par_file_df = pd.concat(dfs, ignore_index=True)
-    
-        # export conditions par file
-        par_file_df.to_csv(_thisDir + os.sep + u'data/' + str(participant) + '/' + 'mid' + '/' + experiment_info_header + 'static_par_file.par', sep='\t', index=False, header=False, lineterminator='\n')
-        print("Par file exported successfully!")
-        print(f"Finished processing run {run_num}")
-        
     # loop thru the following steps if run_num >=2
     else: 
                 # ======================== experiment set-up ============================ 
@@ -624,6 +626,54 @@ for run_num in range(run_num, 9):
         # Create a list of countdown images
         countdown_images = [visual.ImageStim(win, str(path), flipVert=True, size=(768,768)) for path in countdown_path.glob('*.png')]
     
+        # ======================== Generate parfiles ============================
+        # Create an empty list to store parfile data
+        par_file_data = []
+        color_codes = {
+                0: '0 0 0',     # blank
+                5: '.537 .094 .094',     # faces
+                6: '1 1 0', # hands
+                7: '0 0 1',     # cars
+                8: '0 1 0'      # scenes
+        }
+        
+        # Open and read the CSV file
+        with open(csv_file_path, 'r') as f:
+            next(f)  # Skip the header row
+            current_block_onset_time = None
+            for line in f:
+                # Split the line into columns
+                parts = line.strip().split(',')
+                
+                # Extract relevant information
+                block_num = int(parts[0])
+                onset_time = float(parts[1])
+                category = int(parts[2])
+                condition_name = parts[3]
+                
+                # If the onset time for the current block has not been set yet, set it
+                if current_block_onset_time is None or block_num != previous_block_num:
+                    current_block_onset_time = onset_time
+                
+                # Get color code based on category
+                color_code = color_codes.get(category, '0 0 0')  # Default to blank color if category is not found
+                
+                # Append data to parfile list only for the first trial of each block
+                if onset_time == current_block_onset_time:
+                    par_file_data.append((onset_time, category, condition_name, color_code))
+                
+                # Store the block number for the next iteration
+                previous_block_num = block_num
+        
+        # Define the path to the mid folder
+        output_parfile_path = _thisDir + '/data/' + str(participant) + '/' + 'mid' + '/' + 'run' + str(run_num) + '.par'
+        
+        # Export conditions par file to the specified path
+        with open(output_parfile_path, 'w') as f:
+            for onset_time, category, condition_name, color_code in par_file_data:
+                f.write(f"{onset_time}\t{category}\t{condition_name}\t{color_code}\n")
+        
+        print("Par file exported successfully to:", output_parfile_path)
         # ======================== run experiment! ============================
         # --- Create some handy timers---
         globalClock = core.Clock()  # to track the time since experiment started
@@ -967,50 +1017,6 @@ for run_num in range(run_num, 9):
         logging.flush()
         # make sure everything is closed down
         thisExp.abort()  # or data files will save again on exit
-    
-        #set color codes
-        faces = '1 .3 .3'
-    
-        hands = '1 1 0'
-    
-        cars = '0 0 1'
-    
-        scenes = '0 1 0 '
-    
-        blank = '0 0 0' #for baselines
-    
-        condition_colors = pd.DataFrame({
-            'condition_num': [5, 6, 7, 8, 0],
-            'color_code': [faces, hands, cars, scenes, blank]
-        })
-    
-        #build dataframe for conditions par file
-        dfs = []
-        for index, category in enumerate(category):
-            onset_time = onset_nums[index]
-            
-            # Check if there are any matching elements
-            matching_rows = condition_colors.loc[condition_colors['condition_num'] == category, 'color_code']
-            
-            if not matching_rows.empty:
-                # Use .iloc[0] to get the first element if there are duplicates
-                color_code = matching_rows.iloc[0]
-            else:
-                # Handle the case where no matching elements are found
-                color_code = '0 0 0'  # Default color for baselines
-            
-            condition_name = condition_names[index]
-            block_cond = block_conds_all[index]
-            
-            new_data = {'onset_time': onset_time, 'cond_num': category, 'cond_name': condition_name, 'color_code': color_code} 
-            new_data_df = pd.DataFrame([new_data])
-            
-            dfs.append(new_data_df)
-        par_file_df = pd.concat(dfs, ignore_index=True)
-    
-        # export conditions par file
-        par_file_df.to_csv(_thisDir + os.sep + u'data/' + str(participant) + '/' + 'mid' '/' + experiment_info_header + 'dynamic_par_file.par', sep='\t', index=False, header=False, lineterminator='\n')
-        print("Par file exported successfully!")
 
 # --- close everything ---
 win.close()
