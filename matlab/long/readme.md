@@ -1,1 +1,1 @@
-functions generate unique long (4 min and 14s)  length runs - if you're running the long length version of the experiment only
+functions generate unique long length runs - for running runbbfloc_withCountdown_LONG.py
