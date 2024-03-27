@@ -1,14 +1,12 @@
 function RUNME_makeorderbabyloc_MID(participant, user)
-%% Run this function to generate 10 unique bbfloc runs of various lengths and conditions 
+%% Run this function to generate 8 unique midlength bbfloc runs
 %% INPUT
 % participant's initials/number as string i.e. ('BR') 
 % user of laptop for path reasons (i.e. VPNL) 
 %% OUTPUT
 % Generates participant's necessary data folders to run psychopy
-% Generates 2 runs/CSV scripts for short static condition 
-% Generates 2 runs/CSV scripts for short dynamic condition 
-% Generates 2 runs/CSV scripts for long static condition 
-% Generates 2 runs/CSV scripts for long dynamic condition 
+% Generates 4 runs/CSV scripts for mid dynamic condition 
+% Generates 4 runs/CSV scripts for mid static condition 
 
 
 %% Generates participant's data folder if doesn't exist yet
@@ -23,7 +21,7 @@ else
     disp(['Folder ''' participant_data_folder ''' already exists.']);
 end
 
-%% Generates participant's combined (dynamic and static) data folder if doesn't exist yet
+%% Generates participant's data folder if doesn't exist yet
 participant_combinedrun_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'mid');
 
 % Check if the folder doesn't already exist
@@ -35,9 +33,8 @@ else
     disp(['Folder ''' participant_combinedrun_folder ''' already exists.']);
 end
 
-%% Generates 2 runs/CSV scripts for mid static condition 
-makeorder_babyloc_dyna_mid(participant, user)
+%% Generates 4 runs/CSV scripts for mid static condition 
+makeorder_babyloc_static_mid(participant, user)
 
-%% Generates 2 runs/CSV scripts for mid dynamic condition 
+%% Generates 4 runs/CSV scripts for mid dynamic condition 
 makeorder_babyloc_dyna_mid(participant, user)
-
