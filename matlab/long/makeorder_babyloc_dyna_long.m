@@ -1,6 +1,6 @@
 function makeorder_babyloc_dyna_long(participant, user)
-%% Generates 4 runs/CSV scripts for dynamic condition for the infant scans containing 2 stimuli per block with presentation rates of
-%% long.
+% Generates 4 long-length runs/CSV scripts for dynamic condition for the infant scans containing 1 stimuli per block with presentation rates of
+%% 4s.
 %
 % INPUT: Should be the baby's number 
 % OUTPUTS: Separate script file for each run of PsychoPy experiment.
