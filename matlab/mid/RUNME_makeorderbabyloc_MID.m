@@ -36,8 +36,8 @@ else
 end
 
 %% Generates 2 runs/CSV scripts for mid static condition 
-makeorder_babyloc_dyna_mid(participant)
+makeorder_babyloc_dyna_mid(participant, user)
 
 %% Generates 2 runs/CSV scripts for mid dynamic condition 
-makeorder_babyloc_dyna_mid(participant)
+makeorder_babyloc_dyna_mid(participant, user)
 
