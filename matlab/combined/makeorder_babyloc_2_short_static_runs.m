@@ -1,9 +1,9 @@
-function makeorder_babyloc_2_short_static_runs(participant, user)
-%% Generates 2 short static runs + CSV scripts for functional
-%% containing 8 stimuli per block with presentation rates of
+function makeorder_babyloc_2_short_static_runs(participant)
+%% Generates static runs (2 short) + CSV scripts for functional
+%% localizer for the infant scans containing 8 stimuli per block with presentation rates of
 %% 2Hz. Last image in a run is a random pattern, to account for lag in measuring frame rate.
 
-% INPUT: Should be the baby's number, the user of the laptop
+% INPUT: Should be the baby's number 
 % OUTPUTS: Separate script files for each run of PTB experiment.
 
 % STIMULI: 5 stimulus conditions (aka categories)
@@ -11,7 +11,7 @@ function makeorder_babyloc_2_short_static_runs(participant, user)
 % 2) Hands: limbs 
 % 3) Cars: cars
 % 4) Scenes: places indoor and outdoors 
-% 0) Blank is the zeroth condition
+% 5) Blank is the 5th condition
 
 %% no task for the infant floc
 %% VERSION: 1.0 9/29/2023 by AS & VN & XY & CT
@@ -41,7 +41,7 @@ blockdur = stimsperblock * stimdur; % block duration (sec)
 rundur = nblocks * blockdur; % run duration (sec)
 
 % Get user input and concatenate it into the file path
-participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'combined');
+participant_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'combined');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % GENERATE STIMULUS SEQUENCES
@@ -114,13 +114,13 @@ end
 %%%%%%%%%%%%%%%%%%%
 
 % Path to the directory containing image files
-image_directory = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'static_stimuli');
+image_directory = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'stimuli', 'static_stimuli');
 
 for r = 1:nruns
     % Adjust the condition for selecting static runs
     if r == 1 % Check if r is 1
 
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_static_short_run', num2str(r + 1), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_static_short_run', num2str(6), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Image Name,Image Path\n');
         
@@ -143,7 +143,7 @@ for r = 1:nruns
     
     else
         
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_static_short_run', num2str(r + 2), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_static_short_run', num2str(8), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Image Name,Image Path\n');
     

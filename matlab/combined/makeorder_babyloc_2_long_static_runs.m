@@ -1,9 +1,9 @@
-function makeorder_babyloc_2_long_static_runs(participant, user)
-%% Generates 2 static runs/CSV scripts for functional
+function makeorder_babyloc_2_long_static_runs(participant)
+%% Generates 2 runs/CSV scripts for functional
 %% localizer for the infant scans containing 8 stimuli per block with presentation rates of
 %% 2Hz. Last image in a run is a random pattern, to account for lag in measuring frame rate.
 %
-% INPUT: Should be the baby's number, the user of the laptop
+% INPUT: Should be the baby's number 
 % OUTPUTS: Separate script files for each run of PTB experiment.
 %
 % STIMULI: 5 stimulus conditions (aka cateogries)
@@ -11,7 +11,7 @@ function makeorder_babyloc_2_long_static_runs(participant, user)
 % 2) Hands: limbs 
 % 3) Cars: cars
 % 4) Scenes: places indoor and outdoors 
-% 0) blank is the zero condition
+% 5) blank is the 5th condition
 % BLANKS: 1 blank block for each cycle through 5 stimulus conditions.
 %
 %% no task for the infant floc
@@ -43,7 +43,7 @@ rundur = nblocks*blockdur; % run duration (sec)
 
 
 % Get user input and concatenate it into the file path
-participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'combined');
+participant_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'PsychoPy', 'data', participant, 'combined');
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -121,17 +121,17 @@ end
 %%%%%%%%%%%%%%%%%%%
 
 % Path to the directory containing image files
-image_directory = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli',  'static_stimuli')
+image_directory = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'stimuli',  'static_stimuli')
 
 % Write CSV file for each run of the experiment in the participant folder
 for r = 1:nruns
     %Make it so first two runs in participant's folder are static
     if r == 1
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_static_long_run', num2str(r+5), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_static_long_run', num2str(2), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Image Name,Image Path\n');
     else
-        csvfilename = fullfile(participant_folder, strcat('script_babyloc_static_long_run', num2str(r+6), '.csv'));
+        csvfilename = fullfile(participant_folder, strcat('script_babyloc_static_long_run', num2str(4), '.csv'));
         fid = fopen(csvfilename, 'w');
         fprintf(fid, 'Block #,Onset-time(s),Category,TaskMatch,Image Name,Image Path\n');
     end
