@@ -1,5 +1,5 @@
-# --- Loads ten unique runs of different lengths: 1) dynamic short; 2) static short; 3) dynamic short; 4) static short; 
-#--5) dynamic long; 6) static long; 7) dynamic long; 8) static long; 9) dynamic GRAYSCALE long; 10) dynamic GRAYSCALE long
+# --- Loads ten unique runs of different lengths: 1) dynamic long; 2) static long; 3) dynamic long; 4) static long; 
+#--5) dynamic short; 6) static short; 7) dynamic short; 8) static short; 9) dynamic GRAYSCALE long; 10) dynamic GRAYSCALE long
 
 # --- Import packages ---
 from psychopy import locale_setup
