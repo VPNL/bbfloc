@@ -194,25 +194,9 @@ for r = 1:nruns
             end
         end
 
-        % Add 4-second blank baseline block after the last category block
-        % is presented
-        for dur = 1:8 %loop thru each trial
-            random_index = randi([1, 144]); %pick a random image for the current trial
-            blank_img_name = sprintf('%s-%d', blank_base_name, random_index); %generate image name for the current trial
-            blank_img_path = fullfile(image_directory, blank_img_name); %generate image path for the current trial
-            fprintf(fid, '%i,%f,%i,%s,%s,%s\n', ...
-                current_block+1,... % write blank block
-                onset_time,... % write blank onset time
-                0, ... % write blank condition
-                'Blank', ... % write blank category
-                blank_img_name, ... % empty image name
-                blank_img_path); % empty image path
-            onset_time = onset_time + stimdur; % Update onset time for the next blank imag   
-        end
-
         % Add 8-second blank baseline block after the last category block
         % is presented
-        for dur = 1:8 %loop thru each trial
+        for dur = 1:16 %loop thru each trial
             random_index = randi([1, 144]); %pick a random image for the current trial
             blank_img_name = sprintf('%s-%d', blank_base_name, random_index); %generate image name for the current trial
             blank_img_path = fullfile(image_directory, blank_img_name); %generate image path for the current trial
@@ -226,6 +210,7 @@ for r = 1:nruns
             onset_time = onset_time + stimdur; % Update onset time for the next blank imag   
         end
 
+        
 
     end        
 end
