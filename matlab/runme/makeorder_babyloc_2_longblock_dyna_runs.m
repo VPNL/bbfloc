@@ -1,8 +1,8 @@
-function makeorder_babyloc_2_longblock_dyna_runs(participant)
+function makeorder_babyloc_2_longblock_dyna_runs(participant, user)
 %% Generates 2 runs/CSV scripts for dynamic condition for the infant scans containing 2 stimuli per block with presentation rates of
 %% .25hz and a blank block between every other block.
 %
-% INPUT: Should be the baby's number 
+% INPUT: Should be the baby's number, user of the laptop (i.e, vpnl)
 % OUTPUTS: Separate script file for each run of psychopy experiment.
 %
 % STIMULI: 5 stimulus conditions (aka categories) 
@@ -40,7 +40,7 @@ ntrials = nblocks*stimsperblock; % number of trials in a run
 blockdur = stimsperblock*stimdur; % block duration (sec)
 rundur = nblocks*blockdur; % run duration (sec)
 
-participant_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'longblock');
+participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'longblock');
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -68,7 +68,7 @@ for r = 1:nruns
 end
 
 
-stim_dir = '/Users/vpnl/Desktop/bbfloc/stimuli/dynamic_stimuli_wfixation';
+stim_dir = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'dynamic_stimuli_wfixation');
 
 % Create matrix for Image
 vidmat = cell(ntrials,nruns);
@@ -264,7 +264,7 @@ end
 
 
 % Path to the directory containing video files
-video_directory = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc',  'stimuli', 'dynamic_stimuli_wfixation');
+video_directory = fullfile('/Users', user, 'Desktop', 'bbfloc',  'stimuli', 'dynamic_stimuli_wfixation');
 
 % Define base name for blank videos
 blank_base_name = 'blank';
