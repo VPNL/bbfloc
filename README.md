@@ -68,6 +68,15 @@ To get started: Run the matlab script **`bbfloc/matlab/short_updated/RUNME_makeo
 6. run6: static
 7. run7: dynamic
 8. run8: dynamic
+9. run9: static
+2. run10: static
+3. run11: dynamic
+4. run12: dynamic
+5. run13: static
+6. run14: static
+7. run15: dynamic
+8. run16: dynamic
+
 
 ## Mid Version of Experiment
 
