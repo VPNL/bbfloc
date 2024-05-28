@@ -1,1 +1,1 @@
-functions generate unique short length runs - for running runbbfloc_withCountdown_SHORT.py
+use the **RUNME_makeorderbabyloc_short.m** script to generate all runs needed for runbbfloc_withCountdown_short.py
