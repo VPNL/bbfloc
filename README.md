@@ -29,8 +29,7 @@ Clone this repository onto the computer you will use to present stimuli.
 
 ## Combined Version of Experiment
 
-Run all the functions under the **`combined`** folder in Matlab (generates 10 runs total: 2 dynamic short, 2 static short, 2 dynamic long, 2 static long, 2 grayscale runs) before running the PsychoPy script **`runalternatingStim_withCountdown_combined_lengths`**.
-Includes static, dynamic, and grayscale stimuli. 
+- Run the matlab script matlab/**combined**/**RUNME_makeorderbabyloc.m**. (it generates 10 runs total: 2 dynamic short, 2 static short, 2 dynamic long, 2 static long, 2 grayscale runs in the subject's data folder). Then run the PsychoPy script **`runalternatingStim_withCountdown_combined_lengths`**.
   
 **Experiment Breakdown**: 
 
@@ -54,16 +53,13 @@ Includes static, dynamic, and grayscale stimuli.
 
 ## Short Version of Experiment
 
-8 runs with 4 repeats per category.
-
-- Single run: 94-second duration, 20 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
-- **Make_order_babyloc_dyna_short**: generates 8 dynamic runs/CSVs in the participant's `short` subfolder, with 4 repeats per category and no repeats in actors within a run. These CSVs will be used for running the `short` experiment on PsychoPy.
-    - Each block contains a unique 4-second video.
-- **Make_order_babyloc_static_short**: generates 8 static runs/CSVs in the participant's `short` subfolder, with 4 repeats per category and no repeats in images within a run. These CSVs will be used for running the `short` experiment on PsychoPy.
-    - Each block contains 8 images presented at 0.5 seconds each.
-- **runalternatingStim_withCountdown_SHORT** is the PsychoPy script to run. Generates par, log, csv, and psydat files for each run.
+To get started: Run the matlab script matlab/**short_updated**/**RUNME_makeorderbabyloc_short.m** (it generates 16 short runs total: 8 dynamic, 8 static in the subject's data folder). Then in PsychoPy run the script **runalternatingStim_withCountdown_SHORT**.
 
 **Experiment Breakdown**: 
+
+Experiment contains 8 short runs with 4 repeats per category.
+
+- Single run: 94-second duration, 20 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
 
 1. run1: static
 2. run2: static
