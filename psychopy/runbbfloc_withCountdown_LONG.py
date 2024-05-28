@@ -1,3 +1,4 @@
+# --- Loads four unique long runs: 1) static; 2) static; 3) dynamic; 4) dynamic 
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
