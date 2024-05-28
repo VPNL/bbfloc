@@ -29,13 +29,16 @@ Clone this repository onto the computer you will use to present stimuli.
 
 ## Combined Version of Experiment
 
+Run all the functions under the **`combined`** folder in Matlab (generates 10 runs total: 2 dynamic short, 2 static short, 2 dynamic long, 2 static long, 2 grayscale runs) before running the PsychoPy script **`runalternatingStim_withCountdown_combined_lengths`**.
 Includes static, dynamic, and grayscale stimuli. 
-
-- Short alternating runs: each have a 94-second duration (88 seconds of blocks + 6 seconds countdown), 20 blocks, and 2 blank padding blocks.
-- Long alternating runs: each have a 254-second duration (248 seconds of blocks + 6 seconds countdown), 60 blocks, and 2 blank padding blocks.
-- 6-second countdown before each run regardless of run length.
   
 **Experiment Breakdown**: 
+
+- Includes static, dynamic, and grayscale stimuli
+
+- **Short alternating runs**: each have a 94-second duration (88 seconds of blocks + 6 seconds countdown), 20 blocks, and 2 blank padding blocks.
+- **Long alternating runs**: each have a 254-second duration (248 seconds of blocks + 6 seconds countdown), 60 blocks, and 2 blank padding blocks.
+- 6-second countdown before each run regardless of run length.
 
 1. run1: dynamic short
 2. run2: static short
@@ -48,7 +51,6 @@ Includes static, dynamic, and grayscale stimuli.
 9. run9: grayscale long
 10. run10: grayscale long
 
-Run all the functions under the **`combined`** folder in Matlab (generates 10 runs total: 2 dynamic short, 2 static short, 2 dynamic long, 2 static long, 2 grayscale runs) before running the PsychoPy script **`runalternatingStim_withCountdown_combined_lengths`**.
 
 ## Short Version of Experiment
 
