@@ -33,6 +33,7 @@ To get started: Run the matlab script **`bbfloc/matlab/runme/RUNME_makenewexp_bb
 
 **bbfloc_newexp_longblocks Experiment Breakdown**
 - Contains 4 runs total
+- Block presentation is 8s
 - Single run: 4 repeats per condition; 16 category blocks with baseline blocks between
 
 1. run1: dynamic 
@@ -42,6 +43,7 @@ To get started: Run the matlab script **`bbfloc/matlab/runme/RUNME_makenewexp_bb
 
 **bbfloc_newexp_shortblocks Experiment Breakdown**
 - Contains 4 runs total
+- Block presentation is 4s 
 - Single run: 8 repeats per condition; 32 category blocks with baseline blocks between 
 
 1. run1: dynamic 
