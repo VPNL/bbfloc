@@ -1,14 +1,15 @@
-function RUNME_makenewexp_bbfloc(participant)
+function RUNME_makenewexp_bbfloc(participant, user)
 %% Run this function to generate 10 unique bbfloc runs of various lengths and conditions 
 %% INPUT
 % participant's initials/number as string i.e. ('BR') 
+% user of laptop for path reasons (i.e. VPNL)
 %% OUTPUT
 % Generates participant's necessary data folders to run psychopy
 % Generates 2 runs/CSV scripts for static condition 
 % Generates 2 runs/CSV scripts for dynamic condition
 
 %% Generates participant's data folder if doesn't exist yet
-participant_data_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'psychopy', 'data', participant);
+participant_data_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'psychopy', 'data', participant);
 
 % Check if the folder doesn't already exist
 if ~exist(participant_data_folder, 'dir')
@@ -20,7 +21,7 @@ else
 end
 
 %% Generates participant's long block run folder if it doesn't exist yet 
-participant_longblock_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'longblock');
+participant_longblock_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'longblock');
 
 % Check if the folder doesn't already exist
 if ~exist(participant_longblock_folder, 'dir')
@@ -32,7 +33,7 @@ else
 end
 
 %% Generates participant's combined (dynamic and static) data folder if doesn't exist yet
-participant_shortblock_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'shortblock');
+participant_shortblock_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'shortblock');
 
 % Check if the folder doesn't already exist
 if ~exist(participant_shortblock_folder, 'dir')
