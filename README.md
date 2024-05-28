@@ -57,8 +57,8 @@ To get started: Run the matlab script **`bbfloc/matlab/short_updated/RUNME_makeo
 
 **Experiment Breakdown**: 
 
-- Experiment contains 8 short runs with 4 repeats per category.
-- Single run: 94-second duration, 20 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
+- 16 short runs total 
+- Single run: 94-second duration; 4 repeats per category; 20 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
 
 1. run1: static
 2. run2: static
@@ -75,8 +75,8 @@ To get started: Run the matlab script **`bbfloc/matlab/mid/RUNME_makeorderbabylo
 
 **Experiment Breakdown**: 
 
-- 8 runs with 8 repeats per category.
-- Single run: 2 minutes and 54 seconds duration, 40 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
+- 8 runs total
+- Single run: 2 minutes and 54 seconds duration; 8 repeats per category; 40 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
 
 1. run1: static
 2. run2: static
@@ -93,8 +93,8 @@ To get started: Run the matlab script **`bbfloc/matlab/long/RUNME_makeorderbabyl
 
 **Experiment Breakdown**: 
 
-- 8 runs with 12 repeats per category.
-- Single run: 4 minutes and 14 seconds duration, 60 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
+- 8 runs total
+- Single run: 4 minutes and 14 seconds duration; 12 repeats per category; 60 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
 
 1. run1: static
 2. run2: static
