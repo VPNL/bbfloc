@@ -22,7 +22,7 @@ Clone this repository onto the computer you will use to present stimuli.
         - `dynamic_stimuli`: contains the dynamic stimuli, updated to have phase-scrambled backgrounds and enlarged stimuli.
         - `static_stimuli`: contains the static stimuli.
 
-# Updated Experiment Versions
+# Updated Experiment Versions (to use)
 
 
 # Old Experiment Versions 
