@@ -1,6 +1,6 @@
 # bbfloc
 
-We originally had four working experiment versions that varied in run length: combined, short, mid, and long. However, we realized we needed longer run lengths and a more recurring visual baseline condition. So we went back and iterated to create new experiment versions. These versions have the same run length (4 minutes and 24 seconds) and only vary in their block duration.
+We originally had four working experiment versions that varied in run length: combined, short, mid, and long. However, we realized we needed longer run lengths and a more recurring visual baseline condition. So we went back and iterated to create new experiment versions. These versions have the same run length (4 minutes and 30 seconds) and only vary in their block duration.
 
 Regardless of the experiment version, the runs for each experiment are always generated in Matlab and are unique to each subject. The experiments themselves run on PsychoPy.
 
@@ -24,8 +24,28 @@ Clone this repository onto the computer you will use to present stimuli.
 
 # Updated Experiment Versions (to use)
 
-## Visual Baseline Experiment
-To get started: Run the matlab script **`bbfloc/matlab/runme/RUNME_makenewexp_bbfloc.m`** (it generates 5 runs total: 2 dyna long block runs, 2 static short, 2 dynamic long, 2 static long, 2 grayscale runs in the subject's data folder). Then run the PsychoPy script **`bbfloc/psychopy/runalternatingStim_withCountdown_combined_lengths.py`**
+## Visual Baseline Experiments
+There are two visual baseline experiments that only differ by block duration- 'longblock' has a block length of 8s and 'shortblock' has a block length of 4s 
+
+Both experiments have blank blocks presented between each category block. 
+
+To get started: Run the matlab script **`bbfloc/matlab/runme/RUNME_makenewexp_bbfloc.m`** (it generates 8 runs total, 4 being 'longblock' runs and 4 being 'shortblock' runs, in the subject's data folder). Then run either **`bbfloc/psychopy/runME_bbfloc_newexp_longblocks`** or  **`bbfloc/runME_bbfloc_newexp_shortblocks`** in PsychoPy
+
+**bbfloc_newexp_longblocks Experiment Breakdown**
+- Contains 4 runs total
+- Single run: 4 repeats per condition; 16 category blocks with baseline blocks between
+run1: dynamic 
+run2: static 
+run3: dynamic 
+run4: static 
+
+**bbfloc_newexp_shortblocks Experiment Breakdown**
+- Contains 4 runs total
+- Single run: 8 repeats per condition; 32 category blocks with baseline blocks between 
+run1: dynamic 
+run2: static 
+run3: dynamic 
+run4: static 
 
 # Old Experiment Versions 
 
