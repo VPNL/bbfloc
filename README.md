@@ -75,27 +75,35 @@ To get started: Run the matlab script **`bbfloc/matlab/mid/RUNME_makeorderbabylo
 
 **Experiment Breakdown**: 
 
-- 4 runs with 8 repeats per category.
+- 8 runs with 8 repeats per category.
 - Single run: 2 minutes and 54 seconds duration, 40 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
 
 1. run1: static
 2. run2: static
 3. run3: dynamic
 4. run4: dynamic
-
+5. run5: static
+6. run6: static
+7. run7: dynamic
+8. run8: dynamic
+   
 ## Long Version of Experiment
 
-To get started: Run the matlab script **`bbfloc/matlab/long/RUNME_makeorderbabyloc_LONG.m`.** (it generates 4 long runs total: 2 dynamic, 2 static in the subject's data folder). Then in PsychoPy run the script **`bbfloc/psychopy/runalternatingStim_withCountdown_LONG.py`**.
+To get started: Run the matlab script **`bbfloc/matlab/long/RUNME_makeorderbabyloc_LONG.m`.** (it generates 8 long runs total: 4 dynamic, 4 static in the subject's data folder). Then in PsychoPy run the script **`bbfloc/psychopy/runalternatingStim_withCountdown_LONG.py`**.
 
 **Experiment Breakdown**: 
 
-- 4 runs with 12 repeats per category.
+- 8 runs with 12 repeats per category.
 - Single run: 4 minutes and 14 seconds duration, 60 blocks, and 2 blank padding blocks; 6-second image countdown before each run.
 
 1. run1: static
 2. run2: static
 3. run3: dynamic
 4. run4: dynamic
+5. run5: static
+6. run6: static
+7. run7: dynamic
+8. run8: dynamic 
 
 
 
