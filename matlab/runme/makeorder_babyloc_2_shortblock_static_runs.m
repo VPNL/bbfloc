@@ -127,7 +127,7 @@ for r = 1:nruns
         baseline_block = 1; % initalize block #
 
 
-        % Add 8-second blank block (baseline) before the first category
+        % Add 4-second blank block (baseline) before the first category
         % block is presented
         for dur = 1:8 %loop thru each trial
             random_index = randi([1, 144]); %pick a random image for the current trial
@@ -148,7 +148,7 @@ for r = 1:nruns
 
         % Update block number for the next block to be presented
         current_block = baseline_block + 1;
-       
+
         % Iterate over each trial in ntrials
         for i = 1:ntrials
 
@@ -173,7 +173,7 @@ for r = 1:nruns
                 % Increment block number for the next stimulus trial
                 current_block = current_block + 1;
 
-                % Insert a blank block with 16 blank images before the next
+                % Insert a blank block with 8 blank images before the next
                 % stimulus trial 
                 for dur = 1:8 %loop thru each trial 
                     random_index = randi([1, 144]); %pick a random image for the current trial
@@ -194,6 +194,22 @@ for r = 1:nruns
             end
         end
 
+        % Add 4-second blank baseline block after the last category block
+        % is presented
+        for dur = 1:8 %loop thru each trial
+            random_index = randi([1, 144]); %pick a random image for the current trial
+            blank_img_name = sprintf('%s-%d', blank_base_name, random_index); %generate image name for the current trial
+            blank_img_path = fullfile(image_directory, blank_img_name); %generate image path for the current trial
+            fprintf(fid, '%i,%f,%i,%s,%s,%s\n', ...
+                current_block+1,... % write blank block
+                onset_time,... % write blank onset time
+                0, ... % write blank condition
+                'Blank', ... % write blank category
+                blank_img_name, ... % empty image name
+                blank_img_path); % empty image path
+            onset_time = onset_time + stimdur; % Update onset time for the next blank imag   
+        end
+
         % Add 8-second blank baseline block after the last category block
         % is presented
         for dur = 1:8 %loop thru each trial
@@ -210,5 +226,7 @@ for r = 1:nruns
             onset_time = onset_time + stimdur; % Update onset time for the next blank imag   
         end
 
+
     end        
 end
+
