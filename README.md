@@ -29,7 +29,7 @@ Clone this repository onto the computer you will use to present stimuli.
 
 ## Combined Version of Experiment
 
-- Run the matlab script 'matlab/**combined**/**RUNME_makeorderbabyloc.m**'. (it generates 10 runs total: 2 dynamic short, 2 static short, 2 dynamic long, 2 static long, 2 grayscale runs in the subject's data folder). Then run the PsychoPy script **`runalternatingStim_withCountdown_combined_lengths`**.
+- Run the matlab script **`matlab/combined/RUNME_makeorderbabyloc.m`.** (it generates 10 runs total: 2 dynamic short, 2 static short, 2 dynamic long, 2 static long, 2 grayscale runs in the subject's data folder). Then run the PsychoPy script **`runalternatingStim_withCountdown_combined_lengths`**.
   
 **Experiment Breakdown**: 
 
