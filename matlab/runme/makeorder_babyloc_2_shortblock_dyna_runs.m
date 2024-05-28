@@ -309,6 +309,25 @@ for r = 1:nruns
     % Update block number for the next block
     current_block = baseline_block + 1;
 
+    % Insert baseline block before the main loop
+    random_index = randi([1, 48]);
+    % Construct the image name with the current loop index
+    blank_vid_name = strcat(blank_base_name, "-", num2str(random_index), ".mp4"); %generate image name for the current trial
+    blank_vid_path = fullfile(video_directory, blank_vid_name);
+    fprintf(fid, '%i,%f,%i,%s,%s,%s\n', ...
+        baseline_block,... % write baseline block
+        onset_time,... % onset time for baseline block
+        0, ... % category index for baseline
+        'Blank', ... % category name for baseline
+        blank_vid_name, ... % baseline video file name
+        blank_vid_path); % full path to baseline video
+
+    % Update onset time for the next block
+    onset_time = onset_time + blank_dur;
+    
+    % Update block number for the next block
+    current_block = baseline_block + 1;
+
     %loop through trials in n trials 
     for i = 1:ntrials 
         original_category_index = condmat(i, r);
@@ -354,9 +373,12 @@ for r = 1:nruns
         current_block = baseline_block + 1;
 
     end
-
     fclose(fid); % Close the file after writing
 end
+
+end
+
+
 
 end
 
