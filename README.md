@@ -24,6 +24,8 @@ Clone this repository onto the computer you will use to present stimuli.
 
 # Updated Experiment Versions (to use)
 
+## Visual Baseline Experiment
+To get started: Run the matlab script **`bbfloc/matlab/runme/RUNME_makenewexp_bbfloc.m`** (it generates 5 runs total: 2 dyna long block runs, 2 static short, 2 dynamic long, 2 static long, 2 grayscale runs in the subject's data folder). Then run the PsychoPy script **`bbfloc/psychopy/runalternatingStim_withCountdown_combined_lengths.py`**
 
 # Old Experiment Versions 
 
