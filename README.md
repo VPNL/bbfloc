@@ -31,8 +31,8 @@ Clone this repository onto the computer you will use to present stimuli.
 
 Includes static, dynamic, and grayscale stimuli. 
 
-- **Short alternating runs**: each have a 94-second duration, 20 blocks, and 2 blank padding blocks.
-- **Long alternating runs**: each have a 4 minute and 14 second duration, 60 blocks, and 2 blank padding blocks.
+- **Short alternating runs**: each have a 88-second duration (94s if including countdown), 20 blocks, and 2 blank padding blocks.
+- **Long alternating runs**: each have a 248-second duration (254s if including countdown), 60 blocks, and 2 blank padding blocks.
 - 6-second countdown before each run regardless of run length.
 
 **Experiment Breakdown**: 
