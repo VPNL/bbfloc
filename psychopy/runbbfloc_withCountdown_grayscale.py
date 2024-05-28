@@ -1,3 +1,6 @@
+# --- Loads 2 dynamic grayscale long-length runs
+# --- Import packages ---
+
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
