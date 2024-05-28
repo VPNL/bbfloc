@@ -1,3 +1,5 @@
+# --- Loads sixteen unique short-length runs: 1) static; 2) static; 3) dynamic; 4) dynamic; 5) static; 6) static; 7) dynamic; 8) dynamic; 
+# --- 9) static; 10) static; 11) dynamic; 12) dynamic; 13) static; 14) static; 15) dynamic; 16) dynamic
 # --- Import packages ---
 from psychopy import locale_setup
 from psychopy import prefs
