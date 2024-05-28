@@ -40,7 +40,7 @@ ntrials = nblocks*stimsperblock; % number of trials in a run
 blockdur = stimsperblock*stimdur; % block duration (sec)
 rundur = nblocks*blockdur; % run duration (sec)
 
-participant_folder = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'shortblock');
+participant_folder = fullfile('/Users', user, 'Desktop', 'bbfloc', 'psychopy', 'data', participant, 'shortblock');
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -68,7 +68,8 @@ for r = 1:nruns
 end
 
 
-stim_dir = '/Users/vpnl/Desktop/bbfloc/stimuli/dynamic_stimuli_wfixation';
+stim_dir = fullfile('/Users', user, 'Desktop', 'bbfloc', 'stimuli', 'dynamic_stimuli_wfixation');
+
 
 % Create matrix for Image
 vidmat = cell(ntrials,nruns);
@@ -264,7 +265,7 @@ end
 
 
 % Path to the directory containing video files
-video_directory = fullfile('/Users', 'vpnl', 'Desktop', 'bbfloc',  'stimuli', 'dynamic_stimuli_wfixation');
+video_directory = fullfile('/Users', user, 'Desktop', 'bbfloc',  'stimuli', 'dynamic_stimuli_wfixation');
 
 % Define base name for blank videos
 blank_base_name = 'blank';
