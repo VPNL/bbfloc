@@ -9,8 +9,8 @@ Static stim currently:
 - 144 static scene images (corridors) w/ fixation
 
 Dynamic stim currently: 
-- 1 blank mp4 with no fixation 
-- 48 dynamic face (adult only) videos w/ no fixation
-- 48 dynamic hand videos w/ no fixation 
-- 48 dynamic car videos w/ no fixation
-- 48 dynamic scene videos w/ no fixation
+- 1 blank mp4 with fixation 
+- 48 dynamic face (adult only) videos w/ fixation
+- 48 dynamic hand videos w/ fixation 
+- 48 dynamic car videos w/ fixation
+- 48 dynamic scene videos w/ fixation
