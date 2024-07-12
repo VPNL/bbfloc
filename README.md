@@ -90,7 +90,7 @@ To get started: Run the matlab script [`bbfloc/matlab/combined/RUNME_makeorderba
 
 ## Short Version of Experiment
 
-To get started: Run the matlab script **`bbfloc/matlab/short_updated/RUNME_makeorderbabyloc_short.m`** (it generates 16 short runs total: 8 dynamic, 8 static in the subject's data folder). Then in PsychoPy run the script **`bbfloc/psychopy/runalternatingStim_withCountdown_SHORT.py`**
+To get started: Run the matlab script [`bbfloc/matlab/short_updated/RUNME_makeorderbabyloc_short.m`](https://github.com/VPNL/bbfloc/blob/main/matlab/short_updated/RUNME_makeorderbabyloc_short.m) (it generates 16 short runs total: 8 dynamic, 8 static in the subject's data folder). Then in PsychoPy run the script [`bbfloc/psychopy/runalternatingStim_withCountdown_SHORT.py`](https://github.com/VPNL/bbfloc/blob/8f466989406fc16df9fee2aa90dfa940a3ad72b7/psychopy/runbbfloc_withCountdown_SHORT.py)
 
 **Experiment Breakdown**: 
 
