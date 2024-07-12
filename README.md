@@ -40,7 +40,7 @@ There are two visual baseline experiments that only differ by block duration- 'l
 
 Both experiments have blank blocks presented between each category block. 
 
-To get started: Run the matlab script **`bbfloc/matlab/runme/RUNME_makenewexp_bbfloc.m`** (it generates 8 runs total, 4 being 'longblock' runs and 4 being 'shortblock' runs, in the subject's data folder). Then run either **`bbfloc/psychopy/runME_bbfloc_newexp_longblocks`** or  **`bbfloc/runME_bbfloc_newexp_shortblocks`** in PsychoPy
+To get started: Run the matlab script [`bbfloc/matlab/runme/RUNME_makenewexp_bbfloc.m`](https://github.com/VPNL/bbfloc/blob/2a63aba94a0129b93811f6a42773ee10d29158e5/matlab/runme/RUNME_makenewexp_bbfloc.m) (it generates 8 runs total, 4 being 'longblock' runs and 4 being 'shortblock' runs, in the subject's data folder). Then run either [`bbfloc/psychopy/runME_bbfloc_newexp_longblocks`](https://github.com/VPNL/bbfloc/blob/2a63aba94a0129b93811f6a42773ee10d29158e5/psychopy/runME_bbfloc_newexp_longblocks.py) or  [`bbfloc/runME_bbfloc_newexp_shortblocks`](https://github.com/VPNL/bbfloc/blob/2a63aba94a0129b93811f6a42773ee10d29158e5/psychopy/runME_bbfloc_newexp_shortblocks.py) in PsychoPy
 
 **bbfloc_newexp_longblocks Experiment Breakdown**
 - Contains 4 runs total
