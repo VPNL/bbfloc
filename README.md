@@ -17,7 +17,7 @@ Iteration 3) Including food stimuli in the static experiment condition.
 
 Clone this repository onto the computer you will use to present stimuli.
 
-Software requirements: matlab and PsychoPy 
+Software requirements: Matlab and PsychoPy 
 
 ## Folder Organization
 
