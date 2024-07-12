@@ -30,7 +30,7 @@ Regardless of the experiment version, the runs for each experiment are always ge
         - `dynamic_stimuli`: contains the dynamic stimuli, updated to have phase-scrambled backgrounds and enlarged stimuli.
         - `static_stimuli`: contains the static stimuli.
 
-# Updated Experiment Versions (to use)
+# Iteration 2 
 
 ## Visual Baseline Experiments
 There are two visual baseline experiments that only differ by block duration- 'longblock' has a block length of 8s and 'shortblock' has a block length of 4s 
@@ -59,7 +59,7 @@ To get started: Run the matlab script **`bbfloc/matlab/runme/RUNME_makenewexp_bb
 3. run3: dynamic 
 4. run4: static 
 
-# Old Experiment Versions 
+# Iteration 1
 
 ## Combined Version of Experiment
 
