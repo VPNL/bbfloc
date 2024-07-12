@@ -10,7 +10,7 @@ Iteration 1) We originally had four working experiment versions that varied in r
 
 Iteration 2) Taking into account the need for longer runs with a more recurring visual baseline condition, we generated two new experiment versions. These two versions have the same run length (4 minutes and 30 seconds) and only vary in their block duration (4s vs 8s) and present a baseline block after every stimulus block.
 
-Iteration 3) Including food stimuli in the static experiment version.
+Iteration 3) Including food stimuli in the static experiment condition.
 
 
 ## Instructions
