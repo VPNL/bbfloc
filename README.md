@@ -117,7 +117,7 @@ To get started: Run the matlab script [`bbfloc/matlab/short_updated/RUNME_makeor
 
 ## Mid Version of Experiment
 
-To get started: Run the matlab script **`bbfloc/matlab/mid/RUNME_makeorderbabyloc_MID.m`** (it generates 4 mid runs total: 2 dynamic, 2 static in the subject's data folder). Then in PsychoPy run the script **`bbfloc/psychopy/runalternatingStim_withCountdown_MID.py`**
+To get started: Run the matlab script [`bbfloc/matlab/mid/RUNME_makeorderbabyloc_MID.m`](https://github.com/VPNL/bbfloc/blob/main/matlab/mid/RUNME_makeorderbabyloc_MID.m) (it generates 4 mid runs total: 2 dynamic, 2 static in the subject's data folder). Then in PsychoPy run the script [`bbfloc/psychopy/runalternatingStim_withCountdown_MID.py`](https://github.com/VPNL/bbfloc/blob/main/psychopy/runbbfloc_withCountdown_MID.py).
 
 **Experiment Breakdown**: 
 
@@ -135,7 +135,7 @@ To get started: Run the matlab script **`bbfloc/matlab/mid/RUNME_makeorderbabylo
    
 ## Long Version of Experiment
 
-To get started: Run the matlab script **`bbfloc/matlab/long/RUNME_makeorderbabyloc_LONG.m`** (it generates 8 long runs total: 4 dynamic, 4 static in the subject's data folder). Then in PsychoPy run the script **`bbfloc/psychopy/runalternatingStim_withCountdown_LONG.py`**
+To get started: Run the matlab script [`bbfloc/matlab/long/RUNME_makeorderbabyloc_LONG.m`](https://github.com/VPNL/bbfloc/blob/main/psychopy/runbbfloc_withCountdown_LONG.py) (it generates 8 long runs total: 4 dynamic, 4 static in the subject's data folder). Then in PsychoPy run the script [`bbfloc/psychopy/runalternatingStim_withCountdown_LONG.py`](https://github.com/VPNL/bbfloc/blob/486617795c1b0f9275eabc47b73f7dcc0490a395/psychopy/runbbfloc_withCountdown_LONG.py).
 
 **Experiment Breakdown**: 
 
