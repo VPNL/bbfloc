@@ -1,6 +1,6 @@
 # bbfloc
 
-We originally had four working experiment versions that varied in run length: combined, short, mid, and long. However, we realized we needed longer run lengths and a more recurring visual baseline condition. So we went back and iterated to create new experiment versions. These versions have the same run length (4 minutes and 30 seconds) and only vary in their block duration (4s vs 8s).
+We originally had four working experiment versions that varied in run length: combined, short, mid, and long. However, we realized we needed longer run lengths and a more recurring visual baseline condition. So we went back and iterated to create two new experiment versions. These two versions have the same run length (4 minutes and 30 seconds) and only vary in their block duration (4s vs 8s).
 
 Regardless of the experiment version, the runs for each experiment are always generated in Matlab and are unique to each subject. The experiments themselves run on PsychoPy.
 
