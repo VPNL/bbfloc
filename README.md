@@ -6,7 +6,8 @@ Experiment runs are always generated in Matlab and are unique to each subject. E
 
 
 ## Iterations
-[Iteration 1](https://github.com/VPNL/bbfloc/blob/main/README.md#using-iteration-1)) We originally had four working experiment versions that varied in run length: combined, short, mid, and long. We also tried including grayscale dynamic stimuli to control for color across static and dynamic conditions. However, we realized we needed longer run lengths and a more recurring visual baseline condition. We discontinued grayscale dynamic stimuli. 
+[Iteration 1](https://github.com/VPNL/bbfloc/blob/main/README.md#using-iteration-1)) We originally had four working experiment versions that varied in run length: combined, short, mid, and long.
+    [Iteration 1.2] We also tried including grayscale dynamic stimuli to control for color across static and dynamic conditions. However, we realized we needed longer run lengths and a more recurring visual baseline condition. We discontinued grayscale dynamic stimuli. 
 
 [Iteration 2](https://github.com/VPNL/bbfloc/blob/main/README.md#using-iteration-2)) Taking into account the need for longer runs with a more recurring visual baseline condition, we generated two new experiment versions. These two versions have the same run length (4 minutes and 30 seconds) and only vary in their block duration (4s vs 8s) and present a baseline block after every stimulus block.
 
