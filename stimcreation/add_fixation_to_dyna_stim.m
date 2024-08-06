@@ -1,9 +1,9 @@
 % Replace these paths with your dynamic video stimuli folder and fixation points folder paths
-videoFolder = '/Users/vpnl/Desktop/bbfloc/stimuli/dynamic_stimuli';
-fixationPointFolder = '/Users/vpnl/Desktop/bbfloc/stimuli/emoji';
+videoFolder = 'path/to/dynamic_stimuli';
+fixationPointFolder = '/path/to/fixation/folder';
 
 % Create a new folder to save modified videos
-outputVideoFolder = '/Users/vpnl/Desktop/bbfloc/stimuli/dynamic_stimuli_resized_fixation';
+outputVideoFolder = '/path/to/dynamic_stimuli_resized_fixation';
 if ~exist(outputVideoFolder, 'dir')
     mkdir(outputVideoFolder);
 end
@@ -18,7 +18,6 @@ for i = 1:numel(fixationPointFiles)
     fixationPointImage = imread(fullfile(fixationPointFolder, fixationPointFiles(i).name));
     fixationPointImages{i} = fixationPointImage;
 end
-
 
 % Define the fixation display interval in frames
 fixationDisplayInterval = 15;
