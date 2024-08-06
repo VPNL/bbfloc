@@ -3,11 +3,11 @@
 %% output: randomly generated emoji overlays onto videos, which are saved as new versions in an output folder
 
 % Replace these paths with your dynamic video stimuli folder and fixation points folder paths
-videoFolder = '/Users/vpnl/Desktop/bbfloc/stimuli/dynamic_stimuli';
-fixationPointFolder = '/Users/vpnl/Desktop/bbfloc/stimuli/emoji';
+videoFolder = 'path/to/dynamic_stimuli';
+fixationPointFolder = '/path/to/fixation/folder';
 
 % Create a new folder to save modified videos
-outputVideoFolder = '/Users/vpnl/Desktop/bbfloc/stimuli/blank_wfixation';
+outputVideoFolder = 'path/to/output/video';
 if ~exist(outputVideoFolder, 'dir')
     mkdir(outputVideoFolder);
 end
