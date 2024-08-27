@@ -1,5 +1,5 @@
 function RUNME_newexp(participant, version, user)
-%% Run this function to generate 16 unique bbfloc runs: 
+%% Run this function to generate 6 unique bbfloc runs: 
 %% INPUT
 % participant's initials/number as string i.e. ('BR') 
 % version of exp you want (as a string): 1, 2, 3 
