@@ -1,6 +1,6 @@
 function RUNME_v5(participant)
-%% Run this function to generate 2 unique runs containing blocks of Heather Kosakowski's dynamic stimuli with 4 reps per category 
-%% and 2 unique runs containing blocks of fLoc-static stimuli with 4 reps per category 
+%% Run this function to generate 2 unique runs containing blocks of Heather Kosakowski's dynamic stimuli with 2 reps per category 
+%% and 2 unique runs containing blocks of fLoc-static stimuli with 2 reps per category 
 
 %% INPUT:
 % participant's initials/number as string i.e. ('BR') 
