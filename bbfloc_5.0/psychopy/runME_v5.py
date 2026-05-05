@@ -64,7 +64,7 @@ win = visual.Window(
 win.mouseVisible = False
 
 #in scanner: size=(1920, 1080), fullscr = 1
-# out of scanner: size=(960, 540), screen=0 
+#out of scanner: size=(960, 540), screen=0 
 
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
@@ -136,11 +136,6 @@ countdown = visual.TextStim(win=win, name='countdown',
     depth=0.0);
     
 from pathlib import Path
-#create path for countdown images
-#countdown_path = Path(f"/Users/{usr}/Desktop/bbfloc_4.0/psychopy/countdown_imgs")
-#
-# Create a list of countdown images
-#countdown_images = [visual.ImageStim(win, str(path), size=(1080, 1080), flipVert=True) for path in countdown_path.glob('*.png')]
 
 #get log file name 
 log_directory = (_thisDir + '/data/' + str(participant) + '/output/')
