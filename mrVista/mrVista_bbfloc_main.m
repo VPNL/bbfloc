@@ -22,7 +22,6 @@
 % Change these inputs 
 subID = 'bb108'; 
 session = 'mri5_new'; %mrSession'
-exp_version = 4; % 1, 2, or 4
 
 oak_prefix = '/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/';
 session_path = fullfile(oak_prefix, 'data', subID, session);
@@ -30,8 +29,6 @@ cd(session_path)
 
 addpath(genpath('/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/code/steps'));
 addpath(genpath('/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/code/functions'));
-addpath(genpath('/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/code/Heather_code'));
-addpath('/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/code/reframe_fxns/')
 
 %% open logfile to track progress of analysis
 logFileName = fullfile('./bbflocAnalysis_log.txt');
@@ -41,25 +38,21 @@ else
  lid = fopen(logFileName, 'a');
 end
 
-
 %% SECTION 1: Set-up directories and vAnatomy path 
 % NOTE: if subject doesn't have fsrecon folder make sure their babybrains folder(kgs/projects/babybrains/mri/.../preprocessed_aligned/) contains a subfolder called 3DAnatomy
 % containing anatomical1 (T1w_0.8mm_nii.gz, T2w_0.8mm_nii.gz) and a class file 
 bbfloc_initalizeDirs(session_path, subID, session, exp_version)
 
 %% SECTION 2: Initialize session and Analysis Parameters
-% clip = [0, 100; 0, 87; 0, 70; 0, 100]% [0, 50; 0, 100]; %[0,
-clip = [0]; %[0, 45]; %[0, 100; 0, 87; 0, 71];
-% 66; 0, 3109]; %[0,50;0,66]; % [0, 62]; %0; %[0,268;0,60];
+clip = [0]; 
 bbfloc_initalizeSession
 
 %% SECTION 3: Motion3 correction
 % Within-scan & between scan motion correction
 bbfloc_motionCorrection
 
-
-%% subrun gen
-subrungeneration_mit_updated
+%% subrun gen (ONLY RUN ON ORIG FILES)
+subrungeneration_mit_updated 
 
 
 %% SECTION 4:  RUN GLM and generate main contrast maps for fLOC
@@ -68,27 +61,15 @@ bbfloc_runGLM
 
 %% Section 4.5: Compute contrast maps 
 GLM = 1; %input the GLM you want to compute contrast amps for 
-% exp v1: floc (no food) and dynamic stimuli 
-bbfloc_computeContrastMaps_v1(GLM)
-%     % floc only 
-%     bbfloc_computeContrastMaps_static_only(GLM)
-%     % dyna only
-bbfloc_computeContrastMaps_dyna_only(GLM)
-% 
-% %if babysaw exp v4: floc (including food category), and dynamic stimuli 
-%bbfloc_computeContrastMaps_v4(GLM)
 
-% % if baby saw fLoc (w/food), dynacat, and saxe stimuli 
-% bbfloc_computeContrastMaps_v2(GLM)
-
-%bbfloc_computeContrastMaps_v5(GLM)
+bbfloc_computeContrastMaps_v5(GLM)
 
 
 fprintf(lid, '%s: completed generating contrast maps \n\n', char(datetime('now')));
 disp('=========== Contrasts computations - Done! ===========');
 
 %% Section 5: Align session to whole brain anatomy 
-vANATOMYPATH = fullfile(session_path, '/3DAnatomy/T2.nii.gz');
+vANATOMYPATH = fullfile(session_path, '/3DAnatomy/T1.nii.gz');
 disp('=========== Set vAnatomyPath ===========');
 %saveSession
 save('vANATOMYPATH.mat', 'vANATOMYPATH');
@@ -108,7 +89,7 @@ rxAlign
 %%if baby doesn't have FSrecon 
 %reslice_nifti_to_ribbon
 
-%then
+
 
 bbfloc_InstallSegmentation
 %% SECTION 7: Transform contrast maps and time series from inplane to gray view
@@ -158,7 +139,7 @@ addpath(genpath('/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/code/fun
 load session_setup.mat
 hemi_list = [1, 2]; %lh, rh
 views = [1]; %lateral, ventral
-cats = [1]% 5]; % 1=visual 2 = faces, hands, cars, 5 = scenes,
+cats = [1]%  % 1=visual 2 = faces, 3 = limbs, 4 = objects, 5 = scenes,
 
 for view = 1:length(views)  % Assuming views only has 2 options
     for hemi =1:length(hemi_list)
