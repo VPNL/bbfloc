@@ -7,8 +7,8 @@ for rr = 1:length(init_params.functionals)
     total_motion = sqrt(sum(motion(1:2, :).^2));
     total_diff = abs(diff(total_motion));
     
-    % Find where motion exceeds 2 mm OR 2 degrees between consecutive timepoints
-    high_motion_points = total_diff > .84;
+    % Find where motion exceeds ~2 mm OR 2 degrees between consecutive timepoints
+    high_motion_points = total_diff > .84; % 2.4mm voxel* 0.84 = 2.02mm
     
     % Split points are where high motion occurs
     split_points = find(high_motion_points);
@@ -32,7 +32,7 @@ for rr = 1:length(init_params.functionals)
             subrun_total_diff = abs(diff(subrun_total_motion));
            
             % Volumes to scrub within this subrun
-            scrub_within_subrun = subrun_total_diff > 0.4;
+            scrub_within_subrun = subrun_total_diff > 0.4;  % 2.4mm voxel* 0.4 = 0.96mm
             
             % Mark both volumes in high-motion pairs for scrubbing
             volumes_to_scrub = false(1, length(subrun_vols));
