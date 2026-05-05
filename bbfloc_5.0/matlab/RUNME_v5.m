@@ -47,7 +47,7 @@ for run = 1:4
         parfile_2TR_gen_srun(participant, run)
         
         % Generate video of the run
-        video_gen_krun(participant, run)
+        video_gen_srun(participant, run)
     
     else %if an odd run - it will contain dynamic kosakowski stimuli
     
