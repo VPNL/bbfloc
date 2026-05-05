@@ -1,5 +1,5 @@
-% 
-rr=3
+% collapses parfile conds by category 
+rr= 1 % int of parfile you want to edit
 % % % Define the path to the .par file
 par_file = fullfile(pwd, ['run' num2str(rr) '_2TR.par']);
 
@@ -14,29 +14,11 @@ end
 %par_data = readtable(par_file, 'FileType', 'text', 'Delimiter', '/', 'ReadVariableNames', false);  % Adjust the delimiter as needed
 par_data = readtable(par_file, 'FileType', 'text'); 
 
-%% bb106 need to remap vals and conds 
-% groupMap = containers.Map({'Blank', 'Faces_side', 'Faces_front', 'Limbs_hands', 'Limbs_feet', 'Objects_collisions', 'Objects_shapes', 'Scenes_fences', 'Scenes_egomotion'}, {'blank', 'faces', 'faces', 'bodies',  'bodies', 'objects', 'objects', 'places', 'places'});
-% valueMap = containers.Map([0, 10, 11, 12, 13, 14, 15, 16, 17], [0, 1, 1, 2, 2, 3, 3, 4, 4]);
-% 
-% groupMap = containers.Map({'Blank', 'Faces_side', 'Faces_front', 'Limbs_hands', 'Limbs_feet', 'Objects_collisions', 'Objects_shapes', 'Scenes_fences', 'Scenes_egomotion'}, {'blank', 'faces', 'faces', 'bodies',  'bodies', 'objects', 'objects', 'places', 'places'});
 
-%% bb108: need to remap conds and vals (also has additional food category!)
-groupMap = containers.Map({'Blank', 'Faces-S', 'Faces-D', 'Limbs-S', 'Limbs-D', 'Cars-S', 'Objects-D', 'Scenes-S', 'Scenes-D', 'Food-S'}, {'blank', 'faces', 'faces', 'bodies', 'bodies', 'objects', 'objects', 'places', 'places', 'food'});
-valueMap = containers.Map([0, 1, 6, 2, 7, 3, 8, 4, 9, 5], [0, 1, 1, 2, 2, 3, 3, 4, 4, 5]);
-
-
-%% bb110, bb119, bb124 bb125, bb130: need to remap conds and vals
+%%  remap conds and vals
 groupMap = containers.Map({'Blank', 'Faces-S', 'Faces-D', 'Limbs-S', 'Limbs-D', 'Cars-S', 'Objects-D', 'Scenes-S', 'Scenes-D'}, {'blank', 'faces', 'faces', 'bodies', 'bodies', 'objects', 'objects', 'places', 'places'});
 valueMap = containers.Map([0, 1, 5, 2, 6, 3, 7, 4, 8], [0, 1, 1, 2, 2, 3, 3, 4, 4]);
 
-%% bb100: need to remap conds and vals
-% groupMap = containers.Map({'Blank', 'Faces-S', 'Faces-M', 'Hands-S', 'Hands-M', 'Cars-S', 'Cars-M', 'Scenes-S', 'Scenes-M'}, {'blank', 'faces', 'faces', 'bodies', 'bodies', 'objects', 'objects', 'places', 'places'});
-% valueMap = containers.Map([0, 1, 5, 2, 6, 3, 7, 4, 8], [0, 1, 1, 2, 2, 3, 3, 4, 4]);
-
-%% bb98 (only need to remap values) conds are fine
-% groupMap = containers.Map({'Blank', 'Faces-S', 'Faces-D', 'Limbs-S', 'Limbs-D', 'Cars-S', 'Objects-D', 'Scenes-S', 'Scenes-D'}, {'blank', 'faces', 'faces', 'bodies', 'bodies', 'objects', 'objects', 'places', 'places'});
-% 
-% valueMap = containers.Map([0, 1, 5, 2, 6, 3, 7, 4, 8], [0, 1, 1, 2, 2, 3, 3, 4, 4]);
 
 new_data = {};  
 counter = 0.0;
