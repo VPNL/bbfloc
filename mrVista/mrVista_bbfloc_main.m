@@ -51,8 +51,9 @@ bbfloc_initalizeSession
 % Within-scan & between scan motion correction
 bbfloc_motionCorrection
 
-%% subrun gen
-subrungeneration_mit_updated
+%% subrun gen (ONLY RUN ON ORIG FILES)
+subrungeneration_mit_updated 
+
 
 %% SECTION 4:  RUN GLM and generate main contrast maps for fLOC
 % Use this code if all runs are good; have no significant motion!) 
