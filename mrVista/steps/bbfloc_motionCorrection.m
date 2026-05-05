@@ -93,25 +93,3 @@ fprintf(lid, '%s :Between-scan motion compensation complete. \n\n', char(datetim
 fprintf('Between-scan motion compensation complete.\n\n');
 fclose(lid)
 disp('=========== Motion Correction Done ===========');
-
-%% Clip the TRs with motion >2 voxels from motion corrected niftis, from the functional niftis, and from the parfiles.
-% for rr = 1:length(init_params.functionals)
-%     motion = dataTYPES(2).scanParams(rr).WithinScanMotion;
-%     whichTRs_havemotionabove2=sqrt(sum(motion(1:2, :).^2)); 
-%     toremove = whichTRs_havemotionabove2>2;
-%     sum(toremove) 
-%     if sum(toremove) > 0
-%         fprintf('clipping TRs w/ more than two voxels from nifti and parfiles \n\n') 
-%         clip_tseries_nifti(rr, toremove, session_path);
-%         clip_func_nifti(rr, toremove, session_path); 
-%         clip_par_file(rr, toremove, session_path);
-%     else
-%         fprintf('no clipping executed \n\n')
-%     end
-%      dataTYPES(3).scanParams(rr).nFrames = sum(~toremove);
-% end
-% 
-% saveSession; disp('===========Clipping Done ===========');
-% % 
-
-
