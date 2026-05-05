@@ -115,22 +115,22 @@ function video_gen_srun(participant, run)
     fprintf('Total runtime: %.2f seconds\n', duration);
 
     % Define paths
-    videoPath = fullfile(participant_folder, strcat('run', num2str(run), '.mp4'));
-    audioPath = fullfile('/Users/ctyagi/Documents', strcat('audio', num2str(run), '.mp3')); % Your MP3 file
-    outputPath = fullfile(participant_folder, strcat('run', num2str(run), '_waudio.mp4'));
+    %videoPath = fullfile(participant_folder, strcat('run', num2str(run), '.mp4'));
+    %audioPath = fullfile('/Users/ctyagi/Documents', strcat('audio', num2str(run), '.mp3')); % Your MP3 file
+    %outputPath = fullfile(participant_folder, strcat('run', num2str(run), '_waudio.mp4'));
     
-    ffmpegPath = '/opt/homebrew/bin/ffmpeg'; % update this if yours differs
+    %ffmpegPath = '/opt/homebrew/bin/ffmpeg'; % update this if yours differs
 
-    ffmpegCmd = sprintf('"%s" -i "%s" -i "%s" -c:v copy -c:a aac -strict experimental -shortest "%s"', ...
-    ffmpegPath, videoPath, audioPath, outputPath);
+    %ffmpegCmd = sprintf('"%s" -i "%s" -i "%s" -c:v copy -c:a aac -strict experimental -shortest "%s"', ...
+    %ffmpegPath, videoPath, audioPath, outputPath);
     
     % Run the command
-    status = system(ffmpegCmd);
+    %status = system(ffmpegCmd);
     
-    if status == 0
-        disp('Audio added successfully!');
-    else
-        warning('FFmpeg failed to add audio.');
-    end
+   % if status == 0
+    %    disp('Audio added successfully!');
+    %else
+    %    warning('FFmpeg failed to add audio.');
+    %end
 
 end

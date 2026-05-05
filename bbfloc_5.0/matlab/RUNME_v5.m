@@ -1,6 +1,6 @@
 function RUNME_v5(participant)
-%% Run this function to generate 1 unique bbfloc run containing blocks of Heather Kosakowski's stimuli and static floc
-%% with 2 reps per category
+%% Run this function to generate 2 unique runs containing blocks of Heather Kosakowski's dynamic stimuli with 2 reps per category 
+%% and 2 unique runs containing blocks of fLoc-static stimuli with 2 reps per category 
 
 %% INPUT:
 % participant's initials/number as string i.e. ('BR') 
@@ -31,10 +31,10 @@ end
 
 for run = 1:4
     %% Generate run CSV and parfile for runs
-    if mod(run, 2) == 0 %if an even run it will be a static run
+    if mod(run, 2) == 0 %if an even run it will be an fLoc-static run
     
         % First generate the blocks for the run
-        % Generate blocks containing Kosakowkski's stimuli
+        % Generate blocks containing static-fLoc stimuli
         make_sblocks_2reps(participant, run)
         % Generate baseline blocks
         make_baseline_blocks_srun(participant,run)
@@ -47,12 +47,12 @@ for run = 1:4
         parfile_2TR_gen_srun(participant, run)
         
         % Generate video of the run
-        video_gen_krun(participant, run)
+        video_gen_srun(participant, run)
     
-    else %if an odd run - it will be kosakowski only
+    else %if an odd run - it will contain dynamic kosakowski stimuli
     
         % First generate the blocks for the run
-        % Generate blocks containing Kosakowkski's stimuli
+        % Generate blocks containing Kosakowkski's dynamic stimuli
         make_kblocks_2reps(participant, run)
         % Generate baseline blocks
         make_baseline_blocks_krun(participant,run)
