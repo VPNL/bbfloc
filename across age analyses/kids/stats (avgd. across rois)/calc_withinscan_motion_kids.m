@@ -8,7 +8,7 @@ expdir='/share/kalanit/biac2/kgs/projects/bb2adult/data/kids/'
 
 cd('/share/kalanit/biac2/kgs/projects/bb2adult/code/kids/')
 addpath('/share/kalanit/biac2/kgs/projects/bb2adult/code/kids/')
-addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
+addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
 
 kidsfLOC_setSessions_4mm_disk;
 
@@ -117,5 +117,5 @@ for i = 1:length(session)
     end
 end
 
-saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
-save(fullfile(saveDir, 'kid_mean_tvals_amps_TSNR_motion_TRs_0429.mat'), 'roi_data');
+saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
+save(fullfile(saveDir, 'kid_mean_tvals_amps_TSNR_motion_TRs.mat'), 'roi_data');
