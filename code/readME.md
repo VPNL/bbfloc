@@ -14,6 +14,6 @@ running the pipeline:
      
 ** then run mrVista_bbfloc_init
 
-** save the subruns (output parfiles and func niftis) in a new directory that follows the same structure!
+** save the subruns (the output parfiles and func niftis) in a new directory that follows the same structure!
 
 ** then run mrVista_bbfloc_main
