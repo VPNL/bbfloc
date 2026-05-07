@@ -1,4 +1,4 @@
-matlab files in this dir give us TSNR, total motion, R1, t1 vals, and amps for each contrast per infant subject (visual, faces, places)  and append them into a master sheet (bb specific)
+matlab files in this dir give us TSNR, total motion, R1, t1 vals, and amps for each contrast per infant subject (visual, faces, places)  and append them into a master sheet 
         * run in this order:
             - bbfloc_within_subj_per_ROI_group_analysis.m
             - bbfloc_TSNR_per_ROI_group.m
