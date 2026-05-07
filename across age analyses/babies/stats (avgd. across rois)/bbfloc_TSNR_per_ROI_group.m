@@ -40,17 +40,18 @@ for i = 1:length(session)
 
     for c = 1:length(contrast)
         
+          
         %Identify relevant ROIs depending on contrast type
         if strcmp(contrast(c).name,'faces') % if contrast = faces vs all  - continue analysis on fusiform ROIs
-            roi_idx=find(contains(session(currSession).ROIs,'faces') | contains(session(currSession).ROIs,'Faces'));
+            roi_idx=find(contains(session(currSession).ROIs,'Fus') | contains(session(currSession).ROIs,'fus'));
+        elseif strcmp(contrast(c).name,'limbs') 
+           roi_idx=find(contains(session(currSession).ROIs,'OTS') | contains(session(currSession).ROIs,'ots') );         
         elseif strcmp(contrast(c).name,'places') % if contrast = places vs all - continue analysis on CoS ROIs
             roi_idx=find(contains(session(currSession).ROIs,'CoS')| contains(session(currSession).ROIs,'CoS')| contains(session(currSession).ROIs,'PPA'));
-        elseif strcmp(contrast(c).name,'visual') % % if contrast = visual vs blank - continue analysis on v1 ROIs
-           roi_idx=find(contains(session(currSession).ROIs,'v1') | contains(session(currSession).ROIs,'V1') ); 
         else % if contrast = visual vs blank - continue analysis on v1 ROIs
-           roi_idx=find(contains(session(currSession).ROIs,'limbs') | contains(session(currSession).ROIs,'Limbs')); 
-       
+           roi_idx=find(contains(session(currSession).ROIs,'v1') | contains(session(currSession).ROIs,'V1') ); 
         end
+  
 
          if ~isempty(roi_idx) % if no corresponding ROI for contrast in this session - no amps or tvals to be output
             
