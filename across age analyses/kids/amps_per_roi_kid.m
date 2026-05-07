@@ -1,6 +1,27 @@
 
 %% Generate a separate CSV file for each ROI (rh_mFus, lh_mFus, rh_pFus, etc.), with each row representing one subject's response amplitude in that ROI. 
+addpath('/share/kalanit/biac2/kgs/projects/bb2adult/code/kids/kids_fLoc_analysis/');
+cd('/share/kalanit/biac2/kgs/projects/bb2adult/code/kids/kids_fLoc_analysis/')%script that loops across session and ROIs calculates a contrast and saves
+% the voxels betas and t values
+% setinformation
+contrast(1).name='visual';
+contrast(1).active=[1 2 3 4 5 6 7 8];
+contrast(1).control=0;
+contrast(2).name='places';
+contrast(2).active=[7 8];
+contrast(2).control=[1 2 3 4 5 6];
+contrast(3).name='faces';
+contrast(3).active=[1 2];
+contrast(3).control=[3 4 5 6 7 8];
+contrast(4).name='limbs';
+contrast(4).active=[3 4];
+contrast(4).control=[1 2 5 6 7 8];
+plotFlag=0; %select 1 if you want to see the plots
 
+kidsfLOC_setSessions_4mm_disk;
+dataType=3;
+barcolors=[1 0 0; .8 .8 0; 0 0 1; .1 .8 .1];
+barXtickLabels={'Faces','Bodies','Objects','Places'};
 
 % It then compiles these into a structured table and saves it as a .csv.
 saveDir='/share/kalanit/biac2/kgs/projects/bb2adult/results';
