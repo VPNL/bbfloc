@@ -12,13 +12,13 @@ the **"across ages"** folder contains the scripts necessary for analyses by age 
     * get stats for infants and save in unique data structure: ``bbfloc/across age analyses/babies/stats(avgd. across rois)``
     * get stats for children and save in unique data structure: ``bbfloc/across_age_analyses/kids/stats(avgd. across rois)``
     * vertcat to append the data structures
-    * ``bbfloc/Fig_2c.m`
+    * ``bbfloc/Fig_2c.m``
  
 * to generate Fig 3:
     * get stats for infants and save in unique data structure: ``bbfloc/across age analyses/babies/stats(avgd. across rois)``
     * get stats for children and save in unique data structure: ``bbfloc/across_age_analyses/kids/stats(avgd. across rois)``
     * vertcat to append the data structures
-    * ``bbfloc/Fig_3.m`
+    * ``bbfloc/Fig_3.m``
 
 
 * to generate Figures 1c and Figures 2b:
