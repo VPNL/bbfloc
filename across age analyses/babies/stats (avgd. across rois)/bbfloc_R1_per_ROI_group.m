@@ -19,7 +19,7 @@ contrast(4).active=2;
 contrast(4).control=[1 3 4];
 plotFlag=0;
 
-bbfLOC_setSessions_0429;
+bbfLOC_setSessions;
 dataType=3;
 barcolors=[1 0 0; .8 .8 0; 0 0 1; .1 .8 .1];
 barXtickLabels={'Faces','Bodies','Objects','Places'};
@@ -30,7 +30,7 @@ cutvals=2;
 baby ={'bb124', 'bb133', ',bb106', 'bb98', 'bb108', 'bb130', 'bb112', 'bb119', 'bb100', 'bb110', 'bb126', 'bb125'};
 sess = {'mri4', 'mri3', 'mri4', 'mri4', 'mri5', 'mri5', 'mri5', 'mri5', 'mri5', 'mri6', 'mri6', 'mri4'};
 addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
-load('baby_mean_tvals_amps_TSNR_motion_TRs_0429.mat')
+load('baby_mean_tvals_amps_TSNR_motion_TRs.mat')
 
 anat_path = '/oak/stanford/groups/kalanit/biac2/kgs/projects/babybrains/mri/';
 
@@ -109,8 +109,8 @@ for s = 1:length(session)
 end
 
 %%
-saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
-save(fullfile(saveDir, 'baby_mean_amps_tvals_TSNR_motion_TRs_R1_0429.mat'), 'roi_data');
+saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
+save(fullfile(saveDir, 'baby_mean_amps_tvals_TSNR_motion_TRs_R1.mat'), 'roi_data');
 
 
 
