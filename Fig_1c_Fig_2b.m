@@ -106,7 +106,7 @@ for p = 2:length(ROIpairs)
     end
    
     % Save figure
-    saveDir = '/share/kalanit/biac2/kgs/projects/bb2adult/results_0429';
+    saveDir = '/share/kalanit/biac2/kgs/projects/bb2adult/results/';
     saveas(fig, fullfile(saveDir, [name_no_hemi '_combined.png']));
     saveas(fig, fullfile(saveDir, [name_no_hemi '_combined.fig']));
 end
