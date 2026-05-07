@@ -19,11 +19,11 @@ contrast(4).active=2;
 contrast(4).control=[1 3 4];
 plotFlag=0;
 
-bbfLOC_setSessions_0429;
+bbfLOC_setSessions;
 dataType=3;
 barcolors=[1 0 0; .8 .8 0; 0 0 1; .1 .8 .1];
 barXtickLabels={'Faces','Bodies','Objects','Places'};
-saveDir='/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/';
+saveDir='/share/kalanit/biac2/kgs/projects/bb2adult/results/';
 
 %% for each subj get mean amps and tvals for each contrast (visual, places, faces) 
 roi_data = table();
@@ -108,4 +108,4 @@ end
 
 % 
 % % % Save table as a MAT file
-save(fullfile(saveDir, 'baby_tvals_and_amps_0429.mat'), 'roi_data');
+save(fullfile(saveDir, 'baby_tvals_and_amps.mat'), 'roi_data');
