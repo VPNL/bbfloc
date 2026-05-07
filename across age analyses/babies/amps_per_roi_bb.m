@@ -1,8 +1,13 @@
-%% Create a CSV for each ROI containing amps
-%This MATLAB script collects the amplitude  
+%% Generate a separate CSV file for each ROI (rh_mFus, lh_mFus, rh_pFus, etc.), with each row representing one subject's response amplitude in that ROI. 
+%This MATLAB script collects the amplitude of each ROI 
 % It then compiles these into a structured table and saves it as a .csv.
-saveDir='/share/kalanit/biac2/kgs/projects/bb2adult/results_0429';
+
+%% First load baby data
+
+saveDir='/share/kalanit/biac2/kgs/projects/bb2adult/results';
 rows = {};  % use cell array to avoid vertcat issues
+
+
 contrastNames = {contrast.name};  
 
 
@@ -13,7 +18,7 @@ for c=1:length(contrast) % loops thru contrast data structure; iterates by contr
         row.subID = session(i).name; % get session name 
         row.ageInYears= session(i).ageInYears; %get age in days of subj
         if strcmp(contrast(c).name,'faces') % if contrast = faces vs all  - continue analysis on fusiform ROIs
-            roi_idx=find(contains(session(currSession).ROIs,'fus') | contains(session(currSession).ROIs,'fus'));
+            roi_idx=find(contains(session(currSession).ROIs,'Fus') | contains(session(currSession).ROIs,'fus'));
         elseif strcmp(contrast(c).name,'limbs') 
            roi_idx=find(contains(session(currSession).ROIs,'ots') | contains(session(currSession).ROIs,'ots') );         
         elseif strcmp(contrast(c).name,'places') % if contrast = places vs all - continue analysis on CoS ROIs
@@ -112,3 +117,4 @@ for r = 1:length(allROIs)
 end
 
 
+%%%
