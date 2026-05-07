@@ -1,4 +1,4 @@
-To run the pipeline: 
+running the pipeline: 
 
 first make sure subject's data is in this format: 
 - subjXX (example input: bb01)
