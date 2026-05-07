@@ -1,0 +1,55 @@
+%% mrVista_bbfloc_init
+%% run to get subruns - to process thru mrVista_bbfloc_init
+
+% CT April 2025
+
+%% before set up make sure the baby has a mrVista (BBfloc/data/bbXX/mriYY) session folder containing:
+
+% 1. functional folder
+% 2. Inplane folder
+% 3. parfiles folder 
+% 4. runfile folder
+% Subj session directory must contain the following files:
+% 1) An inplane nifti that contains 'Inplane' in the file name and ends in
+%    nii.gz inside a folder titled 'Inplane'
+% 2) Functional niftis ending in runX.nii.gz where X is the corresponding
+%    run number inside a folder titled 'functionals'
+% 3) Parfiles ending in runX.par where X is the corresponding run number
+%    inside a folder titled 'parfiles'
+
+
+%% Set session, experiment, coded dir and basic info for the example subject
+% Change these inputs 
+subID = 'bb108'; 
+session = 'mri5_new'; %mrSession'
+
+oak_prefix = '/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/';
+session_path = fullfile(oak_prefix, 'data', subID, session);
+cd(session_path)
+
+addpath(genpath('/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/code/steps'));
+addpath(genpath('/oak/stanford/groups/kalanit/biac2/kgs/projects/BBfloc/code/functions'));
+
+%% open logfile to track progress of analysis
+logFileName = fullfile('./bbflocAnalysis_log.txt');
+if ~exist(logFileName, 'file')
+ lid = fopen(logFileName, 'w+');
+else
+ lid = fopen(logFileName, 'a');
+end
+
+%% SECTION 1: Set-up directories and vAnatomy path 
+% NOTE: if subject doesn't have fsrecon folder make sure their babybrains folder(kgs/projects/babybrains/mri/.../preprocessed_aligned/) contains a subfolder called 3DAnatomy
+% containing anatomical1 (T1w_0.8mm_nii.gz, T2w_0.8mm_nii.gz) and a class file 
+bbfloc_initalizeDirs(session_path, subID, session, exp_version)
+
+%% SECTION 2: Initialize session and Analysis Parameters
+clip = [0]; 
+bbfloc_initalizeSession
+
+%% SECTION 3: Motion3 correction
+% Within-scan & between scan motion correction
+bbfloc_motionCorrection
+
+%% subrun gen (ONLY RUN ON ORIG FILES)
+subrungeneration_mit_updated 
