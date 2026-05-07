@@ -6,11 +6,11 @@ expdir='/share/kalanit/biac2/kgs/projects/bb2adult/data/babies/'
 
 cd('/share/kalanit/biac2/kgs/projects/bb2adult/code/babies/')
 addpath('/share/kalanit/biac2/kgs/projects/bb2adult/code/')
-addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
-saveDir=('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
+addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
+saveDir=('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
 
-load('baby_tvals_and_amps_0429.mat')
-bbfLOC_setSessions_0429;
+load('baby_tvals_and_amps.mat')
+bbfLOC_setSessions;
 %script that loops across session and ROIs calculates a contrast and saves
 % the voxels betas and t values
 % setinformation
@@ -77,4 +77,4 @@ for i = 1:length(session)
 end
 
           
-save(fullfile(saveDir, 'baby_mean_tvals_amps_TSNR_0429.mat'), 'roi_data');
+save(fullfile(saveDir, 'baby_mean_tvals_amps_TSNR.mat'), 'roi_data');
