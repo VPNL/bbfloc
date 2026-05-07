@@ -1,5 +1,5 @@
 %% mrVista_bbfloc_main
-%% analysis pipeline for bbFloc 
+%% analysis pipeline for bbFloc - run after initialzing and saving clipped par files and functionals 
 %
 % CT/KGS April 2025
 
@@ -40,7 +40,7 @@ end
 
 %% SECTION 1: Set-up directories and vAnatomy path 
 % NOTE: if subject doesn't have fsrecon folder make sure their babybrains folder(kgs/projects/babybrains/mri/.../preprocessed_aligned/) contains a subfolder called 3DAnatomy
-% containing anatomical1 (T1w_0.8mm_nii.gz, T2w_0.8mm_nii.gz) and a class file 
+% containing anatomical (T1w_0.8mm_nii.gz, T2w_0.8mm_nii.gz) and a class file 
 bbfloc_initalizeDirs(session_path, subID, session, exp_version)
 
 %% SECTION 2: Initialize session and Analysis Parameters
@@ -50,10 +50,6 @@ bbfloc_initalizeSession
 %% SECTION 3: Motion3 correction
 % Within-scan & between scan motion correction
 bbfloc_motionCorrection
-
-%% subrun gen (ONLY RUN ON ORIG FILES)
-subrungeneration_mit_updated 
-
 
 %% SECTION 4:  RUN GLM and generate main contrast maps for fLOC
 % Use this code if all runs are good; have no significant motion!) 
