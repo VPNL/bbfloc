@@ -6,10 +6,10 @@ expdir='/share/kalanit/biac2/kgs/projects/bb2adult/data/babies/'
 
 cd('/share/kalanit/biac2/kgs/projects/bb2adult/code/babies/')
 addpath('/share/kalanit/biac2/kgs/projects/bb2adult/code/babies/')
-addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
+addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
 
 
-bbfLOC_setSessions_0429;
+bbfLOC_setSessions;
 
 %script that loops across session and ROIs calculates a contrast and saves
 % the voxels betas and t values
@@ -29,7 +29,7 @@ contrast(4).control=[1 3 4];
 plotFlag=0;
 
 %% get motion vals
-load('baby_mean_tvals_amps_TSNR_0429.mat')
+load('baby_mean_tvals_amps_TSNR.mat')
 roi_data.meanWithinMotion = NaN(height(roi_data), 1);
 for i = 1:length(session) 
     currSession = i
@@ -67,13 +67,13 @@ for i = 1:length(session)
          end
 end
 
-saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
-save(fullfile(saveDir, 'baby_mean_tvals_amps_TSNR_motion_0429.mat'), 'roi_data');          
+saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
+save(fullfile(saveDir, 'baby_mean_tvals_amps_TSNR_motion.mat'), 'roi_data');          
 
 
 %% get total # of TRs per sess 
 
-load('baby_mean_tvals_amps_TSNR_motion_0429.mat')
+load('baby_mean_tvals_amps_TSNR_motion.mat')
 
 TotalTRs = NaN(height(roi_data), 1);
 for i = 1:length(session) 
@@ -112,5 +112,5 @@ for i = 1:length(session)
       end
 end
 
-saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
-save(fullfile(saveDir, 'baby_mean_tvals_amps_TSNR_motion_TRs_0429.mat'), 'roi_data');  
+saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
+save(fullfile(saveDir, 'baby_mean_tvals_amps_TSNR_motion_TRs.mat'), 'roi_data');  
