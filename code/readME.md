@@ -12,4 +12,7 @@ first make sure subject's data is in this format:
         - this is the folder that the mrVista inplane / hidden inplane GUI works from so it has all the things that we save while working with the GUI
         - save subject’s inplane nifti within this folder
      
-  then run bbfloc_mrVista_init
+then run mrVista_bbfloc_init
+save the subruns (output parfiles and func niftis) in a new directory that follows the same structure!
+
+then run mrVista_bbfloc_main
