@@ -1,3 +1,5 @@
+requirements for pipeline: VISTAsoft, matlab
+
 running the pipeline: 
 
 ** first make sure subject's data is in this format: 
