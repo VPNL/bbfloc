@@ -1,4 +1,4 @@
-%% bihemisphere FIGURE GEN (plot tval for each ROI within a contrast)
+%% bihemisphere FIGURE GEN 
 
 load('/share/kalanit/biac2/kgs/projects/bb2adult/results/kid_mean_tvals_amps_and_motion_wTRs.mat')
 load('kid_mean_amps_tvals_TSNR_motion_TRs_R1.mat')
