@@ -32,7 +32,7 @@ plotFlag=0; %select 1 if you want to see the plots
 plotFlag=0;
 
 %% Get motion vals
-load('kid_mean_tvals_amps_and_TSNR_0429.mat')
+load('kid_mean_tvals_amps_and_TSNR.mat')
 
 roi_data.meanWithinMotion = NaN(height(roi_data), 1);
 for i = 1:length(session) 
@@ -70,8 +70,8 @@ for i = 1:length(session)
     end
 end
 
-saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
-save(fullfile(saveDir, 'kid_mean_tvals_amps_TSNR_motion_0429.mat'), 'roi_data');
+saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
+save(fullfile(saveDir, 'kid_mean_tvals_amps_TSNR_motion.mat'), 'roi_data');
 
 %% calc total TRs for kids
 
