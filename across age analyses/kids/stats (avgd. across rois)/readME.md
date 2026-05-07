@@ -1,4 +1,4 @@
-matlab files in this dir give us TSNR, total motion, R1, t1 vals, and amps for each contrast per infant subject (visual, faces, places) and append them into a master sheet
+matlab files in this dir give us TSNR, total motion, R1, t1 vals, and amps for each contrast per child subject (visual, faces, places) and append them into a master sheet
 
 * run in this order:
   * kidfloc_within_subj_per_ROI_group_analysis.m
