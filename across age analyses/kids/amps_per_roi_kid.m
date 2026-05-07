@@ -1,5 +1,7 @@
-%% Create a CSV for each ROI containing amps
-%This MATLAB script performs ROI-level analysis across multiple sessions and contrasts, extracting t-values for each ROI (not averaged across ROIs, unlike previous scripts). 
+
+%% Generate a separate CSV file for each ROI (rh_mFus, lh_mFus, rh_pFus, etc.), with each row representing one subject's response amplitude in that ROI. 
+
+
 % It then compiles these into a structured table and saves it as a .csv.
 saveDir='/share/kalanit/biac2/kgs/projects/bb2adult/results';
 rows = {};  % use cell array to avoid vertcat issues
