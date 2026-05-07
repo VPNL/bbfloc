@@ -9,4 +9,4 @@ the **"code"** folder contains the scripts necessary for processing the infant d
 
 the **"across ages"** folder contains the scripts necessary for analyses by age groups (infants and children)
 - get stats for infants and save in unique data structure: ``bbfloc/across age analyses/babies/stats(avgd. across rois)`` 
-- get stats for children and save in unique data structure: ``bbfloc_5.0/across_age_analyses/kids/stats_across_avgd``
+- get stats for children and save in unique data structure: ``bbfloc_5.0/across_age_analyses/kids/stats(avgd. across rois)``
