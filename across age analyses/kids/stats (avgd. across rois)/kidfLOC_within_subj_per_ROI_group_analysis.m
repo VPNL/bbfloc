@@ -107,12 +107,12 @@ for i=1:length(session) %loops thru session data structure; iterates by session
     end
 end
 
-saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
+saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
 save(fullfile(saveDir, 'kid_tvals_and_amps_new.mat'), 'roi_data');
 %% Create a CSV for each ROI containing amps
 %This MATLAB script performs ROI-level analysis across multiple sessions and contrasts, extracting t-values for each ROI (not averaged across ROIs, unlike previous scripts). 
 % It then compiles these into a structured table and saves it as a .csv.
-saveDir='/share/kalanit/biac2/kgs/projects/bb2adult/results_0429';
+saveDir='/share/kalanit/biac2/kgs/projects/bb2adult/results';
 rows = {};  % use cell array to avoid vertcat issues
 contrastNames = {contrast.name};  
 cats = {'faces', 'bodies', 'objects', 'places'};
