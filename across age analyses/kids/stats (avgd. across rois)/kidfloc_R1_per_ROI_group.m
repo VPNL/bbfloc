@@ -1,7 +1,7 @@
 
 clx
 addpath('/share/kalanit/biac2/kgs/projects/bb2adult/code/kids/kids_fLoc_analysis/');
-addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/');
+addpath('/share/kalanit/biac2/kgs/projects/bb2adult/results/');
 cd('/share/kalanit/biac2/kgs/projects/bb2adult/code/kids/kids_fLoc_analysis/')%script that loops across session and ROIs calculates a contrast and saves
 % the voxels betas and t values
 % setinformation
@@ -55,7 +55,7 @@ FSsession_anat = {'AG10'
     'STM10' 
     'ZCM05'};
 
-load('kid_mean_tvals_amps_TSNR_motion_TRs_0429.mat')
+load('kid_mean_tvals_amps_TSNR_motion_TRs.mat')
 
 %% 
 roi_data.R1 = NaN(height(roi_data), 1);
@@ -126,8 +126,8 @@ for s = 1:length(session)
 end
 
 %%
-saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results_0429/')
-save(fullfile(saveDir, 'kid_mean_amps_tvals_TSNR_motion_TRs_R1_0429.mat'), 'roi_data');
+saveDir = ('/share/kalanit/biac2/kgs/projects/bb2adult/results/')
+save(fullfile(saveDir, 'kid_mean_amps_tvals_TSNR_motion_TRs_R1.mat'), 'roi_data');
 
 
 
